@@ -7,8 +7,6 @@
     "hidden_nets": [
       "GND",
       "3.3V",
-      "Net-(J1-CC1)",
-      "Net-(J1-CC2)",
       "Net-(D1-K)",
       "Net-(D1-A)",
       "Net-(D17-K)",
