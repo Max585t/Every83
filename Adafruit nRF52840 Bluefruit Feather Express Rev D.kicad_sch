@@ -3892,6 +3892,17 @@
     (uuid fff70b52-964a-45ed-b9fe-b9988ad3badc)
   )
 
+  (rectangle (start 170.18 212.09) (end 209.55 269.24)
+    (stroke (width 0.1) (type default) (color 128 77 0 1))
+    (fill (type none))
+    (uuid 554c3abb-872a-4de4-9006-adeb552d8aac)
+  )
+  (rectangle (start 81.28 213.36) (end 156.21 265.43)
+    (stroke (width 0.1) (type default) (color 128 77 0 1))
+    (fill (type none))
+    (uuid 855bf52c-9dfb-4929-ab67-12fed47d829b)
+  )
+
   (text "Dynamic VIN selection: VBUS\n(USB) will override VBAT (LIPO)\nvia D5 when both are present."
     (at 187.96 223.52 0)
     (effects (font (size 1.27 1.0795)))
