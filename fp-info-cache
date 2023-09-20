@@ -1,4 +1,4 @@
-21718827440461120
+21723913136906427
 Adafruit nRF52840 Bluefruit Feather Express Rev D
 2X05_1.27MM_BOX_POSTS
 <p>4UCon: 20317</p>
@@ -90398,6 +90398,13 @@ gateron-ks27
 2
 2
 fingerpunch
+gateron-ks27-6-25U
+
+
+0
+0
+0
+fingerpunch
 gateron-ks27-choc-v1
 
 
@@ -90460,6 +90467,20 @@ gateron-ks27-reversible-with-sk6812-mini
 0
 12
 6
+fingerpunch
+gateron-ks57-2U
+
+
+0
+0
+0
+fingerpunch
+gateron_ks57_low_profile_stabilizer
+
+
+0
+0
+0
 fingerpunch
 nice_nano
 
