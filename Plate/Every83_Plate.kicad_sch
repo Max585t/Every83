@@ -1,0 +1,31 @@
+(kicad_sch (version 20230121) (generator eeschema)
+
+  (uuid ea2432c4-eb7a-431a-b465-8c00cfcb4450)
+
+  (paper "User" 430.809 298.45)
+
+  (lib_symbols
+  )
+
+
+  (sheet (at 233.68 78.74) (size 20.32 30.48) (fields_autoplaced)
+    (stroke (width 0.1524) (type solid))
+    (fill (color 0 0 0 0.0000))
+    (uuid 17c5c707-0f0f-4f1c-ab03-6f051c1763ce)
+    (property "Sheetname" "Keyboard_Matrix" (at 233.68 78.0284 0)
+      (effects (font (size 1.27 1.27)) (justify left bottom))
+    )
+    (property "Sheetfile" "Keyboard_Matrix.kicad_sch" (at 233.68 109.8046 0)
+      (effects (font (size 1.27 1.27)) (justify left top))
+    )
+    (instances
+      (project "Every83_Plate"
+        (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450" (page "2"))
+      )
+    )
+  )
+
+  (sheet_instances
+    (path "/" (page "1"))
+  )
+)
