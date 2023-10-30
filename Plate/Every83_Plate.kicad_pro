@@ -408,7 +408,7 @@
     "pinned_symbol_libs": []
   },
   "meta": {
-    "filename": "Adafruit nRF52840 Bluefruit Feather Express Rev D.kicad_pro",
+    "filename": "Every83_Plate.kicad_pro",
     "version": 1
   },
   "net_settings": {
@@ -503,7 +503,7 @@
       "idf": "",
       "netlist": "",
       "specctra_dsn": "",
-      "step": "Adafruit nRF52840 Bluefruit Feather Express Rev D.step",
+      "step": "Every83_Platestep",
       "vrml": ""
     },
     "page_layout_descr_file": ""
