@@ -1,4 +1,4 @@
-21741735241268109
+21993541123805425
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59108,6 +59108,20 @@ THT
 4
 2
 JohnDeereLibrary
+8_Pin_DIP
+
+
+0
+8
+8
+JohnDeereLibrary
+DFR0995_Mounting_holes
+
+
+0
+0
+0
+JohnDeereLibrary
 GATERON Upgrade Low Profile switch Hot-swap PCB 2.0 Socket
 
 
@@ -59143,6 +59157,13 @@ Gateron Low Profile Stabilizer Plate Cutout 6.25u
 0
 0
 JohnDeereLibrary
+Gateron low profile stabilizer pcb cuttout
+
+
+0
+0
+0
+JohnDeereLibrary
 MOLEX_0955012401
 
 
@@ -59170,6 +59191,13 @@ Pomona_73099
 0
 5
 1
+JohnDeereLibrary
+SP3232ECT
+
+
+0
+16
+16
 JohnDeereLibrary
 SW_500SSP1S1M2REA
 
@@ -59331,1126 +59359,1126 @@ solder jumper open
 0
 5
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 3_Pin_Jumper
 
 
 0
 9
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 4pin35mmAudio
 
 
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 AST1109MLTRQ
 Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
 Murata Buzzer Beeper
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 AT90USB1286_TQFP_14mm
 64-Lead Plastic Thin Quad Flatpack (PF) - 14x14x1 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
 0
 64
 64
-Keebio-Parts.pretty-master
+Keebio-Parts
 ATMEGA32U4-AU
 
 
 0
 44
 44
-Keebio-Parts.pretty-master
-AdamTech_USB-C31-A-D-VT-CS1
-
-
-0
-20
-18
-Keebio-Parts.pretty-master
-All Switches
-
-
-0
-17
-3
-Keebio-Parts.pretty-master
-All Switches_copy
-
-
-0
-21
-4
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-BackSide
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-Mini-USB
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-Mini-USB-No-Text
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-Mini-USB-ZigZag
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-TopSide
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 ArduinoProMicro-ZigZag
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 CUI_SJ-43614-SMT
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 C_0402
 Capacitor SMD 0402, reflow soldering, AVX (see smccp.pdf)
 capacitor 0402
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 C_0603
 SMT, 1608, 0603
 SMT, 1608, 0603
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Cherry-MX-Low-Profile
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Crystal_SMD_2520-4pin_2.5x2.0mm
 SMD Crystal SERIES SMD2520/4 http://www.newxtal.com/UploadFiles/Images/2012-11-12-09-29-09-776.pdf, 2.5x2.0mm^2 package
 SMD SMT crystal
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Crystal_SMD_3225-4pin_3.2x2.5mm
 SMD Crystal SERIES SMD3225/4 http://www.txccrystal.com/images/pdf/7m-accuracy.pdf, 3.2x2.5mm^2 package
 SMD SMT crystal
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 D_0805
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 D_SOD-323
 SOD-323
 SOD-323
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 D_SOD123
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 D_SOD123F
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Diode
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Diode-Hybrid-Back
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Diode-dual
 
 
 0
 10
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Diode-hybrid-3pad
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Diode_Long
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C
 
 
 0
 29
 29
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C-ZigZag
 
 
 0
 29
 29
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C-castellated-24pin
 
 
 0
 24
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C-castellated-24pin-holes
 
 
 0
 48
 24
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C-castellated-29pin
 
 
 0
 29
 29
-Keebio-Parts.pretty-master
+Keebio-Parts
 Elite-C-castellated-29pin-holes
 
 
 0
 58
 29
-Keebio-Parts.pretty-master
+Keebio-Parts
 Epson_TSX-3225
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Fuse_0805
 SMT, 2012, 0805
 SMT, 2012, 0805
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 HRO-TYPE-C-31-M-12-Assembly
 
 
 0
 16
 13
-Keebio-Parts.pretty-master
+Keebio-Parts
 Header-6-Pin-ZigZag
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
 Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 Header-12-Pin-ZigZag
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
 Through hole socket strip THT 1x06 2.54mm single row
 0
 12
 12
-Keebio-Parts.pretty-master
+Keebio-Parts
 Header-12-Pin-ZigZag-Square
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
 Through hole socket strip THT 1x06 2.54mm single row
 0
 12
 12
-Keebio-Parts.pretty-master
+Keebio-Parts
+I2C_Breakout
+Through hole straight pin header, 1x04, 2.54mm pitch, single row
+Through hole pin header THT 1x04 2.54mm single row
+0
+4
+4
+Keebio-Parts
 ICSP-Header
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
 Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 ICSP-Header-ZigZag
 Through hole straight socket strip, 1x06, 2.54mm pitch, single row
 Through hole socket strip THT 1x06 2.54mm single row
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
+ICSP_1.27mm
+Through hole straight pin header, 2x03, 1.27mm pitch, double rows
+Through hole pin header THT 2x03 1.27mm double row
+0
+6
+6
+Keebio-Parts
 JUMPER_SMD_2DUB
 
 
 0
 12
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 KLJ-1102
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
-KS-27
-
-
-0
-2
-2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1.5u
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1.25u
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1.25u-LED-flip
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u-No-Clickhole
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u-NoLED
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u-reversible
 
 
 0
 5
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u-reversible-No-Clickhole
 
 
 0
 5
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-1u-reversible-flip
 
 
 0
 5
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-2.5u
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-2u
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-2u-NoLED
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
-Kailh-PG1350-2u-NoLED_copy
-
-
-0
-0
-0
-Keebio-Parts.pretty-master
+Keebio-Parts
 Kailh-PG1350-2u-Vert-NoLED
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
-Kailh-PG1353
-
-
-0
-3
-3
-Keebio-Parts.pretty-master
-KailhChoc_6.25u_PCB_StabWireBottom
-Cherry MX switch footprint. Size: 6.25u, Mount type: PCB, Using Kailh Socket: yes, Stabilizer: PCB mounted (Wire Bottom), Lighting: LTST-A683CEGBW for hand-soldering
-CherryMX 6.25u PCB KailhSocket StabWireBottom LTST-A683CEGBW-HS
-0
-0
-0
-Keebio-Parts.pretty-master
+Keebio-Parts
 LED_3mm
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 LQFP-48_7x7mm_Pitch0.5mm
 48 LEAD LQFP 7x7mm (see MICREL LQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
 0
 48
 48
-Keebio-Parts.pretty-master
+Keebio-Parts
 Low-Profile-Choc-MX
 
 
 0
 5
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 MD_Diode
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
-MX
-
-
-0
-0
-0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps-Choc-1U
 
 
 0
 8
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps-Choc-1U-No-Clickhole
 
 
 0
 8
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps-Choc-1U-NoLED
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps-Choc-1U-NoLED-Alt
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps-Choc-2U
 
 
 0
-0
-0
-Keebio-Parts.pretty-master
+8
+4
+Keebio-Parts
 MX-Alps-Choc-2U-StabFlip
 
 
 0
 8
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_DMask
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_FMask
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_FMask-2u
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_Switch_Cutout
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_Switch_Cutout-1u_1.25u
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_Switch_Cutout-1u_1.25u-3u-wide
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_Switch_Cutout-1u_2u
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Alps_Switch_Cutout-3u-wide
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX-Quad
 MX/Alps footprint
 
 0
 8
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_FMask
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_FMask-2u
 
 
 0
 3
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_FMask-2u-with-cutout
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_FMask-with-cutout
 
 
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_LED
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_Stabilizer_Cutout
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_Stabilizer_Cutout-2u
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_Switch_Cutout
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 MX_Switch_Mod_Cutout
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 Mini-USB
 
 
 0
 7
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 MountingHole
 
 
 0
 1
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
+NovelKeys_Kailh_Big_Series_Switch
+
+
+0
+2
+2
+Keebio-Parts
+Pin_Header_Straight_2x03_Pitch1.00mm
+Through hole straight pin header, 2x03, 1.00mm pitch, double rows
+Through hole pin header THT 2x03 1.00mm double row
+0
+6
+6
+Keebio-Parts
 QFN-44-1EP_7x7mm_Pitch0.5mm
 UK Package; 44-Lead Plastic QFN (7mm x 7mm); (see Linear Technology QFN_44_05-08-1763.pdf)
 QFN 0.5
 0
 60
 45
-Keebio-Parts.pretty-master
+Keebio-Parts
 RGB-6028
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 RGB_3528_Blue_Notch
 RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
 LED 3227
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 RGB_3528_Blue_Notch-MX
 RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
 LED 3227
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 RGB_3528_Blue_Notch-MX-Flip
 RGB LED 3.2x2.7mm http://www.avagotech.com/docs/AV02-0610EN
 LED 3227
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
+0
+70
+57
+Keebio-Parts
 R_0402
 Resistor SMD 0402, reflow soldering, Vishay (see dcrcw.pdf)
 resistor 0402
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 R_0603
 SMT, 1608, 0603
 SMT, 1608, 0603
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 R_0805
 SMT, 2012, 0805
 SMT, 2012, 0805
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Resistor
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Resistor-Compact
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Resistor-Compact-1-side
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Resistor-Hybrid
 
 
 0
 10
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 Resistor-Hybrid-Back
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 RotaryEncoder_Alps_EC11E-Switch_Vertical_H20mm
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
 7
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 RotaryEncoder_EC11
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
 5
 5
-Keebio-Parts.pretty-master
+Keebio-Parts
 RotaryEncoder_EC11-no-legs
 Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
 rotary encoder
 0
 5
 5
-Keebio-Parts.pretty-master
+Keebio-Parts
+RotaryEncoder_EC11B-Horizontal-Dual
+
+
+0
+7
+5
+Keebio-Parts
+RotaryEncoder_EC11_Nonplated
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+Keebio-Parts
 SK6812-MINI-E
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 SM0805D
 
 
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SOIC-8_3.9x4.9mm_Pitch1.27mm
 8-Lead Plastic Small Outline (SN) - Narrow, 3.90 mm Body [SOIC] (see Microchip Packaging Specification 00000049BS.pdf)
 SOIC 1.27
 0
 8
 8
-Keebio-Parts.pretty-master
+Keebio-Parts
+SOIC-8_5.23x5.23mm_P1.27mm
+SOIC, 8 Pin (http://www.winbond.com/resource-files/w25q32jv%20revg%2003272018%20plus.pdf#page=68), generated with kicad-footprint-generator ipc_gullwing_generator.py
+SOIC SO
+0
+8
+8
+Keebio-Parts
 SOT-23
 SOT-23, Standard
 SOT-23
 0
 3
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+Keebio-Parts
 SOT-23_Handsoldering
 SOT-23, Handsoldering
 SOT-23
 0
 3
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 SOT-143B
 SOT143B
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 SOT-363_SC-70-6
 SOT-363, SC-70-6
 SOT-363 SC-70-6
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 SW_SPST_3x3
 Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
 SPST Tactile Switch
 0
 4
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SW_SPST_TL3342
 Low-profile SMD Tactile Switch, https://www.e-switch.com/system/asset/product_line/data_sheet/165/TL3342.pdf
 SPST Tactile Switch
 0
 4
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SW_Tactile_SPST_Angled_MJTP1117
 tactile switch SPST right angle, PTS645VL39-2 LFS
 tactile switch SPST angled PTS645VL39-2 LFS C&K Button
 0
 4
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SW_Tactile_SPST_Angled_MJTP1117-no-mount
 tactile switch SPST right angle, PTS645VL39-2 LFS
 tactile switch SPST angled PTS645VL39-2 LFS C&K Button
 0
 2
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SinglePad
 
 
 0
 1
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumper
 
 
 0
 4
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumperLeft
 
 
 0
 3
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumperPair
 
 
 0
 6
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumperRight
 
 
 0
 3
 3
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumperSet
 
 
 0
 12
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolderJumperSets
 
 
 0
 6
 2
-Keebio-Parts.pretty-master
+Keebio-Parts
 SolidCopper
 Mounting Hole 2.2mm, M2
 mounting hole 2.2mm m2
 0
 2
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
+TQFP-32_7x7mm_Pitch0.8mm
+32-Lead Plastic Thin Quad Flatpack (PT) - 7x7x1.0 mm Body, 2.00 mm [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+32
+32
+Keebio-Parts
 TQFP-44_10x10mm_Pitch0.8mm
 44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
 QFP 0.8
 0
 44
 44
-Keebio-Parts.pretty-master
+Keebio-Parts
 TQFP-48_7x7mm_Pitch0.5mm
 48 LEAD TQFP 7x7mm (see MICREL TQFP7x7-48LD-PL-1.pdf)
 QFP 0.5
 0
 48
 48
-Keebio-Parts.pretty-master
+Keebio-Parts
+TQFP-QFN-44_Combined
+44-Lead Plastic Thin Quad Flatpack (PT) - 10x10x1.0 mm Body [TQFP] (see Microchip Packaging Specification 00000049BS.pdf)
+QFP 0.8
+0
+104
+45
+Keebio-Parts
 TRRS-PJ-320A
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS-PJ-320A-dual
 
 
 0
 5
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS-PJ-320A-no-Fmask
 
 
 0
 8
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS-PJ-320D
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS-PJ-605
 
 
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS-PJ-606
 
 
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS_Jack
 
 
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS_Jack-one-sided
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 TRRS_Jumper
 
 
 0
 6
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 Teensy_2.0
 
 
 0
 31
 31
-Keebio-Parts.pretty-master
+Keebio-Parts
 Triple-Dual-1u-LED
 
 
 0
 21
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Triple-Dual-1u-LED-flip
 
 
 0
 21
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Triple-Dual-2u-LED
 
 
 0
 21
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 Triple-Dual-2u-LED-stab-flip
 
 
 0
 21
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
 USB-C-12-Pin-MidMount
 
 
 0
 16
 13
-Keebio-Parts.pretty-master
+Keebio-Parts
 USB-Mini-B_ LCSC-C46398
 
 
 0
 9
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 USB-Mini-B_2leg
 
 
 0
 7
 6
-Keebio-Parts.pretty-master
+Keebio-Parts
 USB_miniB_HandSolder
 http://www.hirose.co.jp/cataloge_hp/e24000019.pdf
 USB miniB hirose
 0
 9
 9
-Keebio-Parts.pretty-master
+Keebio-Parts
 VIA-0.6mm
 
 
 0
 1
 1
-Keebio-Parts.pretty-master
+Keebio-Parts
 WS2812B
 
 
 0
 4
 4
-Keebio-Parts.pretty-master
+Keebio-Parts
+WS2812B-4020
+
+
+0
+4
+4
+Keebio-Parts
 breakaway-hole
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 breakaway-hole-big
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
+Keebio-Parts
 breakaway-mousebites
 
 
 0
 0
 0
-Keebio-Parts.pretty-master
-gateron_lowprofile_stabilizers
-
-
-0
-0
-0
-Keebio-Parts.pretty-master
-ks27
-
-
-0
-2
-2
-Keebio-Parts.pretty-master
-nRF52840_MDBT50Q-1MV2
-
-
-0
-61
-61
-Keebio-Parts.pretty-master
-numpad
-
-
-0
-0
-0
-Keebio-Parts.pretty-master
-rp2040
-
-
-0
-70
-57
-Keebio-Parts.pretty-master
+Keebio-Parts
 solder_jumper
 
 
 0
 2
 2
+Kicad
+Python_logo
+
+
+0
+0
+0
 LED_SMD
 LED-APA102-2020
 http://www.led-color.com/upload/201604/APA102-2020%20SMD%20LED.pdf
@@ -61578,34 +61606,34 @@ Yellow 5381 Series LED
 0
 2
 2
-M.2-Templates
-M.2-B+M-KEY
+MCU_RaspberryPi_and_Boards
+Crystal_SMD_HC49-US
+SMD Crystal HC-49-SD http://cdn-reichelt.de/documents/datenblatt/B400/xxx-HC49-SMD.pdf, 11.4x4.7mm^2 package
+SMD SMT crystal
+0
+2
+2
+MCU_RaspberryPi_and_Boards
+RJ9_Molex_42410-4170
 
 
 0
-60
-60
-M.2-Templates
-M.2-B-KEY
-
-
+4
+4
+MCU_RaspberryPi_and_Boards
+RP2040-QFN-56
+QFN, 56 Pin (http://www.cypress.com/file/416486/download#page=40), generated with kicad-footprint-generator ipc_dfn_qfn_generator.py
+QFN DFN_QFN
 0
-68
-68
-M.2-Templates
-M.2-B-KEY-2280-ADAPTER
-
-
+70
+57
+MCU_RaspberryPi_and_Boards
+RPi_Pico_SMD_TH
+Through hole straight pin header, 2x20, 2.54mm pitch, double rows
+Through hole pin header THT 2x20 2.54mm double row
 0
-69
-69
-M.2-Templates
-M.2-KEY-BLANK
-
-
-0
-76
-76
+86
+43
 Module
 A20_OLINUXINO_LIME2
 A20 Olinuxino LIME2, 1.2GHz, 512-1024MB RAM, Micro-SD, NAND or eMMC, 1000Mbit Ethernet
@@ -81703,6 +81731,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RPi_Compute_Module_4
+Raspberry-Pi-4-Compute-Module
+Raspberry Pi 4 Compute Module
+Raspberry Pi 4 Compute Module
+0
+200
+200
+RPi_Compute_Module_4
+logo
+
+
+0
+0
+0
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -90803,6 +90845,902 @@ varistor
 0
 2
 2
+fingerpunch
+1.9x2.8mm SW
+ST-1194 C589221 1.9x2.8mm
+
+0
+4
+2
+fingerpunch
+3pin_thumbwheel_toggle
+
+
+0
+5
+5
+fingerpunch
+3waythumb-K1-1502SA-01-C145915
+
+
+0
+5
+5
+fingerpunch
+3waythumb_K1-1508SA-03-C502286
+
+
+0
+8
+8
+fingerpunch
+5Way-Tactile_K1-1506DN-01
+
+
+0
+6
+6
+fingerpunch
+AP7331
+SOT25(H=1.45mm)
+Integrated Circuit
+0
+5
+5
+fingerpunch
+AST1109MLTRQ
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
+0
+2
+2
+fingerpunch
+Alps-soldered
+
+
+0
+2
+2
+fingerpunch
+Alps-soldered-flip-pad-nums
+
+
+0
+2
+2
+fingerpunch
+Alps_Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+5
+2
+fingerpunch
+Alps_Kailh_through_hole_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+7
+2
+fingerpunch
+Breakaway_Tabs
+
+
+0
+0
+0
+fingerpunch
+Connector_THT_1x1_2.54
+
+
+0
+1
+1
+fingerpunch
+Connector_THT_1x1_Pin_D0.7mm_Pad1.3mm
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
+fingerpunch
+Connector_THT_1x2_2.54
+
+
+0
+2
+2
+fingerpunch
+Connector_THT_1x3_2.54
+
+
+0
+3
+3
+fingerpunch
+Connector_THT_1x4_2.54
+
+
+0
+4
+4
+fingerpunch
+Connector_THT_1x5_2.54
+
+
+0
+5
+5
+fingerpunch
+Connector_THT_1x6_2.54
+
+
+0
+6
+6
+fingerpunch
+Connector_THT_1x7_2.54
+
+
+0
+7
+7
+fingerpunch
+D3_TH_SMD
+Resitance 3 pas
+R
+0
+6
+2
+fingerpunch
+DIP-16_W10.16mm
+16-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)
+THT DIP DIL PDIP 2.54mm 10.16mm 400mil
+0
+16
+16
+fingerpunch
+D_SOD-123FL
+D_SOD-123FL
+D_SOD-123FL
+0
+2
+2
+fingerpunch
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
+fingerpunch
+Elite-C
+
+
+0
+29
+29
+fingerpunch
+FPC-SMD_FPC05012-09200-.5mm-rev
+
+
+0
+14
+14
+fingerpunch
+FPC-SMD_FPC05018-09200-.5mm-rev
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+20
+19
+fingerpunch
+Ferrite_Bead_0603
+ferrite bead 0603
+Ferrite Bead
+0
+2
+2
+fingerpunch
+GT-USB-7014C
+
+
+0
+20
+20
+fingerpunch
+HEF4104BT
+
+
+0
+16
+16
+fingerpunch
+JST_PH_S3B-PH-K-keyboard
+JST PH series connector, S3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+3
+3
+fingerpunch
+Kailh_choc_v2
+
+
+0
+3
+2
+fingerpunch
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+fingerpunch
+Kailh_socket_MX-ChocV1
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+fingerpunch
+Kailh_socket_MX_reversible_same_orientation
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+fingerpunch
+Kailh_socket_PG1350_optional_reversible
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+fingerpunch
+Kailh_socket_PG1350_optional_reversible_millmax
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+fingerpunch
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+fingerpunch
+Kailh_socket_PG1350_reversible_with_sk6812_mini
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+12
+6
+fingerpunch
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+fingerpunch
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm-reversible
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+8
+4
+fingerpunch
+MSK-12C02
+
+
+0
+7
+3
+fingerpunch
+MX-Alps-soldered
+
+
+0
+4
+2
+fingerpunch
+MX-soldered
+
+
+0
+2
+2
+fingerpunch
+MXMountLP-1U
+
+
+0
+6
+2
+fingerpunch
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+fingerpunch
+NeoPixel_bulb_5mm_Adafruit_1938
+
+
+0
+4
+4
+fingerpunch
+PERS56v3
+PER56 - 56 mm Low Profile Incremental Ring Encoder
+encoder, scroll ring, pers56
+0
+7
+4
+fingerpunch
+PMW3360
+16-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)
+THT DIP DIL PDIP 2.54mm 10.16mm 400mil
+0
+16
+16
+fingerpunch
+Piezo-KLJ-1625
+
+
+0
+2
+2
+fingerpunch
+Pimoroni Haptic Buzz DRV2605L Driver
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+fingerpunch
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+61
+57
+fingerpunch
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+fingerpunch
+RotaryEncoder_EC11-no-legs-offset-on-top-of-switch
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+fingerpunch
+SK6812MINI-E
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+fingerpunch
+SK6812_4020_SIDE_rev2
+
+
+0
+4
+4
+fingerpunch
+SKQG-1155865
+
+
+0
+4
+4
+fingerpunch
+SO16
+SOIC, 0.15 INCH WIDTH
+SOIC, 0.15 INCH WIDTH
+0
+16
+16
+fingerpunch
+SOD882D
+
+
+0
+2
+2
+fingerpunch
+SOIC127P600X175-14N
+
+
+0
+14
+14
+fingerpunch
+SON-8-1EP_3x2mm_P0.5mm_EP0.25x1.65mm
+SON, 8 Pin (http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+SON NoLead
+0
+9
+9
+fingerpunch
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+fingerpunch
+SOT95P285X145-5N
+SOT25(H=1.45mm)
+Integrated Circuit
+0
+5
+5
+fingerpunch
+SW-SMD_K1-1508SA-03-rocker
+
+
+0
+8
+8
+fingerpunch
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+fingerpunch
+TRRS-PJ-320A
+
+
+0
+4
+4
+fingerpunch
+TestPoint_Pad_D0.8mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+fingerpunch
+TestPoint_Pad_D1.2mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+28
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-14
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-17_handsolder
+Korean Hroparts Elec, Power only USB connector supporting up to 3A, easier to solder w/0.3mm pad separation
+
+0
+10
+7
+fingerpunch
+W25Q128JVPIQ
+16MB flash
+
+0
+9
+9
+fingerpunch
+X2SON-4
+
+
+0
+5
+5
+fingerpunch
+XIAO-RP2040
+
+
+0
+28
+14
+fingerpunch
+XIAO-nRF52840-CENTER-HOLE
+
+
+0
+28
+14
+fingerpunch
+charybdis-pmw3360-breakout-adapter
+
+
+0
+8
+6
+fingerpunch
+charybdis-pmw3360-breakout-adapter-no-mount
+
+
+0
+6
+6
+fingerpunch
+fingerpunch-logo
+
+
+0
+0
+0
+fingerpunch
+fingerpunch-logo-full
+
+
+0
+0
+0
+fingerpunch
+fingerpunch-logo-small
+
+
+0
+0
+0
+fingerpunch
+gateron-ks27
+
+
+0
+2
+2
+fingerpunch
+gateron-ks27-6-25U
+
+
+0
+0
+0
+fingerpunch
+gateron-ks27-choc-v1
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-choc-v1-hotswap
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap
+
+
+0
+10
+6
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap-curved-pads
+
+
+0
+7
+6
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap-reversible
+
+
+0
+12
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-soldered-and-hotswap
+
+
+0
+12
+2
+fingerpunch
+gateron-ks27-hotswap-reversible
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-reversible
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-reversible-with-sk6812-mini
+
+
+0
+12
+6
+fingerpunch
+gateron-ks33-hotswap-sk6812-mini
+
+
+0
+6
+6
+fingerpunch
+gateron-ks57-2U
+
+
+0
+0
+0
+fingerpunch
+gateron_ks57_low_profile_stabilizer
+
+
+0
+0
+0
+fingerpunch
+nice_nano
+
+
+0
+27
+27
+fingerpunch
+nice_view
+
+
+0
+5
+5
+fingerpunch
+redragon_mx_low_pro_3pin
+
+
+0
+2
+2
+fingerpunch
+rp2040-zero-smd
+
+
+0
+23
+23
+fingerpunch
+rp2040-zero-smd-pads
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-smd-pads-cutout
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-tht
+
+
+0
+23
+23
+fingerpunch
+rp2040-zero-tht-pads
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-tht-pads-cutout
+
+
+0
+33
+33
+fingerpunch
+vik-connector-horizontal
+
+
+0
+14
+14
+fingerpunch
+vik-connector-vertical
+
+
+0
+14
+12
+fingerpunch
+vik-keyboard-throughole
+
+
+0
+12
+12
+fingerpunch
+vik-logo-large
+
+
+0
+0
+0
+fingerpunch
+vik-logo-medium
+
+
+0
+0
+0
+fingerpunch
+vik-logo-small
+
+
+0
+0
+0
+fingerpunch
+vik-module-throughole
+
+
+0
+12
+12
+fingerpunch
+xiao-ble-smd
+
+
+0
+22
+22
+fingerpunch
+xiao-ble-smd-cutout
+
+
+0
+22
+22
+fingerpunch
+xiao-ble-tht
+
+
+0
+22
+22
+fingerpunch
+xiao-smd
+
+
+0
+18
+18
+fingerpunch
+xiao-tht
+
+
+0
+18
+18
+fingerpunch-plates
+EVQWGD001
+
+
+0
+0
+0
+fingerpunch-plates
+Elite-C
+
+
+0
+0
+0
+fingerpunch-plates
+MountingHole_2.5mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+fingerpunch-plates
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+0
+0
+fingerpunch-plates
+SKQG-1155865
+
+
+0
+0
+0
+fingerpunch-plates
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+0
+0
+fingerpunch-plates
+TRRS-PJ-320A
+
+
+0
+0
+0
+fingerpunch-plates
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo
+
+
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo-full
+
+
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo-small
+
+
+0
+0
+0
+fingerpunch-plates
+switch-cutout-mx
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+0
+0
 footprints
 CON_781710004
 
@@ -90810,6 +91748,69 @@ CON_781710004
 0
 6
 6
+footprints
+D8
+
+OPA1662AID 
+0
+8
+8
+footprints
+D8-L
+
+OPA1662AID 
+0
+8
+8
+footprints
+D8-M
+
+OPA1662AID 
+0
+8
+8
+footprints
+IND_XFL2010_COC
+
+XFL2010-682MEC 
+0
+2
+2
+footprints
+IND_XFL2010_COC-L
+
+XFL2010-682MEC 
+0
+2
+2
+footprints
+IND_XFL2010_COC-M
+
+XFL2010-682MEC 
+0
+2
+2
+footprints
+QFN-16_UD_LIT
+
+LT3582EUD-12-PBF 
+0
+17
+17
+footprints
+QFN-16_UD_LIT-L
+
+LT3582EUD-12-PBF 
+0
+17
+17
+footprints
+QFN-16_UD_LIT-M
+
+LT3582EUD-12-PBF 
+0
+17
+17
 footprints
 SPDT Slide Switch
 
