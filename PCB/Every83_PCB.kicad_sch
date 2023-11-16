@@ -3052,6 +3052,162 @@
         )
       )
     )
+    (symbol "Connector:Conn_01x08_Pin" (pin_names (offset 1.016) hide) (in_bom yes) (on_board yes)
+      (property "Reference" "J" (at 0 10.16 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "Conn_01x08_Pin" (at 0 -12.7 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_locked" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "ki_keywords" "connector" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Generic connector, single row, 01x08, script generated" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "Connector*:*_1x??_*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "Conn_01x08_Pin_1_1"
+        (polyline
+          (pts
+            (xy 1.27 -10.16)
+            (xy 0.8636 -10.16)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -7.62)
+            (xy 0.8636 -7.62)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -5.08)
+            (xy 0.8636 -5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 -2.54)
+            (xy 0.8636 -2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 0)
+            (xy 0.8636 0)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 2.54)
+            (xy 0.8636 2.54)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 5.08)
+            (xy 0.8636 5.08)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (polyline
+          (pts
+            (xy 1.27 7.62)
+            (xy 0.8636 7.62)
+          )
+          (stroke (width 0.1524) (type default))
+          (fill (type none))
+        )
+        (rectangle (start 0.8636 -10.033) (end 0 -10.287)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -7.493) (end 0 -7.747)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -4.953) (end 0 -5.207)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 -2.413) (end 0 -2.667)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 0.127) (end 0 -0.127)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 2.667) (end 0 2.413)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 5.207) (end 0 4.953)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (rectangle (start 0.8636 7.747) (end 0 7.493)
+          (stroke (width 0.1524) (type default))
+          (fill (type outline))
+        )
+        (pin passive line (at 5.08 7.62 180) (length 3.81)
+          (name "Pin_1" (effects (font (size 1.27 1.27))))
+          (number "1" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 5.08 180) (length 3.81)
+          (name "Pin_2" (effects (font (size 1.27 1.27))))
+          (number "2" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 2.54 180) (length 3.81)
+          (name "Pin_3" (effects (font (size 1.27 1.27))))
+          (number "3" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 0 180) (length 3.81)
+          (name "Pin_4" (effects (font (size 1.27 1.27))))
+          (number "4" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -2.54 180) (length 3.81)
+          (name "Pin_5" (effects (font (size 1.27 1.27))))
+          (number "5" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -5.08 180) (length 3.81)
+          (name "Pin_6" (effects (font (size 1.27 1.27))))
+          (number "6" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -7.62 180) (length 3.81)
+          (name "Pin_7" (effects (font (size 1.27 1.27))))
+          (number "7" (effects (font (size 1.27 1.27))))
+        )
+        (pin passive line (at 5.08 -10.16 180) (length 3.81)
+          (name "Pin_8" (effects (font (size 1.27 1.27))))
+          (number "8" (effects (font (size 1.27 1.27))))
+        )
+      )
+    )
     (symbol "Device:R" (pin_numbers hide) (pin_names (offset 0)) (in_bom yes) (on_board yes)
       (property "Reference" "R" (at 2.032 0 90)
         (effects (font (size 1.27 1.27)))
@@ -3323,6 +3479,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid 3d6c6d1a-c0b8-46e2-a7b5-0e46958d5afd)
   )
+  (wire (pts (xy 195.58 60.96) (xy 195.58 68.58))
+    (stroke (width 0) (type default))
+    (uuid 41452911-ad94-4ff5-a788-3f8d8783fa3a)
+  )
   (wire (pts (xy 58.42 68.58) (xy 58.42 73.66))
     (stroke (width 0.1524) (type solid))
     (uuid 421dc871-63cd-477d-9792-aa3462ee8e86)
@@ -3431,6 +3591,10 @@
     (stroke (width 0.1524) (type solid))
     (uuid 614d09f2-6674-4a6a-984f-f29e293dec83)
   )
+  (wire (pts (xy 200.66 66.04) (xy 200.66 68.58))
+    (stroke (width 0) (type default))
+    (uuid 63f9b0ca-ea24-4228-82a2-bce4266cc944)
+  )
   (wire (pts (xy 281.94 93.98) (xy 292.1 93.98))
     (stroke (width 0.1524) (type solid))
     (uuid 68063bb7-1afb-4c5e-a49e-1c252c970cd9)
@@ -3482,6 +3646,10 @@
   (wire (pts (xy 30.48 190.5) (xy 27.94 190.5))
     (stroke (width 0.1524) (type solid))
     (uuid 7a305695-dffb-42cd-8ac2-41d4816bbd07)
+  )
+  (wire (pts (xy 198.12 63.5) (xy 198.12 68.58))
+    (stroke (width 0) (type default))
+    (uuid 7abc9f27-9c27-4560-a530-9d3c79b32394)
   )
   (wire (pts (xy 231.14 190.5) (xy 248.92 190.5))
     (stroke (width 0.1524) (type solid))
@@ -4003,6 +4171,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 164b2a32-1ea3-4b60-b79a-added1a5b150)
   )
+  (label "BLK" (at 260.35 151.13 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 1fc38efb-0015-4824-bf61-0d1eddc85cad)
+  )
   (label "SCK" (at 337.82 91.44 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 1fe35704-f489-4ac2-a08f-17ed02873b61)
@@ -4075,6 +4247,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 4cf9ad39-796c-4ac7-801e-9cefd24b9ea6)
   )
+  (label "CS" (at 260.35 143.51 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 4e9eca4a-4c48-432b-af95-90298632207d)
+  )
   (label "QSPI_DATA0" (at 139.7 144.78 90) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 50a00cd8-5e2e-4be8-8a59-fc755be0f9f1)
@@ -4127,9 +4303,17 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 6e6266b0-044d-49f5-9105-7ea74d7487a6)
   )
+  (label "BLK" (at 203.2 68.58 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 6ea32ce7-7126-4f2c-92e3-c2695a689ab2)
+  )
   (label "RESET" (at 337.82 116.84 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 6ef92ff1-2348-47d7-96ca-7e6f041e6117)
+  )
+  (label "MOSI" (at 260.35 140.97 0) (fields_autoplaced)
+    (effects (font (size 1.2446 1.2446)) (justify left bottom))
+    (uuid 70140efd-509a-4608-b2ea-6f7d9c298332)
   )
   (label "MISO" (at 337.82 86.36 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
@@ -4175,6 +4359,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 87c25e9a-f722-4dbb-9bc6-cf5bb868e9a1)
   )
+  (label "RES" (at 260.35 146.05 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 8fdc5c5c-aafb-4c8d-b20b-68ac0e4c3609)
+  )
   (label "A5" (at 147.32 66.04 90) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 90eb6dc6-75c8-40a7-ac03-14a310209545)
@@ -4182,6 +4370,10 @@
   (label "D10" (at 83.82 78.74 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid 9b4b1dd5-edba-4634-ac1f-4158362fc174)
+  )
+  (label "RES" (at 198.12 63.5 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid 9b6f71bd-1001-4739-91b5-0e08f0a1baaa)
   )
   (label "A4" (at 142.24 66.04 90) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
@@ -4219,6 +4411,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid bf15174f-d5b4-48ae-886e-9b54f74a48d0)
   )
+  (label "DC" (at 260.35 148.59 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid c0199dea-01da-479b-945a-2dca8ef1d8ef)
+  )
   (label "VDIV" (at 198.12 246.38 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid c8a172c1-448e-4f04-a876-f04343d1848f)
@@ -4243,6 +4439,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid d80f8b1e-9ba4-4612-94d1-08f08df31081)
   )
+  (label "DC" (at 200.66 66.04 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid d921b023-8ec5-4348-b0a7-af5c60415f6a)
+  )
   (label "D13" (at 83.82 104.14 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid d9fb4f87-e583-414f-a020-88faf2fac914)
@@ -4259,6 +4459,10 @@
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid f7d37eb5-f374-4e44-929f-1ec29aed6d08)
   )
+  (label "SCK" (at 260.35 138.43 0) (fields_autoplaced)
+    (effects (font (size 1.2446 1.2446)) (justify left bottom))
+    (uuid fc6a6b23-c7c7-4991-831a-f0114ce6e337)
+  )
   (label "QSPI_SCK" (at 231.14 185.42 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid fdc5852e-55c7-458b-adb6-930bde270197)
@@ -4266,6 +4470,10 @@
   (label "MOSI" (at 129.54 144.78 90) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
     (uuid fede8015-aa4c-4e00-8597-3e9e9e067ff9)
+  )
+  (label "CS" (at 195.58 60.96 0) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify left bottom))
+    (uuid ffb66de0-b46a-427e-9fdc-9d01f4b957b0)
   )
 
   (symbol (lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:LED0805_NOOUTLINE") (at 228.6 246.38 0) (unit 1)
@@ -4286,7 +4494,7 @@
     (pin "A" (uuid c6801b47-73e6-4649-9e0a-2163c3ff22fc))
     (pin "C" (uuid aaef58db-f428-4134-b920-b858a75f6ee9))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "D103") (unit 1)
         )
@@ -4313,7 +4521,7 @@
     (pin "2" (uuid 0e5bd4ac-bf6e-4e73-a58f-f8f1b0900ace))
     (pin "3" (uuid f7f022b3-26aa-47df-9c87-e276a6eebf0d))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "Q3") (unit 1)
         )
@@ -4338,7 +4546,7 @@
     )
     (pin "1" (uuid 49335170-b5d8-417c-893c-55634cae0fbb))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$043") (unit 1)
         )
@@ -4363,7 +4571,7 @@
     )
     (pin "1" (uuid fe6d8793-753c-48b7-be2d-e7106a67ce38))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$058") (unit 1)
         )
@@ -4388,7 +4596,7 @@
     )
     (pin "1" (uuid 2f0bee21-c1cc-4f2f-a013-7691829b4e3f))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$023") (unit 1)
         )
@@ -4414,7 +4622,7 @@
     (pin "A" (uuid 485d8874-6c91-4703-9b41-66089ac8da9d))
     (pin "C" (uuid 76590ac5-f2a6-47b3-91c0-46e19100e63d))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "D102") (unit 1)
         )
@@ -4439,7 +4647,7 @@
     )
     (pin "1" (uuid 9472c9b6-df72-4a74-bb5b-cf172e14a70e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$04") (unit 1)
         )
@@ -4465,7 +4673,7 @@
     (pin "1" (uuid a6d6456d-0e01-4d8a-ae68-bccf5154faac))
     (pin "2" (uuid cf9203d9-e090-4264-bd9e-35815fc47c72))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C4") (unit 1)
         )
@@ -4495,7 +4703,7 @@
     (pin "5" (uuid 897bd42c-a039-4c3a-b7cd-edffa8655c5e))
     (pin "6" (uuid 5c512732-bfe1-4a8b-9d79-0b2f1e604cdd))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "J1") (unit 1)
         )
@@ -4520,7 +4728,7 @@
     )
     (pin "1" (uuid f94e1860-6a34-482f-bf2a-3f6a291feb0d))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$040") (unit 1)
         )
@@ -4545,7 +4753,7 @@
     )
     (pin "1" (uuid cff84ab5-6fe4-479e-932f-497bb609a5e3))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$047") (unit 1)
         )
@@ -4571,7 +4779,7 @@
     (pin "1" (uuid 90fa5e89-5df5-4834-8004-d2401e79b420))
     (pin "2" (uuid 73665eb1-d31a-4293-8e0e-98fb5d3ef475))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R4") (unit 1)
         )
@@ -4596,7 +4804,7 @@
     )
     (pin "1" (uuid b84df358-809c-4bc6-960c-cacd600841d0))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$034") (unit 1)
         )
@@ -4621,7 +4829,7 @@
     )
     (pin "1" (uuid 5f757aab-7133-4e1b-907d-0f0d39186577))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$024") (unit 1)
         )
@@ -4646,7 +4854,7 @@
     )
     (pin "1" (uuid d01ed8f4-9469-4647-bc17-c63137799c61))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$038") (unit 1)
         )
@@ -4671,7 +4879,7 @@
     )
     (pin "1" (uuid 4a6aa8a2-237f-479f-9f1d-10c60ea282d6))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$056") (unit 1)
         )
@@ -4696,7 +4904,7 @@
     )
     (pin "1" (uuid 2a437cd3-8192-45e2-b381-217183300cf1))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$035") (unit 1)
         )
@@ -4721,7 +4929,7 @@
     )
     (pin "1" (uuid da6d0a9a-a564-44b7-a4ec-08e5c7122839))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$018") (unit 1)
         )
@@ -4746,7 +4954,7 @@
     )
     (pin "1" (uuid 30148c12-8a15-4b71-827b-d9107f53632e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$06") (unit 1)
         )
@@ -4771,7 +4979,7 @@
     )
     (pin "1" (uuid 93a766a6-b414-4189-952f-6103591962ce))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$026") (unit 1)
         )
@@ -4796,7 +5004,7 @@
     )
     (pin "1" (uuid d49b434c-07be-4b82-9aa0-7173226d4612))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$044") (unit 1)
         )
@@ -4822,7 +5030,7 @@
     (pin "A" (uuid 2cd0b6ec-2571-40a4-b45d-5ea8a7fb8ff1))
     (pin "C" (uuid 98c78eb2-e376-490b-bf9a-e8a111cfc480))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "D104") (unit 1)
         )
@@ -4846,7 +5054,7 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#FRAME1") (unit 3)
         )
@@ -4872,7 +5080,7 @@
     (pin "1" (uuid f81be5d8-2289-485a-97d5-fcbb983bc87e))
     (pin "2" (uuid a3767e7f-1fca-48a7-abe4-8cf6a2458e93))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R12") (unit 1)
         )
@@ -4957,7 +5165,7 @@
     (pin "8" (uuid 0c6fd25a-eaff-4219-a49d-f7db0a630009))
     (pin "9" (uuid 2063612d-d9b0-45b9-a9bc-e7f19d905c3f))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "MDBT1") (unit 1)
         )
@@ -4983,7 +5191,7 @@
     (pin "P$1" (uuid 1587f862-6209-465b-ae50-f52d5cc3992f))
     (pin "P$2" (uuid 236c41aa-48c2-41b3-a283-79bd29abf6a5))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "Y2") (unit 1)
         )
@@ -5008,7 +5216,7 @@
     )
     (pin "1" (uuid 2487a487-c648-4e95-8d2b-58757ad1ef70))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$030") (unit 1)
         )
@@ -5033,7 +5241,7 @@
     )
     (pin "1" (uuid ae158c39-e663-4c34-84b5-a3e2b96c8ff9))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$011") (unit 1)
         )
@@ -5059,7 +5267,7 @@
     (pin "1" (uuid df405c3e-8914-4d3f-8b52-1fb578c528e6))
     (pin "2" (uuid eff7bf35-a407-4f10-a315-959147e4e217))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C7") (unit 1)
         )
@@ -5085,7 +5293,7 @@
     (pin "1" (uuid a51ea596-dd40-4c24-99bf-47e2103e218b))
     (pin "2" (uuid 950a9500-44bb-4f7d-ba2f-1d7df34b103d))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R10") (unit 1)
         )
@@ -5111,7 +5319,7 @@
     (pin "1" (uuid cfb64cdc-385f-4e6b-914e-0a6d56f23dc3))
     (pin "2" (uuid 90df934e-b40c-451e-9b14-f3db087b207e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "L1") (unit 1)
         )
@@ -5137,7 +5345,7 @@
     (pin "1" (uuid 0d62c373-44c0-4eb0-bb3a-d981b21dac40))
     (pin "2" (uuid 4e2b613c-0b1d-4c7b-852f-29d02de43d6b))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C2") (unit 1)
         )
@@ -5169,7 +5377,7 @@
     (pin "7" (uuid cc3f5218-6a26-4184-a0d6-8958f9264b6b))
     (pin "8" (uuid d5198fdd-9780-4a3d-948a-9487b3dc82e1))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "IC2") (unit 1)
         )
@@ -5195,7 +5403,7 @@
     (pin "1" (uuid dc1171b4-94b1-4e1c-98d0-73ab7b617c78))
     (pin "2" (uuid 1a47932a-5d58-4257-ae5c-686f0abd525e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C6") (unit 1)
         )
@@ -5220,7 +5428,7 @@
     )
     (pin "1" (uuid 316c1e23-efdc-4b36-8c32-f8592b20cdf4))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$03") (unit 1)
         )
@@ -5246,7 +5454,7 @@
     (pin "1" (uuid 7da032ed-ef87-48c9-8aab-12a3851cc626))
     (pin "2" (uuid f0954c17-f559-4dbc-a36d-64f189c0de0f))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R5") (unit 1)
         )
@@ -5271,7 +5479,7 @@
     )
     (pin "1" (uuid f58dece7-f296-49cc-9bd1-beb914030a84))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$015") (unit 1)
         )
@@ -5296,7 +5504,7 @@
     )
     (pin "1" (uuid afbb1098-6bbb-4459-bfae-7485df35ffbd))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$022") (unit 1)
         )
@@ -5321,7 +5529,7 @@
     )
     (pin "1" (uuid 323d1355-60a3-483b-b21a-81536073f5ae))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$02") (unit 1)
         )
@@ -5346,7 +5554,7 @@
     )
     (pin "1" (uuid 019b049b-f62a-4695-8228-8dd243405a47))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$09") (unit 1)
         )
@@ -5372,7 +5580,7 @@
     (pin "1" (uuid dd0e8e24-0d4a-4621-b991-7f85cdd7e91e))
     (pin "2" (uuid 6bf8bfb2-381a-4fee-8ba2-4bff4b0506e2))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R7") (unit 1)
         )
@@ -5398,7 +5606,7 @@
     (pin "1" (uuid ea725fe5-6f37-4ba0-9eec-90aa57e4a9f7))
     (pin "2" (uuid c3145ac1-2798-4df2-a34f-53451cd9b8e5))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C1") (unit 1)
         )
@@ -5424,7 +5632,7 @@
     (pin "1" (uuid fc7c8d27-4552-405a-8b25-dadc1258c1be))
     (pin "2" (uuid 32a0920c-1060-481b-9c5f-e2bd5e640406))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "X3") (unit 1)
         )
@@ -5450,7 +5658,7 @@
     (pin "1" (uuid 9aabd61f-7f47-4f99-b963-53ef0a8299fa))
     (pin "2" (uuid b60e5bf3-7df6-4427-89f6-7d6dc5e681fc))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R2") (unit 1)
         )
@@ -5476,7 +5684,7 @@
     (pin "1" (uuid a64b483c-0db5-4fd3-93ce-3a524d710b59))
     (pin "2" (uuid d15be596-64e4-4736-b889-556cc37266c1))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R9") (unit 1)
         )
@@ -5501,7 +5709,7 @@
     )
     (pin "1" (uuid b8933508-e701-4751-9da7-75b6e0e40117))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$025") (unit 1)
         )
@@ -5527,7 +5735,7 @@
     (pin "1" (uuid 46cf808e-0fa5-4850-a1c2-466fe262caaa))
     (pin "2" (uuid 348d86ce-000e-4837-845e-2a73d65058f9))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C5") (unit 1)
         )
@@ -5552,7 +5760,7 @@
     )
     (pin "1" (uuid 16afa23c-ede3-4996-8427-a8e8becc2440))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$048") (unit 1)
         )
@@ -5577,7 +5785,7 @@
     )
     (pin "TP" (uuid 3b450cf2-beb9-4975-82ad-8278591d5664))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "TP1") (unit 1)
         )
@@ -5602,7 +5810,7 @@
     )
     (pin "1" (uuid e87fdef3-2d8b-48ee-8075-f955021ec1e8))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$055") (unit 1)
         )
@@ -5627,7 +5835,7 @@
     )
     (pin "1" (uuid eb939871-33af-4f7f-a1e2-25edf0b5fe25))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$08") (unit 1)
         )
@@ -5656,7 +5864,7 @@
     (pin "4" (uuid 4678ace0-1d81-4c06-a7fc-5620b0cfb3ef))
     (pin "5" (uuid 119a1532-9ec1-4cf0-bdb3-c6e88bd3926a))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "U2") (unit 1)
         )
@@ -5684,7 +5892,7 @@
     (pin "B" (uuid 45131214-ca09-40b1-bbf0-1bfc234e20fe))
     (pin "B'" (uuid 55c32536-ea30-4a9e-87bf-f0c66422289d))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "SW102") (unit 1)
         )
@@ -5709,7 +5917,7 @@
     )
     (pin "1" (uuid feccd96b-c293-4229-88e5-10f38cc57ace))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$07") (unit 1)
         )
@@ -5734,7 +5942,7 @@
     )
     (pin "1" (uuid e6ccf7bf-e66f-4865-afb3-306cfa3148c6))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$033") (unit 1)
         )
@@ -5760,9 +5968,34 @@
     (pin "1" (uuid 4e7b0e78-8153-45f1-bc4d-91ff222cacda))
     (pin "2" (uuid f6f172fc-31d1-48e2-99e5-a62d05521aaf))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V") (at 262.89 133.35 270) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid 9e801663-e4f9-4be3-b2af-a205f8708694)
+    (property "Reference" "#U$019" (at 262.89 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "3.3V" (at 263.906 131.826 0)
+      (effects (font (size 1.27 1.0795)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 262.89 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 262.89 133.35 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 8029c302-9277-44e5-b322-ce39de4fc2f8))
+    (instances
+      (project "Every83_PCB"
+        (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+          (reference "#U$019") (unit 1)
         )
       )
     )
@@ -5785,7 +6018,7 @@
     )
     (pin "1" (uuid 7370de14-87a9-43c7-be94-422271f989ad))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$054") (unit 1)
         )
@@ -5810,9 +6043,34 @@
     )
     (pin "1" (uuid e71d884d-b0be-42aa-a502-3dd5acf50e2e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$013") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND") (at 262.89 135.89 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid a7333f20-a3ee-4730-9f92-77004dbf6773)
+    (property "Reference" "#U$021" (at 262.89 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 265.43 137.414 0)
+      (effects (font (size 1.27 1.0795)) (justify left bottom))
+    )
+    (property "Footprint" "" (at 262.89 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 262.89 135.89 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid c22edd08-2ba6-4bbc-ab64-a244ff43203e))
+    (instances
+      (project "Every83_PCB"
+        (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+          (reference "#U$021") (unit 1)
         )
       )
     )
@@ -5835,7 +6093,7 @@
     )
     (pin "1" (uuid 8410d80e-fbbe-47b1-b820-9a09e438f45c))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$031") (unit 1)
         )
@@ -5860,7 +6118,7 @@
     )
     (pin "1" (uuid 6fce4cda-0a90-4e6b-ba87-fd94daa49b8b))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$05") (unit 1)
         )
@@ -5888,7 +6146,7 @@
     (pin "B" (uuid 952ac36e-c15d-40ba-a9f3-802fd52baaa6))
     (pin "B'" (uuid 0926dea2-5cb0-4d45-9781-8ffd0b81b832))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "SW101") (unit 1)
         )
@@ -5913,7 +6171,7 @@
     )
     (pin "1" (uuid f6ed08d7-5d97-4a9e-a707-85c8e623adb4))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$046") (unit 1)
         )
@@ -5938,7 +6196,7 @@
     )
     (pin "1" (uuid bd066c17-6b3d-4ee3-9d26-99f9c46d19ea))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$01") (unit 1)
         )
@@ -5963,7 +6221,7 @@
     )
     (pin "1" (uuid a7e3820c-5977-46a6-89af-fccdad592539))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$051") (unit 1)
         )
@@ -5989,7 +6247,7 @@
     (pin "1" (uuid 330e4b8a-29c5-4c2d-8a1e-e0e14fce5cc7))
     (pin "2" (uuid 2c28a888-d889-4bd3-b20b-9bf6978c02ca))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C10") (unit 1)
         )
@@ -6014,7 +6272,7 @@
     )
     (pin "1" (uuid fb2385f9-5002-4af3-b8e0-197145021b79))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$032") (unit 1)
         )
@@ -6040,7 +6298,7 @@
     (pin "1" (uuid 23402afc-f1f4-4c08-be9c-b2c29be17f7a))
     (pin "2" (uuid a11d23d9-594c-4127-aabe-f41bc2ca190c))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C3") (unit 1)
         )
@@ -6065,7 +6323,7 @@
     )
     (pin "1" (uuid 5d04e79c-580e-42c8-8ce4-b9baaeea3da4))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$057") (unit 1)
         )
@@ -6090,7 +6348,7 @@
     )
     (pin "1" (uuid 7ba400cc-a24c-4254-9903-2eaf12660036))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$042") (unit 1)
         )
@@ -6116,7 +6374,7 @@
     (pin "A" (uuid 77a1b92a-0731-4cf7-b0bd-6999af41570e))
     (pin "C" (uuid fb196f35-2591-48bb-b687-f1ce299fc91c))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "D101") (unit 1)
         )
@@ -6141,7 +6399,7 @@
     )
     (pin "1" (uuid 05af21ff-7955-4a3c-9727-ec94b03646a8))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$036") (unit 1)
         )
@@ -6166,7 +6424,7 @@
     )
     (pin "1" (uuid 8ac7561f-0d55-409f-ad0d-904c39e944c5))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$020") (unit 1)
         )
@@ -6192,7 +6450,7 @@
     (pin "1" (uuid 394ab157-7895-4ff2-bf81-ce6d06b5fd59))
     (pin "2" (uuid f5ef36cc-4953-4c2c-9cce-8dc33157d05f))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R11") (unit 1)
         )
@@ -6217,7 +6475,7 @@
     )
     (pin "1" (uuid d81acfde-cfcf-454c-968f-564549c6ffa5))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$029") (unit 1)
         )
@@ -6243,7 +6501,7 @@
     (pin "1" (uuid 3214e106-af47-45ac-8a73-2bf4ac4b64bd))
     (pin "2" (uuid f7a980bb-c979-457b-8195-61d97af6791b))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "R8") (unit 1)
         )
@@ -6269,7 +6527,7 @@
     (pin "1" (uuid 5801f2f9-9852-4112-b6eb-65b7be8f829f))
     (pin "2" (uuid 9eae6fb2-6d8c-422b-879e-ac1e38216242))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C9") (unit 1)
         )
@@ -6298,9 +6556,41 @@
     (pin "4" (uuid f3f69dfa-493c-4001-8731-6b6d5b11c96e))
     (pin "5" (uuid a7e87d76-1a47-47cd-af6b-f91f72801b92))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "U3") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Connector:Conn_01x08_Pin") (at 255.27 140.97 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid ed9daba4-7f38-4737-8e5d-ba4a4a7b2d0c)
+    (property "Reference" "J2" (at 255.905 129.54 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Conn_01x08_Pin" (at 255.905 132.08 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical" (at 255.27 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 255.27 140.97 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 97b85a56-8768-439c-8aca-6a363d8df3bf))
+    (pin "2" (uuid c188bf65-2630-4fc3-a3c1-42cb08106136))
+    (pin "3" (uuid 1b0c1981-1097-4419-bf2e-dfcc346032fe))
+    (pin "4" (uuid 0fc274b7-27dd-4bb2-8b7d-d4a360449c2d))
+    (pin "5" (uuid c01fd38f-f7b8-4c26-96dc-cbd327f9127a))
+    (pin "6" (uuid 93def0ef-b236-43d9-9ecb-f36414b24815))
+    (pin "7" (uuid 3b2114bd-32bb-4e52-95dc-98ceabe70508))
+    (pin "8" (uuid 0cc5f5c0-f6b2-419d-9f13-7b3cf45dab7e))
+    (instances
+      (project "Every83_PCB"
+        (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+          (reference "J2") (unit 1)
         )
       )
     )
@@ -6323,7 +6613,7 @@
     )
     (pin "1" (uuid ad78c6d6-3c09-435e-9734-46eee4a0c949))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$017") (unit 1)
         )
@@ -6348,7 +6638,7 @@
     )
     (pin "1" (uuid ef02e0f9-577a-444e-aea1-7b38bd410770))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$049") (unit 1)
         )
@@ -6373,7 +6663,7 @@
     )
     (pin "1" (uuid 79890da5-bd06-4f1b-ad74-2605ad0c8658))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "#U$053") (unit 1)
         )
@@ -6399,7 +6689,7 @@
     (pin "1" (uuid b77e9e2d-f0e7-4ebc-9c64-3867123a6b97))
     (pin "2" (uuid 7ce1f6e3-6f8b-42b9-a716-e7b0dc10726e))
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
           (reference "C8") (unit 1)
         )
@@ -6418,7 +6708,7 @@
       (effects (font (size 1.27 1.27)) (justify left top))
     )
     (instances
-      (project "Adafruit nRF52840 Bluefruit Feather Express Rev D"
+      (project "Every83_PCB"
         (path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450" (page "2"))
       )
     )

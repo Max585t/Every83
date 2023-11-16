@@ -1,4 +1,4 @@
-21969739241330337
+21973151926340206
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59107,6 +59107,20 @@ THT
 0
 4
 2
+JohnDeereLibrary
+8_Pin_DIP
+
+
+0
+8
+8
+JohnDeereLibrary
+DFR0995_Mounting_holes
+
+
+0
+0
+0
 JohnDeereLibrary
 GATERON Upgrade Low Profile switch Hot-swap PCB 2.0 Socket
 
