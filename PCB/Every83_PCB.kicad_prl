@@ -2,10 +2,15 @@
   "board": {
     "active_layer": 31,
     "active_layer_preset": "",
-    "auto_track_width": true,
-    "hidden_netclasses": [],
+    "auto_track_width": false,
+    "hidden_netclasses": [
+      "power"
+    ],
     "hidden_nets": [
-      "GND"
+      "GND",
+      "VBUS",
+      "3.3V",
+      "VBAT"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -66,7 +71,7 @@
       39,
       40
     ],
-    "visible_layers": "8001300_fffffff9",
+    "visible_layers": "8001130_fffffffb",
     "zone_display_mode": 0
   },
   "meta": {

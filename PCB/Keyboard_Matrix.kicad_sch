@@ -3990,7 +3990,19 @@
 
   (label "NEOPIX" (at 2.54 237.49 0) (fields_autoplaced)
     (effects (font (size 1.2446 1.2446)) (justify left bottom))
-    (uuid 921a2ba6-f4e6-4a29-8f75-85e5c31f23d1)
+    (uuid 9ed089e0-4ec1-47b2-b91d-e22a9f713aeb)
+  )
+  (label "NEOPIX" (at -20.32 233.68 0) (fields_autoplaced)
+    (effects (font (size 1.2446 1.2446)) (justify left bottom))
+    (uuid d51870a7-8231-4686-a964-c6a4fb86f2ca)
+  )
+
+  (global_label "NEOPIX" (shape input) (at -20.32 233.68 270) (fields_autoplaced)
+    (effects (font (size 1.27 1.27)) (justify right))
+    (uuid 5975e1a2-cc90-49b9-ace2-134120c8d787)
+    (property "Intersheetrefs" "${INTERSHEET_REFS}" (at -20.32 243.4801 90)
+      (effects (font (size 1.27 1.27)) (justify right) hide)
+    )
   )
 
   (symbol (lib_id "JohnDeere:MX_NEO") (at 102.87 38.1 0) (unit 1)
