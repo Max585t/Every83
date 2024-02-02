@@ -1,4 +1,11 @@
-21991838031911897
+22024217783837668
+73306-111LF
+AMPHENOL_73306-111LF
+
+
+0
+6
+6
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -59115,6 +59122,20 @@ JohnDeereLibrary
 8
 8
 JohnDeereLibrary
+AMPHENOL_73306-111LF
+
+
+0
+6
+6
+JohnDeereLibrary
+DFR0995_Mounting_holes
+
+
+0
+0
+0
+JohnDeereLibrary
 GATERON Upgrade Low Profile switch Hot-swap PCB 2.0 Socket
 
 
@@ -59157,6 +59178,13 @@ Gateron low profile stabilizer pcb cuttout
 0
 0
 JohnDeereLibrary
+KB2040
+
+
+0
+26
+26
+JohnDeereLibrary
 MOLEX_0955012401
 
 
@@ -59184,6 +59212,20 @@ Pomona_73099
 0
 5
 1
+JohnDeereLibrary
+SK6805-EC 15
+
+
+0
+4
+4
+JohnDeereLibrary
+SK6812-EC3210F
+
+
+0
+4
+4
 JohnDeereLibrary
 SP3232ECT
 
@@ -60465,6 +60507,13 @@ solder_jumper
 0
 2
 2
+KiCADv6_1
+CONN_85502-5009_MOL
+
+855025009 
+0
+6
+6
 Kicad
 Python_logo
 
@@ -91567,6 +91616,13 @@ rp2040-zero-tht-pads-cutout
 33
 33
 fingerpunch
+unix69_plate_no_stabs
+
+
+0
+0
+0
+fingerpunch
 vik-connector-horizontal
 
 
@@ -91735,12 +91791,47 @@ MX,cherry,gateron,kailh,pg1511,socket
 0
 0
 footprints
+21-0036K_MXM
+
+MAX865EUA+ 
+0
+8
+8
+footprints
+21-0036K_MXM-L
+
+MAX865EUA+ 
+0
+8
+8
+footprints
+21-0036K_MXM-M
+
+MAX865EUA+ 
+0
+8
+8
+footprints
+21-0043D_8_MXM
+
+MAX680CPA+ 
+0
+8
+8
+footprints
 CON_781710004
 
 781710004 
 0
 6
 6
+footprints
+CUI_PJ-036CH
+
+
+0
+3
+3
 footprints
 D8
 
@@ -91759,6 +91850,27 @@ footprints
 D8-M
 
 OPA1662AID 
+0
+8
+8
+footprints
+D0008A_L
+
+OPA1656ID 
+0
+8
+8
+footprints
+D0008A_M
+
+OPA1656ID 
+0
+8
+8
+footprints
+D0008A_N
+
+OPA1656ID 
 0
 8
 8
@@ -91784,6 +91896,13 @@ XFL2010-682MEC
 2
 2
 footprints
+PJRAS2X1S__X_SWC
+
+PJRAS2X1S01AUX 
+0
+4
+4
+footprints
 QFN-16_UD_LIT
 
 LT3582EUD-12-PBF 
@@ -91804,6 +91923,13 @@ LT3582EUD-12-PBF
 0
 17
 17
+footprints
+RES3_PV36W103C01B00_BRN
+
+PV36W103C01B00 
+0
+3
+3
 footprints
 SPDT Slide Switch
 
