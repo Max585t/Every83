@@ -832,6 +832,509 @@
 				)
 			)
 		)
+		(symbol "2024-03-25_01-24-54:SM03B-SRSS-TB"
+			(pin_names
+				(offset 0.254)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 8.89 6.35 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Value" "SM03B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.524 1.524)
+					)
+				)
+			)
+			(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "SM03B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+						(italic yes)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_locked" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "SM03B-SRSS-TB"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "CONN_SM03B-SRSS-TB_JST"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM03B-SRSS-TB_1_1"
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 10.16 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "SM03B-SRSS-TB_1_2"
+				(polyline
+					(pts
+						(xy 5.08 -7.62) (xy 12.7 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 5.08 2.54) (xy 5.08 -7.62)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 5.08 -5.08)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -5.9267)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -5.08) (xy 8.89 -4.2333)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 5.08 -2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -3.3867)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 -2.54) (xy 8.89 -1.6933)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 5.08 0)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 -0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 7.62 0) (xy 8.89 0.8467)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 -7.62) (xy 12.7 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 12.7 2.54) (xy 5.08 2.54)
+					)
+					(stroke
+						(width 0.127)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at 0 0 0)
+					(length 5.08)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -2.54 0)
+					(length 5.08)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 0 -5.08 0)
+					(length 5.08)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -7826,10 +8329,6 @@
 		(color 0 0 0 0)
 		(uuid "d96e9f42-e2eb-4942-976c-0e0caefa7d00")
 	)
-	(no_connect
-		(at 200.66 179.07)
-		(uuid "93fbd625-7054-4ec8-a447-531ea41e1c77")
-	)
 	(wire
 		(pts
 			(xy 170.18 129.54) (xy 170.18 144.78)
@@ -9391,6 +9890,17 @@
 		)
 		(uuid "0738f5c9-3c08-4e0b-a290-05e8e43c9feb")
 	)
+	(label "TXD"
+		(at 167.64 181.61 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "0a703998-1253-49dd-b265-93a09e75f60f")
+	)
 	(label "VDIV"
 		(at 144.78 66.04 90)
 		(fields_autoplaced yes)
@@ -9544,17 +10054,6 @@
 			(justify left bottom)
 		)
 		(uuid "4b06b932-9db7-4c4a-a47b-5447020879cf")
-	)
-	(label "RESET"
-		(at 200.66 168.91 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "4c106400-fbfd-465d-96fd-cc22115efc53")
 	)
 	(label "CS"
 		(at 260.35 143.51 0)
@@ -9755,13 +10254,13 @@
 		(uuid "b5055e7f-d5f5-4943-920e-44c689abbf43")
 	)
 	(label "SWDIO"
-		(at 200.66 176.53 0)
+		(at 167.64 162.56 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "bb13d236-93b9-4851-8256-73f943dde1a7")
 	)
@@ -9777,13 +10276,13 @@
 		(uuid "c0199dea-01da-479b-945a-2dca8ef1d8ef")
 	)
 	(label "SWDCLK"
-		(at 200.66 173.99 0)
+		(at 167.64 157.48 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "c79408c6-3404-490a-b5a8-1661aaf50b7e")
 	)
@@ -9841,6 +10340,17 @@
 			(justify left bottom)
 		)
 		(uuid "dbfa34cf-8a03-427d-9b04-0b5851c629a4")
+	)
+	(label "RXD"
+		(at 167.64 176.53 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify right bottom)
+		)
+		(uuid "dff65f32-59c0-4391-a170-5a504322ed42")
 	)
 	(label "USBD-"
 		(at 121.92 144.78 90)
@@ -9985,50 +10495,6 @@
 			)
 		)
 	)
-	(global_label "Col3"
-		(shape input)
-		(at 101.6 96.52 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "072066e8-8bbe-4f1d-b66a-aa62621984aa")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col7"
-		(shape input)
-		(at 101.6 86.36 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "077d03fe-e9a5-4abb-9258-d8f9599d8898")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Row1"
 		(shape input)
 		(at 190.5 68.58 90)
@@ -10051,6 +10517,50 @@
 			)
 		)
 	)
+	(global_label "Col4"
+		(shape input)
+		(at 101.6 104.14 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "0bf5938b-d9f9-4be7-be6b-4f11c802c518")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3211 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col6"
+		(shape input)
+		(at 101.6 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "10493811-3a0a-442c-a676-3b785b34d0f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3211 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row4"
 		(shape input)
 		(at 157.48 68.58 90)
@@ -10069,6 +10579,28 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col8"
+		(shape input)
+		(at 101.6 101.6 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "14fa6716-2255-4de7-8a9b-0cf3460d74fb")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3211 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -10119,7 +10651,7 @@
 	)
 	(global_label "Col2"
 		(shape input)
-		(at 101.6 99.06 180)
+		(at 101.6 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10127,9 +10659,9 @@
 			)
 			(justify right)
 		)
-		(uuid "324c7f3d-4406-42c7-9efd-7e970b5c0b85")
+		(uuid "30259119-213b-476c-81b1-adeedea1dd60")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 99.06 0)
+			(at 94.3211 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10183,7 +10715,29 @@
 			)
 		)
 	)
-	(global_label "Col8"
+	(global_label "Col1"
+		(shape input)
+		(at 101.6 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "680e284e-25dd-4c03-8df8-8a2d4362d054")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3211 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col0"
 		(shape input)
 		(at 101.6 78.74 180)
 		(fields_autoplaced yes)
@@ -10193,9 +10747,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5738c0aa-5b74-4ac6-91a8-d684fdf3b210")
+		(uuid "75056d94-94e7-4bc8-91df-f0e6ebcd0540")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 78.74 0)
+			(at 94.3211 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10205,9 +10759,9 @@
 			)
 		)
 	)
-	(global_label "Col4"
+	(global_label "Col3"
 		(shape input)
-		(at 101.6 93.98 180)
+		(at 101.6 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10215,53 +10769,9 @@
 			)
 			(justify right)
 		)
-		(uuid "5afb31c9-1b64-4739-89ad-023a457e74e8")
+		(uuid "90ad3be2-b780-4fd4-8200-e9f3daed1bb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col5"
-		(shape input)
-		(at 101.6 91.44 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "67ec83d0-6f04-4d8d-b57d-03339e26454a")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 91.44 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col1"
-		(shape input)
-		(at 101.6 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "825de810-4e96-45b7-bc33-61326dc95f63")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 101.6 0)
+			(at 94.3211 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10293,6 +10803,28 @@
 			)
 		)
 	)
+	(global_label "Col7"
+		(shape input)
+		(at 101.6 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "c179e802-cd1e-4cba-9d39-ee0d0c25a69f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 94.3211 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "Row0"
 		(shape input)
 		(at 193.04 68.58 90)
@@ -10315,9 +10847,9 @@
 			)
 		)
 	)
-	(global_label "Col0"
+	(global_label "Col5"
 		(shape input)
-		(at 101.6 104.14 180)
+		(at 101.6 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10325,9 +10857,9 @@
 			)
 			(justify right)
 		)
-		(uuid "e44a0494-07b5-4f11-a24c-8afd681f7af1")
+		(uuid "e0d9eb5a-5bb2-4638-97d9-cff8353265ff")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 104.14 0)
+			(at 94.3211 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10355,28 +10887,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col6"
-		(shape input)
-		(at 101.6 88.9 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f3d47386-1aa1-4b3e-8fd4-c6786dfc1b88")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 94.4005 88.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 				(hide yes)
 			)
 		)
@@ -11291,6 +11801,81 @@
 		)
 	)
 	(symbol
+		(lib_id "2024-03-25_01-24-54:SM03B-SRSS-TB")
+		(at 167.64 157.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "2ef75d74-0628-43fa-9675-cbbf6b7af231")
+		(property "Reference" "J3"
+			(at 181.61 158.7499 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB"
+			(at 181.61 161.2899 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CONN_SM03B-SRSS-TB_JST"
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SM03B-SRSS-TB"
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd3e49d-282d-49eb-a1e8-7c8de8315852")
+		)
+		(pin "3"
+			(uuid "270fd21d-b134-48cd-9af0-d11cfe90486b")
+		)
+		(pin "1"
+			(uuid "8d56fe95-ba4c-4098-999f-f37a6dd3a642")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
 		(at 132.08 180.34 0)
 		(unit 1)
@@ -11417,72 +12002,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 190.5 186.69 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "337d8e8f-7414-4741-bd8c-93bbcb762d27")
-		(property "Reference" "#U$024"
-			(at 190.5 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 188.976 189.23 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 186.69 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "555627da-dd49-4edd-9f69-c6a0d883d49c")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$024")
 					(unit 1)
 				)
 			)
@@ -13229,72 +13748,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
-		(at 190.5 161.29 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6ea22389-2afa-4610-aeb5-48dc937678a3")
-		(property "Reference" "#U$020"
-			(at 190.5 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 188.976 160.274 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 190.5 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 190.5 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 190.5 161.29 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3ac57293-7243-4d00-95d2-96476868f239")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$020")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
 		(at 50.8 238.76 0)
 		(unit 1)
@@ -14854,6 +15307,81 @@
 		)
 	)
 	(symbol
+		(lib_id "2024-03-25_01-24-54:SM03B-SRSS-TB")
+		(at 167.64 176.53 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "b9b64582-2ab6-4899-b671-3b88cb614eba")
+		(property "Reference" "J4"
+			(at 181.61 177.7999 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SM03B-SRSS-TB"
+			(at 181.61 180.3399 0)
+			(effects
+				(font
+					(size 1.524 1.524)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "footprints:CONN_SM03B-SRSS-TB_JST"
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "SM03B-SRSS-TB"
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+					(italic yes)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 167.64 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "2fd3e49d-282d-49eb-a1e8-7c8de8315852")
+		)
+		(pin "3"
+			(uuid "270fd21d-b134-48cd-9af0-d11cfe90486b")
+		)
+		(pin "1"
+			(uuid "8d56fe95-ba4c-4098-999f-f37a6dd3a642")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "J4")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
 		(at 121.92 180.34 0)
 		(unit 1)
@@ -15047,6 +15575,72 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$057")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 165.1 160.02 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "cd39221d-5446-4f31-99fd-e4aadf170b90")
+		(property "Reference" "#U$09"
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 158.496 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fcd0abcb-ed4b-4525-b1cd-993a71876f5c")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$09")
 					(unit 1)
 				)
 			)
@@ -15380,6 +15974,72 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 165.1 179.07 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e44fed7f-1a95-4106-b1a3-8a39fef82be0")
+		(property "Reference" "#U$020"
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 162.56 177.546 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 165.1 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "890bd254-4fd0-438b-9e3e-b7ae52b162e9")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$020")
 					(unit 1)
 				)
 			)
