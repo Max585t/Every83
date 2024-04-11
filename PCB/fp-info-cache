@@ -1,4 +1,4 @@
-23126712717300094
+23131850772644869
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -56699,6 +56699,20 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+Gateron_LP_Stabilizers
+Gateron Low Profile Stabilizer Plate Cutout
+
+
+0
+0
+0
+Gateron_LP_Stabilizers
+Gateron Low Profile Stabilizer Plate Cutout 6.25u
+
+
+0
+0
+0
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -94744,3 +94758,10 @@ SM03B-SRSS-TB
 0
 5
 5
+footprints
+Core52840
+
+
+0
+55
+55

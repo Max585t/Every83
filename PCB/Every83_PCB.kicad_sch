@@ -6805,7 +6805,7 @@
 	)
 	(wire
 		(pts
-			(xy 170.18 129.54) (xy 170.18 144.78)
+			(xy 167.64 93.98) (xy 182.88 93.98)
 		)
 		(stroke
 			(width 0)
@@ -6822,6 +6822,16 @@
 			(type solid)
 		)
 		(uuid "04d33ff1-ca80-45cb-8835-6850a6ff8306")
+	)
+	(wire
+		(pts
+			(xy 153.67 143.51) (xy 153.67 142.24)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "087e1a69-9485-4f22-b7be-f52af0961a1c")
 	)
 	(wire
 		(pts
@@ -6925,6 +6935,16 @@
 	)
 	(wire
 		(pts
+			(xy 120.65 81.28) (xy 128.27 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29dd4e22-ef3f-4d18-bed5-32f7b052174b")
+	)
+	(wire
+		(pts
 			(xy 88.9 238.76) (xy 88.9 242.57)
 		)
 		(stroke
@@ -6972,6 +6992,16 @@
 			(type solid)
 		)
 		(uuid "37fc59ed-3e41-4901-ad6d-a89a3ce00a8c")
+	)
+	(wire
+		(pts
+			(xy 129.54 125.73) (xy 135.89 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39867369-733d-4932-be28-d8ab46c31b77")
 	)
 	(wire
 		(pts
@@ -7055,7 +7085,7 @@
 	)
 	(wire
 		(pts
-			(xy 121.92 144.78) (xy 121.92 139.7)
+			(xy 158.75 135.89) (xy 158.75 132.08)
 		)
 		(stroke
 			(width 0.1524)
@@ -7082,6 +7112,16 @@
 			(type solid)
 		)
 		(uuid "522faec5-2411-4e3a-a2de-a17763378ca2")
+	)
+	(wire
+		(pts
+			(xy 119.38 109.22) (xy 128.27 109.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "542da819-1cdc-4a02-9742-a139db334cc8")
 	)
 	(wire
 		(pts
@@ -7125,6 +7165,16 @@
 	)
 	(wire
 		(pts
+			(xy 153.67 143.51) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5c474e31-1c21-453f-9100-7e9713378a22")
+	)
+	(wire
+		(pts
 			(xy 195.58 231.14) (xy 195.58 234.95)
 		)
 		(stroke
@@ -7165,6 +7215,16 @@
 	)
 	(wire
 		(pts
+			(xy 158.75 129.54) (xy 158.75 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60a7ef3e-f8bd-4740-983e-c1e397a78ed9")
+	)
+	(wire
+		(pts
 			(xy 271.78 246.38) (xy 274.32 246.38)
 		)
 		(stroke
@@ -7192,6 +7252,16 @@
 			(type solid)
 		)
 		(uuid "6e3cae57-37b5-4da4-b70d-9baf59c5753a")
+	)
+	(wire
+		(pts
+			(xy 156.21 120.65) (xy 156.21 143.51)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6f8deec3-120b-4711-9e73-ba4be10536d7")
 	)
 	(wire
 		(pts
@@ -7235,16 +7305,6 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 129.54) (xy 132.08 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "7f12558b-0742-4495-8592-904ce383c0f0")
-	)
-	(wire
-		(pts
 			(xy 93.98 233.68) (xy 88.9 233.68)
 		)
 		(stroke
@@ -7285,7 +7345,7 @@
 	)
 	(wire
 		(pts
-			(xy 175.26 129.54) (xy 175.26 144.78)
+			(xy 167.64 96.52) (xy 182.88 96.52)
 		)
 		(stroke
 			(width 0)
@@ -7322,16 +7382,6 @@
 			(type solid)
 		)
 		(uuid "900ae581-0daf-4c04-9014-41f13717da38")
-	)
-	(wire
-		(pts
-			(xy 129.54 129.54) (xy 129.54 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "90357969-0870-41c8-b265-000f8afcc50a")
 	)
 	(wire
 		(pts
@@ -7395,7 +7445,7 @@
 	)
 	(wire
 		(pts
-			(xy 162.56 129.54) (xy 162.56 144.78)
+			(xy 199.39 116.84) (xy 189.23 116.84)
 		)
 		(stroke
 			(width 0.1524)
@@ -7415,23 +7465,23 @@
 	)
 	(wire
 		(pts
-			(xy 160.02 129.54) (xy 160.02 144.78)
+			(xy 167.64 111.76) (xy 175.26 111.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "aa48c895-6802-41e7-9a96-60a45848dae7")
+	)
+	(wire
+		(pts
+			(xy 199.39 119.38) (xy 189.23 119.38)
 		)
 		(stroke
 			(width 0.1524)
 			(type solid)
 		)
 		(uuid "aabe2690-7394-42d1-a6a3-e482955f6845")
-	)
-	(wire
-		(pts
-			(xy 134.62 129.54) (xy 134.62 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ab0dd6d2-40e5-4d5f-a1d2-ae46db0f3d21")
 	)
 	(wire
 		(pts
@@ -7442,6 +7492,16 @@
 			(type solid)
 		)
 		(uuid "ab2448a6-5218-4ecf-8722-7551464db12d")
+	)
+	(wire
+		(pts
+			(xy 158.75 121.92) (xy 158.75 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "ac1659b4-2acc-4dac-9e87-be7953835e1e")
 	)
 	(wire
 		(pts
@@ -7465,6 +7525,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 121.92) (xy 161.29 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b245d40d-3718-47f1-9c0d-3e74991f2547")
+	)
+	(wire
+		(pts
 			(xy 121.92 241.3) (xy 116.84 241.3)
 		)
 		(stroke
@@ -7485,16 +7555,6 @@
 	)
 	(wire
 		(pts
-			(xy 180.34 139.7) (xy 180.34 129.54)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "b3ece108-3b8c-4033-a859-8a53e04efb0a")
-	)
-	(wire
-		(pts
 			(xy 60.96 187.96) (xy 58.42 187.96)
 		)
 		(stroke
@@ -7505,7 +7565,7 @@
 	)
 	(wire
 		(pts
-			(xy 124.46 139.7) (xy 124.46 144.78)
+			(xy 161.29 132.08) (xy 161.29 135.89)
 		)
 		(stroke
 			(width 0.1524)
@@ -7525,6 +7585,16 @@
 	)
 	(wire
 		(pts
+			(xy 161.29 129.54) (xy 161.29 132.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4234099-d81d-48d4-9a6d-8a95ccf3a45d")
+	)
+	(wire
+		(pts
 			(xy 99.06 251.46) (xy 99.06 254)
 		)
 		(stroke
@@ -7532,16 +7602,6 @@
 			(type solid)
 		)
 		(uuid "c71858a3-f5fd-4d28-aba4-57dbe6f15bb9")
-	)
-	(wire
-		(pts
-			(xy 127 129.54) (xy 127 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c7504858-988f-4187-93f7-428579a2cce4")
 	)
 	(wire
 		(pts
@@ -7555,7 +7615,7 @@
 	)
 	(wire
 		(pts
-			(xy 137.16 129.54) (xy 137.16 144.78)
+			(xy 153.67 120.65) (xy 153.67 134.62)
 		)
 		(stroke
 			(width 0)
@@ -7582,6 +7642,16 @@
 			(type solid)
 		)
 		(uuid "d584d384-141c-4630-a1a6-465a55453068")
+	)
+	(wire
+		(pts
+			(xy 135.89 125.73) (xy 135.89 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d5af9bb2-9edd-4b48-888e-b3439e205990")
 	)
 	(wire
 		(pts
@@ -7635,6 +7705,16 @@
 	)
 	(wire
 		(pts
+			(xy 167.64 81.28) (xy 175.26 81.28)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e4fcb02d-48d4-48a2-9da3-d84951c384b4")
+	)
+	(wire
+		(pts
 			(xy 287.02 243.84) (xy 287.02 254)
 		)
 		(stroke
@@ -7655,27 +7735,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 119.38) (xy 99.06 119.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e79e971c-88c8-43a9-bdd3-2a5fccc18aa2")
-	)
-	(wire
-		(pts
-			(xy 154.94 129.54) (xy 154.94 144.78)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e8a23a53-1c6c-431e-b04f-c72a6fd3dc14")
-	)
-	(wire
-		(pts
-			(xy 167.64 129.54) (xy 167.64 144.78)
+			(xy 199.39 109.22) (xy 189.23 109.22)
 		)
 		(stroke
 			(width 0.1524)
@@ -7712,6 +7772,16 @@
 			(type default)
 		)
 		(uuid "f4127963-526d-4b4b-953b-dba413fae8ff")
+	)
+	(wire
+		(pts
+			(xy 129.54 124.46) (xy 129.54 125.73)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f767181d-3950-4c84-a896-32947172cfe7")
 	)
 	(wire
 		(pts
@@ -7911,7 +7981,7 @@
 		(uuid "fb00b0ad-a2dc-400d-8f80-4b3afbe4c72e")
 	)
 	(label "RXD"
-		(at 160.02 144.78 90)
+		(at 189.23 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7920,6 +7990,17 @@
 			(justify left bottom)
 		)
 		(uuid "0738f5c9-3c08-4e0b-a290-05e8e43c9feb")
+	)
+	(label "USBD+"
+		(at 161.29 135.89 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "085934ee-b7c4-4717-807f-85a0a590503a")
 	)
 	(label "TXD"
 		(at 167.64 181.61 180)
@@ -7932,19 +8013,8 @@
 		)
 		(uuid "0a703998-1253-49dd-b265-93a09e75f60f")
 	)
-	(label "VDIV"
-		(at 134.62 144.78 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "0c6f6e06-a542-40a0-ad85-6500ed75bb7c")
-	)
 	(label "RESET"
-		(at 137.16 144.78 90)
+		(at 153.67 134.62 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7955,7 +8025,7 @@
 		(uuid "21f4e324-d2ef-4b0b-a3a4-11aecec1c2ff")
 	)
 	(label "TXD"
-		(at 162.56 144.78 90)
+		(at 189.23 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -7966,29 +8036,18 @@
 		(uuid "2e02aab5-786e-4187-b97b-1df5abfc0c2f")
 	)
 	(label "SWDCLK"
-		(at 175.26 144.78 90)
+		(at 182.88 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "3b9ce825-1945-4735-a0f3-b95976c6b5e6")
 	)
-	(label "NEOPIX"
-		(at 121.92 157.48 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "4b06b932-9db7-4c4a-a47b-5447020879cf")
-	)
 	(label "SWITCH"
-		(at 167.64 144.78 90)
+		(at 189.23 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8009,17 +8068,6 @@
 		)
 		(uuid "5ac49b05-e11c-4004-b4ff-5c0bee42738f")
 	)
-	(label "USBD+"
-		(at 124.46 144.78 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "5f7a6815-b648-4078-945a-4904bc0313c7")
-	)
 	(label "RESET"
 		(at 45.72 187.96 0)
 		(fields_autoplaced yes)
@@ -8032,15 +8080,26 @@
 		(uuid "818a0a0d-2751-479f-88ef-7a75826f8a64")
 	)
 	(label "SWDIO"
-		(at 170.18 144.78 90)
+		(at 182.88 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
 		(uuid "8d0b78fd-bed6-45d7-9bbc-03f3abad6d22")
+	)
+	(label "USBD-"
+		(at 158.75 135.89 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "99e70b72-3d4b-4677-a6f4-5c9dc140c563")
 	)
 	(label "USBD-"
 		(at 325.12 187.96 0)
@@ -8063,17 +8122,6 @@
 			(justify left bottom)
 		)
 		(uuid "aa3abd50-c224-4a0d-bae3-25eb2f33159b")
-	)
-	(label "NEOPIX"
-		(at 132.08 144.78 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "abf736d0-c9a6-45d5-8be4-cf95baec68eb")
 	)
 	(label "SWITCH"
 		(at 73.66 187.96 0)
@@ -8152,16 +8200,16 @@
 		)
 		(uuid "dff65f32-59c0-4391-a170-5a504322ed42")
 	)
-	(label "USBD-"
-		(at 121.92 144.78 90)
+	(label "VDIV"
+		(at 119.38 109.22 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.2446 1.2446)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "f7d37eb5-f374-4e44-929f-1ec29aed6d08")
+		(uuid "f74cd8a6-c730-4a05-b88d-ca25bc6e9d88")
 	)
 	(global_label "Col10"
 		(shape input)
@@ -8209,22 +8257,22 @@
 	)
 	(global_label "NEOPIX"
 		(shape input)
-		(at 121.92 157.48 0)
+		(at 129.54 135.89 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "056eb7cb-4e99-4166-946a-669b7d3cf749")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 131.7201 157.48 0)
+			(at 129.54 145.7695 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8875,72 +8923,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBUS")
-		(at 96.52 119.38 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "08fb2006-bba7-4fe9-aa14-2dc2cd3d4840")
-		(property "Reference" "#U$023"
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 95.504 120.904 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 96.52 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2f0bee21-c1cc-4f2f-a013-7691829b4e3f")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:LED0805_NOOUTLINE")
 		(at 63.5 238.76 0)
 		(unit 1)
@@ -9425,6 +9407,76 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 158.75 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27b788f6-a9e0-4a37-8d1d-44a4aaabe62b")
+		(property "Reference" "R6"
+			(at 161.29 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 161.29 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 156.972 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 158.75 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "500feb4d-6234-4945-9d5a-2f07b18f938b")
+		)
+		(pin "1"
+			(uuid "c9b2d09c-2ef4-4e3b-8a19-b4ab9a0e4174")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "R6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "2024-03-25_01-24-54:SM03B-SRSS-TB")
 		(at 167.64 157.48 0)
 		(unit 1)
@@ -9494,6 +9546,76 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "J3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 161.29 125.73 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "30217190-843d-4493-902e-2bad3191b084")
+		(property "Reference" "R1"
+			(at 163.83 124.4599 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "22R"
+			(at 163.83 126.9999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 159.512 125.73 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 161.29 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "5a6f8815-4705-4822-98ba-3d48dbc987fa")
+		)
+		(pin "1"
+			(uuid "ed281e0e-3b63-45e7-8182-5137b12ec31e")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "R1")
 					(unit 1)
 				)
 			)
@@ -10163,74 +10285,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
-		(at 124.46 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "523f5524-445f-4615-989e-0e6c9887d6b1")
-		(property "Reference" "R10"
-			(at 121.92 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "22"
-			(at 124.46 134.62 0)
-			(effects
-				(font
-					(size 1.016 1.016)
-					(bold yes)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
-			(at 124.46 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 124.46 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 124.46 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a51ea596-dd40-4c24-99bf-47e2103e218b")
-		)
-		(pin "2"
-			(uuid "950a9500-44bb-4f7d-ba2f-1d7df34b103d")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "R10")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
 		(at 111.76 187.96 180)
 		(unit 1)
@@ -10565,6 +10619,72 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 175.26 83.82 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5e922552-5806-48f4-86d7-4f57d5bcba51")
+		(property "Reference" "#U$021"
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 173.736 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 175.26 83.82 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "51064d80-522c-46de-800b-4b15f76edf2a")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 27.94 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10694,6 +10814,72 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "R7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBUS")
+		(at 153.67 139.7 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6953cd4f-359f-4439-a106-993d2b985861")
+		(property "Reference" "#U$017"
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBUS"
+			(at 152.146 138.684 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 153.67 139.7 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fae96956-f9ee-43ba-a2e9-4affa0b9094e")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$017")
 					(unit 1)
 				)
 			)
@@ -11041,7 +11227,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 101.6 124.46 0)
+		(at 120.65 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11049,7 +11235,7 @@
 		(dnp no)
 		(uuid "7f632144-df1e-4d21-9ddb-9f1ca8a5b914")
 		(property "Reference" "#U$048"
-			(at 101.6 124.46 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11058,7 +11244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 100.076 127 0)
+			(at 119.126 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11067,7 +11253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 101.6 124.46 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11076,7 +11262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 101.6 124.46 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11085,7 +11271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 101.6 124.46 0)
+			(at 120.65 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11519,72 +11705,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "R3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 180.34 142.24 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9e898b1a-84a7-4d97-863c-8ba2e965beb2")
-		(property "Reference" "#U$054"
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 178.816 144.78 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 180.34 142.24 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "7370de14-87a9-43c7-be94-422271f989ad")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$054")
 					(unit 1)
 				)
 			)
@@ -12058,72 +12178,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "D103")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 175.26 66.04 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b8590b3a-e2ba-4eb2-be5f-af6f9423f279")
-		(property "Reference" "#U$051"
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.784 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 66.04 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a7e3820c-5977-46a6-89af-fccdad592539")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$051")
 					(unit 1)
 				)
 			)
@@ -12669,33 +12723,34 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
-		(at 121.92 134.62 90)
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
+		(at 129.54 121.92 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "e0a8f692-a54e-4458-a49d-d8e4352e4890")
-		(property "Reference" "R11"
-			(at 119.38 134.62 0)
+		(uuid "e3a1c80b-8539-4aed-990d-9d7fee544184")
+		(property "Reference" "#U$019"
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
+				(hide yes)
 			)
 		)
-		(property "Value" "22"
-			(at 121.92 134.62 0)
+		(property "Value" "3.3V"
+			(at 128.016 120.904 0)
 			(effects
 				(font
-					(size 1.016 1.016)
-					(bold yes)
+					(size 1.27 1.0795)
 				)
+				(justify left bottom)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
-			(at 121.92 134.62 0)
+		(property "Footprint" ""
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12704,7 +12759,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 121.92 134.62 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12713,7 +12768,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 121.92 134.62 0)
+			(at 129.54 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12722,15 +12777,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "394ab157-7895-4ff2-bf81-ce6d06b5fd59")
-		)
-		(pin "2"
-			(uuid "f5ef36cc-4953-4c2c-9cce-8dc33157d05f")
+			(uuid "272f95b1-9a07-4fd7-a4df-36fb46536699")
 		)
 		(instances
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "R11")
+					(reference "#U$019")
 					(unit 1)
 				)
 			)
@@ -13085,7 +13137,7 @@
 	)
 	(symbol
 		(lib_id "JohnDeere:Core52480")
-		(at 203.2 97.79 0)
+		(at 209.55 111.76 0)
 		(unit 2)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13094,23 +13146,23 @@
 		(fields_autoplaced yes)
 		(uuid "f2a8777b-afff-4d57-9515-bed42bdc321b")
 		(property "Reference" "U1"
-			(at 203.2 82.55 0)
+			(at 209.55 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "~"
-			(at 203.2 85.09 0)
+		(property "Value" "Core52840"
+			(at 209.55 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 203.2 107.95 0)
+		(property "Footprint" "footprints:Core52840"
+			(at 209.55 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13119,7 +13171,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 203.2 107.95 0)
+			(at 209.55 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13128,7 +13180,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 203.2 107.95 0)
+			(at 209.55 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13311,72 +13363,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 101.6 73.66 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "f3d93d93-2877-4158-b2b2-debe026966c2")
-		(property "Reference" "#U$049"
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 103.124 71.12 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 101.6 73.66 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ef02e0f9-577a-444e-aea1-7b38bd410770")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$049")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JohnDeere:Core52480")
 		(at 148.59 95.25 0)
 		(unit 1)
@@ -13394,7 +13380,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "Core52840"
 			(at 147.955 77.47 0)
 			(effects
 				(font
@@ -13402,7 +13388,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "footprints:Core52840"
 			(at 148.59 105.41 0)
 			(effects
 				(font
@@ -13430,169 +13416,169 @@
 			)
 		)
 		(pin "42"
-			(uuid "3a8f2ef0-d72a-4561-b73c-86dc50303b5b")
+			(uuid "3a8f2ef0-d72a-4561-b73c-86dc50303b5c")
 		)
 		(pin "1"
-			(uuid "85a22d94-11d6-459d-8367-4e4c559a1811")
+			(uuid "85a22d94-11d6-459d-8367-4e4c559a1812")
 		)
 		(pin "38"
-			(uuid "9403a4f5-e0be-45da-b5d9-be2ab1c39a26")
+			(uuid "9403a4f5-e0be-45da-b5d9-be2ab1c39a27")
 		)
 		(pin "4"
-			(uuid "05fc9993-221c-43be-97d3-cf2ae35e3a35")
+			(uuid "05fc9993-221c-43be-97d3-cf2ae35e3a36")
 		)
 		(pin "13"
-			(uuid "ca05bcbe-c0a7-42ce-86bb-494a64b40534")
+			(uuid "ca05bcbe-c0a7-42ce-86bb-494a64b40535")
 		)
 		(pin "36"
-			(uuid "7b66c186-4014-4f1c-ab04-ee27b663dd62")
+			(uuid "7b66c186-4014-4f1c-ab04-ee27b663dd63")
 		)
 		(pin "40"
-			(uuid "c581ca03-f58f-4636-bd6a-4914c96c4cd3")
+			(uuid "c581ca03-f58f-4636-bd6a-4914c96c4cd4")
 		)
 		(pin "47"
-			(uuid "c90b5634-2bd2-4e76-ad88-c313eb36e078")
+			(uuid "c90b5634-2bd2-4e76-ad88-c313eb36e079")
 		)
 		(pin "49"
-			(uuid "98eb00f8-3e43-4275-ac16-1cf21682d367")
+			(uuid "98eb00f8-3e43-4275-ac16-1cf21682d368")
 		)
 		(pin "20"
-			(uuid "3f0ff511-95fa-4ed9-b93e-9dbb8490c80f")
+			(uuid "3f0ff511-95fa-4ed9-b93e-9dbb8490c810")
 		)
 		(pin "52"
-			(uuid "4d532bbc-d808-43c8-be1e-28f11433b4cf")
+			(uuid "4d532bbc-d808-43c8-be1e-28f11433b4d0")
 		)
 		(pin "53"
-			(uuid "2b1038de-fae2-4c33-ab2c-d52d93c759d1")
+			(uuid "2b1038de-fae2-4c33-ab2c-d52d93c759d2")
 		)
 		(pin "55"
-			(uuid "8371e721-80ba-4466-8e98-a4ab4b455d93")
+			(uuid "8371e721-80ba-4466-8e98-a4ab4b455d94")
 		)
 		(pin "8"
-			(uuid "04b09689-3271-4f9c-82f5-77c725fd647a")
+			(uuid "04b09689-3271-4f9c-82f5-77c725fd647b")
 		)
 		(pin "15"
-			(uuid "bd35ccc7-40ad-4886-a2e1-e583773851dd")
+			(uuid "bd35ccc7-40ad-4886-a2e1-e583773851de")
 		)
 		(pin "54"
-			(uuid "248a9f12-f4ac-41b7-b90c-f5dd90c96130")
+			(uuid "248a9f12-f4ac-41b7-b90c-f5dd90c96131")
 		)
 		(pin "44"
-			(uuid "11890e96-0f83-4256-8e04-5187e97187aa")
+			(uuid "11890e96-0f83-4256-8e04-5187e97187ab")
 		)
 		(pin "18"
-			(uuid "c3aed53a-d194-4e85-a9c4-cbea98539514")
+			(uuid "c3aed53a-d194-4e85-a9c4-cbea98539515")
 		)
 		(pin "10"
-			(uuid "50460196-02c8-4a97-878f-24e0386c62d3")
+			(uuid "50460196-02c8-4a97-878f-24e0386c62d4")
 		)
 		(pin "11"
-			(uuid "d09eb7b3-efb8-468c-ad10-faccce5b5ccc")
+			(uuid "d09eb7b3-efb8-468c-ad10-faccce5b5ccd")
 		)
 		(pin "2"
-			(uuid "844e6f06-fdd3-4b0f-af29-5b889ae70237")
+			(uuid "844e6f06-fdd3-4b0f-af29-5b889ae70238")
 		)
 		(pin "39"
-			(uuid "411ba334-5c58-433f-bf9c-4994c804c6b0")
+			(uuid "411ba334-5c58-433f-bf9c-4994c804c6b1")
 		)
 		(pin "46"
-			(uuid "9ff03fba-40e5-4f5b-97c4-b7ce798d21d7")
+			(uuid "9ff03fba-40e5-4f5b-97c4-b7ce798d21d8")
 		)
 		(pin "5"
-			(uuid "686bb65e-c3ef-4f0e-a479-89aad18a8f20")
+			(uuid "686bb65e-c3ef-4f0e-a479-89aad18a8f21")
 		)
 		(pin "35"
-			(uuid "82a55c96-a065-438d-a4a7-7820e4f695d1")
+			(uuid "82a55c96-a065-438d-a4a7-7820e4f695d2")
 		)
 		(pin "50"
-			(uuid "0ed4990e-0592-4763-8c06-375d41535ac4")
+			(uuid "0ed4990e-0592-4763-8c06-375d41535ac5")
 		)
 		(pin "51"
-			(uuid "ceb5aad8-75fd-475e-b883-0a5dc841d82b")
+			(uuid "ceb5aad8-75fd-475e-b883-0a5dc841d82c")
 		)
 		(pin "6"
-			(uuid "aa3c2063-46ad-4872-83b4-6191e57ac9a0")
+			(uuid "aa3c2063-46ad-4872-83b4-6191e57ac9a1")
 		)
 		(pin "43"
-			(uuid "c134a7b9-82a0-4f63-8ada-58a85433de7c")
+			(uuid "c134a7b9-82a0-4f63-8ada-58a85433de7d")
 		)
 		(pin "14"
-			(uuid "aa52ab86-48a2-4211-9e67-8d1d50b06c33")
+			(uuid "aa52ab86-48a2-4211-9e67-8d1d50b06c34")
 		)
 		(pin "22"
-			(uuid "6d33e2ca-7fc0-4518-9892-b5ecffd6f2c5")
+			(uuid "6d33e2ca-7fc0-4518-9892-b5ecffd6f2c6")
 		)
 		(pin "26"
-			(uuid "8e73c28c-2f90-4bde-9a98-181b5d27ecc5")
+			(uuid "8e73c28c-2f90-4bde-9a98-181b5d27ecc6")
 		)
 		(pin "29"
-			(uuid "0477d75f-13e5-40d2-9140-640105f27e93")
+			(uuid "0477d75f-13e5-40d2-9140-640105f27e94")
 		)
 		(pin "32"
-			(uuid "95151834-f9e0-4525-8051-b6d116b7dc66")
+			(uuid "95151834-f9e0-4525-8051-b6d116b7dc67")
 		)
 		(pin "45"
-			(uuid "c343724a-6080-45d3-b18e-8a2d45a5578f")
+			(uuid "c343724a-6080-45d3-b18e-8a2d45a55790")
 		)
 		(pin "17"
-			(uuid "3418a407-5e1a-4a7d-ae9a-e787a30068ac")
+			(uuid "3418a407-5e1a-4a7d-ae9a-e787a30068ad")
 		)
 		(pin "19"
-			(uuid "582cd05b-f157-432f-a929-50500fd2e89c")
+			(uuid "582cd05b-f157-432f-a929-50500fd2e89d")
 		)
 		(pin "33"
-			(uuid "96fe3e2d-0004-40b0-8e54-61524e3b2283")
+			(uuid "96fe3e2d-0004-40b0-8e54-61524e3b2284")
 		)
 		(pin "16"
-			(uuid "f07d4bec-f3cc-4fe9-a7f4-f1b40efa57ad")
+			(uuid "f07d4bec-f3cc-4fe9-a7f4-f1b40efa57ae")
 		)
 		(pin "48"
-			(uuid "e0690b58-19e5-49b2-9773-b528ae2bbcf2")
+			(uuid "e0690b58-19e5-49b2-9773-b528ae2bbcf3")
 		)
 		(pin "21"
-			(uuid "fc51dd34-1e2a-4f34-884e-085fca21d0e1")
+			(uuid "fc51dd34-1e2a-4f34-884e-085fca21d0e2")
 		)
 		(pin "37"
-			(uuid "6d026be0-c85c-41d0-a20d-6fe8f88077d1")
+			(uuid "6d026be0-c85c-41d0-a20d-6fe8f88077d2")
 		)
 		(pin "9"
-			(uuid "5d333eee-6de6-403f-bda4-4d3aaf271848")
+			(uuid "5d333eee-6de6-403f-bda4-4d3aaf271849")
 		)
 		(pin "23"
-			(uuid "3dbea035-188b-44ef-8fe6-5a1727b01736")
+			(uuid "3dbea035-188b-44ef-8fe6-5a1727b01737")
 		)
 		(pin "24"
-			(uuid "c3451fee-98f8-4338-af2f-47b5f0a862f8")
+			(uuid "c3451fee-98f8-4338-af2f-47b5f0a862f9")
 		)
 		(pin "25"
-			(uuid "c858c1f5-eeab-4c04-a94f-eb1d8f602921")
+			(uuid "c858c1f5-eeab-4c04-a94f-eb1d8f602922")
 		)
 		(pin "27"
-			(uuid "e2300036-773d-47f2-bf82-a218820f669d")
+			(uuid "e2300036-773d-47f2-bf82-a218820f669e")
 		)
 		(pin "30"
-			(uuid "b59bec6d-da4e-4be0-9283-b55a2eddd259")
+			(uuid "b59bec6d-da4e-4be0-9283-b55a2eddd25a")
 		)
 		(pin "3"
-			(uuid "a557e5f1-0470-4309-9ca3-c9aa0dbb152f")
+			(uuid "a557e5f1-0470-4309-9ca3-c9aa0dbb1530")
 		)
 		(pin "31"
-			(uuid "63e2e431-8365-45c5-8659-33bf2648c9d8")
+			(uuid "63e2e431-8365-45c5-8659-33bf2648c9d9")
 		)
 		(pin "7"
-			(uuid "facbef5a-6692-442f-8100-b0f5650706fd")
+			(uuid "facbef5a-6692-442f-8100-b0f5650706fe")
 		)
 		(pin "28"
-			(uuid "b664d7f2-5d62-493a-8afb-6890eda87601")
+			(uuid "b664d7f2-5d62-493a-8afb-6890eda87602")
 		)
 		(pin "12"
-			(uuid "db69e892-26f8-42b7-be6f-01a384305856")
+			(uuid "db69e892-26f8-42b7-be6f-01a384305857")
 		)
 		(pin "41"
-			(uuid "91a082e8-ec9e-4f8f-840d-2e1358ca087a")
+			(uuid "91a082e8-ec9e-4f8f-840d-2e1358ca087b")
 		)
 		(pin "34"
-			(uuid "8b8a4529-725a-4798-be1d-571d1b21b147")
+			(uuid "8b8a4529-725a-4798-be1d-571d1b21b148")
 		)
 		(instances
 			(project "Every83_PCB"
@@ -13605,15 +13591,15 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 180.34 66.04 180)
+		(at 175.26 114.3 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "fc657422-c908-4fc7-b9e5-67c369e4306c")
-		(property "Reference" "#U$053"
-			(at 180.34 66.04 0)
+		(uuid "f82a2e1a-367d-4da9-9d0a-b3b6f1f16c01")
+		(property "Reference" "#U$024"
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13622,7 +13608,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 181.864 63.5 0)
+			(at 173.736 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13631,7 +13617,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 180.34 66.04 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13640,7 +13626,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 180.34 66.04 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13649,7 +13635,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 180.34 66.04 0)
+			(at 175.26 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13658,12 +13644,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "79890da5-bd06-4f1b-ad74-2605ad0c8658")
+			(uuid "6ad5973c-ebd2-4d1e-b3da-35b7abdfc51f")
 		)
 		(instances
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$053")
+					(reference "#U$024")
 					(unit 1)
 				)
 			)
