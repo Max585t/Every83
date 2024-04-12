@@ -6935,7 +6935,7 @@
 	)
 	(wire
 		(pts
-			(xy 120.65 81.28) (xy 128.27 81.28)
+			(xy 116.84 81.28) (xy 128.27 81.28)
 		)
 		(stroke
 			(width 0)
@@ -8213,22 +8213,22 @@
 	)
 	(global_label "Col10"
 		(shape input)
-		(at 147.32 68.58 90)
+		(at 128.27 111.76 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "0082f86e-cf48-487a-be50-11f10007cc65")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 147.32 60.171 90)
+			(at 119.7816 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8323,66 +8323,66 @@
 	)
 	(global_label "Col8"
 		(shape input)
-		(at 152.4 68.58 90)
+		(at 128.27 104.14 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4452a938-d87b-4913-a574-11a148e0e17e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 152.4 61.3011 90)
+			(at 120.9911 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col5"
 		(shape input)
-		(at 160.02 68.58 90)
+		(at 128.27 96.52 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "4ca90ffc-d85b-4407-9384-2efc9e927da2")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 160.02 61.3011 90)
+			(at 120.9911 96.52 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col7"
 		(shape input)
-		(at 154.94 68.58 90)
+		(at 128.27 101.6 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "5fe6388a-80c9-4b2f-ac66-de33d4b58e56")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 154.94 61.3011 90)
+			(at 120.9911 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8433,22 +8433,22 @@
 	)
 	(global_label "Col9"
 		(shape input)
-		(at 149.86 68.58 90)
+		(at 128.27 106.68 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "6fd48516-cabf-4581-86ff-2ac52ff11da1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 61.3805 90)
+			(at 120.9911 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8521,44 +8521,44 @@
 	)
 	(global_label "Col6"
 		(shape input)
-		(at 157.48 68.58 90)
+		(at 128.27 99.06 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "98d4ee17-b486-4a46-8663-92749b3b7a85")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 157.48 61.3011 90)
+			(at 120.9911 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col2"
 		(shape input)
-		(at 198.12 68.58 90)
+		(at 128.27 88.9 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "9be68128-fcf4-4ea7-862d-f6de3ab466fa")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 198.12 61.3011 90)
+			(at 120.9911 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8587,22 +8587,22 @@
 	)
 	(global_label "Col3"
 		(shape input)
-		(at 195.58 68.58 90)
+		(at 128.27 91.44 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "b37d1b9e-7abd-4843-bbce-a9a7ed65b270")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 195.58 61.3011 90)
+			(at 120.9911 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8631,44 +8631,44 @@
 	)
 	(global_label "Col1"
 		(shape input)
-		(at 200.66 68.58 90)
+		(at 128.27 86.36 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "c563afce-d965-4031-b170-5c2440087084")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 200.66 61.3011 90)
+			(at 120.9911 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Col0"
 		(shape input)
-		(at 203.2 68.58 90)
+		(at 128.27 83.82 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "d70b70b4-841d-4ee3-89f1-b7e13e9eb860")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 203.2 61.3011 90)
+			(at 120.9911 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8697,22 +8697,22 @@
 	)
 	(global_label "Col4"
 		(shape input)
-		(at 170.18 68.58 90)
+		(at 128.27 93.98 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "ff2e8114-2346-4f5f-a024-a1885557b906")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 170.18 61.3011 90)
+			(at 120.9911 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -11227,7 +11227,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 120.65 83.82 0)
+		(at 116.84 83.82 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11235,7 +11235,7 @@
 		(dnp no)
 		(uuid "7f632144-df1e-4d21-9ddb-9f1ca8a5b914")
 		(property "Reference" "#U$048"
-			(at 120.65 83.82 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11244,7 +11244,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 119.126 86.36 0)
+			(at 115.316 86.36 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -11253,7 +11253,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 120.65 83.82 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11262,7 +11262,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 120.65 83.82 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11271,7 +11271,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 120.65 83.82 0)
+			(at 116.84 83.82 0)
 			(effects
 				(font
 					(size 1.27 1.27)
