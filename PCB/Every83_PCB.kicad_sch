@@ -3540,256 +3540,6 @@
 				)
 			)
 		)
-		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:LED0805_NOOUTLINE"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at -1.27 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Value" ""
-				(at -1.27 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.0795)
-					)
-				)
-			)
-			(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:CHIPLED_0805_NOOUTLINE"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "LED0805_NOOUTLINE_1_0"
-				(polyline
-					(pts
-						(xy -2.54 -1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -1.905 1.27) (xy -0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.9525 2.8575) (xy -0.3175 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.635 1.27) (xy 0.635 2.54)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.3175 2.2225) (xy 0 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 0)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 3.175) (xy -0.9525 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.3175 2.8575) (xy 0.9525 2.2225)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.9525 2.2225) (xy 1.27 3.175)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 3.175) (xy 0.3175 2.8575)
-					)
-					(stroke
-						(width 0.254)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "C"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:MCP73831/2"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6825,6 +6575,16 @@
 	)
 	(wire
 		(pts
+			(xy 52.07 238.76) (xy 54.61 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "075e2866-6acb-4137-a798-3aeeecf87c46")
+	)
+	(wire
+		(pts
 			(xy 153.67 143.51) (xy 153.67 142.24)
 		)
 		(stroke
@@ -6872,16 +6632,6 @@
 			(type solid)
 		)
 		(uuid "164e87ed-124b-4414-ba6a-f8a69b6e93db")
-	)
-	(wire
-		(pts
-			(xy 53.34 248.92) (xy 55.88 248.92)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "19a68185-895f-4273-9a0f-007c6e7c1d76")
 	)
 	(wire
 		(pts
@@ -7065,7 +6815,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 238.76) (xy 66.04 238.76)
+			(xy 73.66 238.76) (xy 64.77 238.76)
 		)
 		(stroke
 			(width 0.1524)
@@ -7195,26 +6945,6 @@
 	)
 	(wire
 		(pts
-			(xy 45.72 238.76) (xy 35.56 238.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5fd9493d-49c4-47aa-b1a7-17a00c83913b")
-	)
-	(wire
-		(pts
-			(xy 58.42 238.76) (xy 55.88 238.76)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6084deef-b7de-4d4b-8723-bd521738a08f")
-	)
-	(wire
-		(pts
 			(xy 158.75 129.54) (xy 158.75 132.08)
 		)
 		(stroke
@@ -7222,6 +6952,16 @@
 			(type default)
 		)
 		(uuid "60a7ef3e-f8bd-4740-983e-c1e397a78ed9")
+	)
+	(wire
+		(pts
+			(xy 38.1 238.76) (xy 44.45 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "66efea3e-f8bb-4453-ad73-372c09ed7c7a")
 	)
 	(wire
 		(pts
@@ -7652,6 +7392,16 @@
 			(type default)
 		)
 		(uuid "d5af9bb2-9edd-4b48-888e-b3439e205990")
+	)
+	(wire
+		(pts
+			(xy 53.34 248.92) (xy 55.88 248.92)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d6f4c51e-34ab-4b34-b570-7210e6269b15")
 	)
 	(wire
 		(pts
@@ -8101,6 +7851,17 @@
 		)
 		(uuid "99e70b72-3d4b-4677-a6f4-5c9dc140c563")
 	)
+	(label "LED2"
+		(at 167.64 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "9c88b080-f253-4e0c-99a6-aea77fc17251")
+	)
 	(label "USBD-"
 		(at 325.12 187.96 0)
 		(fields_autoplaced yes)
@@ -8189,6 +7950,17 @@
 		)
 		(uuid "dbfa34cf-8a03-427d-9b04-0b5851c629a4")
 	)
+	(label "LED1"
+		(at 167.64 109.22 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "dfe742fb-340d-43e5-a183-47aba745bdd5")
+	)
 	(label "RXD"
 		(at 167.64 176.53 180)
 		(fields_autoplaced yes)
@@ -8235,29 +8007,29 @@
 	)
 	(global_label "Col11"
 		(shape input)
-		(at 144.78 68.58 90)
+		(at 138.43 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "02e955de-9dd0-4279-91d9-07ca5053898a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 144.78 60.171 90)
+			(at 138.43 129.1384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "NEOPIX"
 		(shape input)
-		(at 129.54 135.89 270)
+		(at 151.13 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8267,7 +8039,7 @@
 		)
 		(uuid "056eb7cb-4e99-4166-946a-669b7d3cf749")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 129.54 145.7695 90)
+			(at 151.13 130.5295 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8279,29 +8051,7 @@
 	)
 	(global_label "Row4"
 		(shape input)
-		(at 101.6 104.14 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "11a6db79-6e66-4b1d-925d-eb3493267d0c")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 104.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "Col12"
-		(shape input)
-		(at 142.24 68.58 90)
+		(at 219.71 119.38 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8309,14 +8059,36 @@
 			)
 			(justify left)
 		)
-		(uuid "364e24ce-ba91-4708-ba50-461ba2834837")
+		(uuid "11a6db79-6e66-4b1d-925d-eb3493267d0c")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 142.24 60.171 90)
+			(at 227.6542 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col12"
+		(shape input)
+		(at 140.97 120.65 270)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "364e24ce-ba91-4708-ba50-461ba2834837")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 140.97 129.1384 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8389,44 +8161,44 @@
 	)
 	(global_label "Row3"
 		(shape input)
-		(at 101.6 99.06 180)
+		(at 219.71 116.84 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "656c33ce-44df-4974-a4cb-08b54506b54a")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 99.06 0)
+			(at 227.6542 116.84 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
 	)
 	(global_label "Row0"
 		(shape input)
-		(at 101.6 78.74 180)
+		(at 219.71 109.22 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "67d3dcc2-d8c2-4a71-841f-eb958136d237")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 78.74 0)
+			(at 227.6542 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8455,7 +8227,29 @@
 	)
 	(global_label "Row2"
 		(shape input)
-		(at 101.6 93.98 180)
+		(at 219.71 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "743522c8-6485-4fba-9bed-a7e57f4fe7e8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 227.6542 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "Col13"
+		(shape input)
+		(at 143.51 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -8463,9 +8257,9 @@
 			)
 			(justify right)
 		)
-		(uuid "743522c8-6485-4fba-9bed-a7e57f4fe7e8")
+		(uuid "88d10a61-1d22-4c76-b0a5-394469677de1")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 93.98 0)
+			(at 143.51 129.1384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -8475,46 +8269,24 @@
 			)
 		)
 	)
-	(global_label "Col13"
-		(shape input)
-		(at 139.7 68.58 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "88d10a61-1d22-4c76-b0a5-394469677de1")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 139.7 60.171 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "Col14"
 		(shape input)
-		(at 134.62 68.58 90)
+		(at 146.05 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "8a38b06f-dd8b-4160-bcee-f2784636de63")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 134.62 60.171 90)
+			(at 146.05 129.1384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8565,22 +8337,22 @@
 	)
 	(global_label "Col15"
 		(shape input)
-		(at 137.16 68.58 90)
+		(at 148.59 120.65 270)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left)
+			(justify right)
 		)
 		(uuid "a8884a13-a755-4297-81d7-55b33e24f3da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 137.16 60.171 90)
+			(at 148.59 129.1384 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 				(hide yes)
 			)
 		)
@@ -8609,22 +8381,22 @@
 	)
 	(global_label "Row5"
 		(shape input)
-		(at 101.6 106.68 180)
+		(at 219.71 121.92 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "bf02e2d1-822c-482e-bfa3-2389289c1cb6")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 106.68 0)
+			(at 227.6542 121.92 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8675,22 +8447,22 @@
 	)
 	(global_label "Row1"
 		(shape input)
-		(at 101.6 88.9 180)
+		(at 219.71 111.76 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
 		(uuid "dfa5cde2-6856-4207-92b1-84c85906377b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 93.6558 88.9 0)
+			(at 227.6542 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -8917,73 +8689,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:LED0805_NOOUTLINE")
-		(at 63.5 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0fc24db2-0ed9-45b3-a5e0-e694449c3ca4")
-		(property "Reference" "D102"
-			(at 62.23 234.315 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "RED"
-			(at 62.23 241.554 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:CHIPLED_0805_NOOUTLINE"
-			(at 63.5 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 63.5 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 63.5 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "485d8874-6c91-4703-9b41-66089ac8da9d")
-		)
-		(pin "C"
-			(uuid "76590ac5-f2a6-47b3-91c0-46e19100e63d")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "D102")
 					(unit 1)
 				)
 			)
@@ -9886,73 +9591,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:LED0805_NOOUTLINE")
-		(at 50.8 248.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3dfec6e8-7383-4405-a1e2-7a6367b44faf")
-		(property "Reference" "D104"
-			(at 49.53 244.475 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Value" "BLUE"
-			(at 49.53 251.714 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-			)
-		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:CHIPLED_0805_NOOUTLINE"
-			(at 50.8 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 50.8 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 50.8 248.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "A"
-			(uuid "2cd0b6ec-2571-40a4-b45d-5ea8a7fb8ff1")
-		)
-		(pin "C"
-			(uuid "98c78eb2-e376-490b-bf9a-e8a111cfc480")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "D104")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:FRAME_A3")
 		(at 279.4 58.42 0)
 		(unit 3)
@@ -10011,6 +9649,74 @@
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#FRAME1")
 					(unit 3)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 48.26 238.76 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4153735e-6e2c-4cfc-bca8-1335050ca8f3")
+		(property "Reference" "D84"
+			(at 49.8475 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 49.8475 233.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 48.26 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 48.26 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 48.26 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ebd9b97-f17a-49a9-b072-b4b6ab3e301a")
+		)
+		(pin "1"
+			(uuid "65f3782c-928c-4625-9b6b-f9e8e3616087")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "D84")
+					(unit 1)
 				)
 			)
 		)
@@ -10443,7 +10149,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 60.96 248.92 0)
 			(effects
 				(font
@@ -10956,7 +10662,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
-		(at 50.8 238.76 0)
+		(at 59.69 238.76 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -10964,7 +10670,7 @@
 		(dnp no)
 		(uuid "712fd78e-7bfe-402c-a35c-503461be24eb")
 		(property "Reference" "R2"
-			(at 50.8 236.22 0)
+			(at 59.69 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10972,7 +10678,7 @@
 			)
 		)
 		(property "Value" "1K"
-			(at 50.8 238.76 0)
+			(at 59.944 238.76 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -10980,8 +10686,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
-			(at 50.8 238.76 0)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 59.69 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10990,7 +10696,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 50.8 238.76 0)
+			(at 59.69 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10999,7 +10705,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 50.8 238.76 0)
+			(at 59.69 238.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11668,7 +11374,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
 			(at 238.76 246.38 0)
 			(effects
 				(font
@@ -11771,6 +11477,74 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$013")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:LED")
+		(at 49.53 248.92 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a7697f98-e377-4f2c-9fb0-f20d9f0a097f")
+		(property "Reference" "D85"
+			(at 51.1175 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "LED"
+			(at 51.1175 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LED_SMD:LED_0805_2012Metric"
+			(at 49.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 49.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Light emitting diode"
+			(at 49.53 248.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "6ebd9b97-f17a-49a9-b072-b4b6ab3e301a")
+		)
+		(pin "1"
+			(uuid "65f3782c-928c-4625-9b6b-f9e8e3616087")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "D85")
 					(unit 1)
 				)
 			)
