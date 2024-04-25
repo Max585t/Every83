@@ -38,8 +38,8 @@
         "other_text_upright": false,
         "pads": {
           "drill": 0.0,
-          "height": 1.2,
-          "width": 0.9
+          "height": 1.8034,
+          "width": 1.1938
         },
         "silk_line_width": 0.09999999999999999,
         "silk_text_italic": false,
@@ -591,7 +591,7 @@
       "pos_files": "",
       "specctra_dsn": "",
       "step": "Every83_PCB.step",
-      "svg": "",
+      "svg": "./",
       "vrml": ""
     },
     "page_layout_descr_file": ""

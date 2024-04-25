@@ -1718,150 +1718,6 @@
 				)
 			)
 		)
-		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:CON_JST_PH_2PIN"
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "X"
-				(at -6.35 5.715 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Value" ""
-				(at -6.35 -5.08 0)
-				(effects
-					(font
-						(size 1.778 1.5113)
-					)
-					(justify left bottom)
-				)
-			)
-			(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:JSTPH2"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(symbol "CON_JST_PH_2PIN_1_0"
-				(polyline
-					(pts
-						(xy -6.35 -2.54) (xy 1.27 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -6.35 5.08) (xy -6.35 -2.54)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 -2.54) (xy 1.27 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 5.08) (xy -6.35 5.08)
-					)
-					(stroke
-						(width 0.4064)
-						(type solid)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 2.54 0)
-					(length 2.54)
-					(name "1"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive inverted
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "2"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:DIODE-SCHOTTKYSOD-123"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -6462,6 +6318,139 @@
 				)
 			)
 		)
+		(symbol "JohnDeere:SM02B-SRSS-TB"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "X"
+				(at 2.032 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SM02B-SRSS-TB_1_1"
+				(rectangle
+					(start -2.54 3.81)
+					(end 2.54 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin input line
+					(at 0 -5.08 90)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 0 5.08 270)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 1.27 180)
+					(length 2.54) hide
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin input line
+					(at 3.81 -1.27 180)
+					(length 2.54) hide
+					(name "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 195.58 246.38)
@@ -6845,16 +6834,6 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 233.68) (xy 177.8 243.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5176431f-c300-4254-88f4-d70f068cb381")
-	)
-	(wire
-		(pts
 			(xy 121.92 193.04) (xy 121.92 195.58)
 		)
 		(stroke
@@ -6902,16 +6881,6 @@
 			(type default)
 		)
 		(uuid "5aeada1c-c434-478a-9a48-ede3e000e217")
-	)
-	(wire
-		(pts
-			(xy 177.8 259.08) (xy 177.8 246.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5b7b8c6c-cbfc-4db3-baa1-b0d0f5eaf9c2")
 	)
 	(wire
 		(pts
@@ -7132,6 +7101,16 @@
 			(type solid)
 		)
 		(uuid "92ac356d-218c-479d-b74c-aa2d0bc8976f")
+	)
+	(wire
+		(pts
+			(xy 177.8 233.68) (xy 177.8 241.3)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9653b3ea-9bbe-4b0a-b99d-81183b780381")
 	)
 	(wire
 		(pts
@@ -7502,6 +7481,16 @@
 			(type solid)
 		)
 		(uuid "f0cf671e-221e-443c-bab7-29cf2ca6f0c3")
+	)
+	(wire
+		(pts
+			(xy 177.8 251.46) (xy 177.8 259.08)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f1d694da-3e40-4801-9028-06ddb523ff5e")
 	)
 	(wire
 		(pts
@@ -10592,75 +10581,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:CON_JST_PH_2PIN")
-		(at 175.26 243.84 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6b069d9a-e601-42b7-8a2a-b90b9354e81d")
-		(property "Reference" "X3"
-			(at 181.61 249.555 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Value" "JSTPH"
-			(at 181.61 238.76 0)
-			(effects
-				(font
-					(size 1.778 1.5113)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:JSTPH2"
-			(at 175.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 175.26 243.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fc7c8d27-4552-405a-8b25-dadc1258c1be")
-		)
-		(pin "2"
-			(uuid "32a0920c-1060-481b-9c5f-e2bd5e640406")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "X3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
 		(at 59.69 238.76 0)
 		(unit 1)
@@ -11142,6 +11062,82 @@
 		)
 	)
 	(symbol
+		(lib_id "JohnDeere:SM02B-SRSS-TB")
+		(at 177.8 246.38 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "895ac59b-be0d-4943-9bd9-d288a5ca5ddf")
+		(property "Reference" "X1"
+			(at 181.61 245.7449 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST SM02B-SRSS-TB(LF)(SN)"
+			(at 181.61 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+			(at 177.8 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 177.8 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 177.8 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "032c987b-2e45-4195-905d-7a6166066cfa")
+		)
+		(pin "2"
+			(uuid "a16f77b1-29b9-42a8-a10e-24d28104260d")
+		)
+		(pin "4"
+			(uuid "22d2a56e-c0b3-40e0-a14c-342c92654292")
+		)
+		(pin "3"
+			(uuid "c3ba057a-2896-40cd-a47c-09e71c0d44df")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "X1")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:SWITCH_TACT_SMT4.6X2.8")
 		(at 66.04 187.96 0)
 		(unit 1)
@@ -11536,10 +11532,10 @@
 			)
 		)
 		(pin "2"
-			(uuid "6ebd9b97-f17a-49a9-b072-b4b6ab3e301a")
+			(uuid "6ebd9b97-f17a-49a9-b072-b4b6ab3e301b")
 		)
 		(pin "1"
-			(uuid "65f3782c-928c-4625-9b6b-f9e8e3616087")
+			(uuid "65f3782c-928c-4625-9b6b-f9e8e3616088")
 		)
 		(instances
 			(project "Every83_PCB"
