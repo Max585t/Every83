@@ -6865,12 +6865,179 @@
 				)
 			)
 		)
-	)
-	(junction
-		(at 195.58 246.38)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "1b13fd53-e10d-49df-9dd3-403545898ce7")
+		(symbol "Switch:SW_SPDT"
+			(pin_names
+				(offset 0) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SW_SPDT"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Switch, single pole double throw"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "switch single-pole double-throw spdt ON-ON"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SW_SPDT_0_1"
+				(circle
+					(center -2.032 0)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.651 0.254) (xy 1.651 2.286)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 -2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(circle
+					(center 2.032 2.54)
+					(radius 0.4572)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "SW_SPDT_1_1"
+				(rectangle
+					(start -3.175 3.81)
+					(end 3.175 -3.81)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin passive line
+					(at 5.08 2.54 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "B"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 5.08 -2.54 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 	)
 	(junction
 		(at 220.98 241.3)
@@ -6889,6 +7056,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "52cb0345-e45c-4d3d-bb8a-00f29f0a4b87")
+	)
+	(junction
+		(at 199.39 243.84)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5e3da6a5-580e-4bcd-84c5-c3df8c495481")
 	)
 	(junction
 		(at 27.94 190.5)
@@ -6956,6 +7129,10 @@
 		(color 0 0 0 0)
 		(uuid "d96e9f42-e2eb-4942-976c-0e0caefa7d00")
 	)
+	(no_connect
+		(at 181.61 229.87)
+		(uuid "154cd7a1-7e37-4ba8-80a8-7d77cec15746")
+	)
 	(wire
 		(pts
 			(xy 167.64 93.98) (xy 182.88 93.98)
@@ -7018,6 +7195,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 243.84) (xy 209.55 243.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0fa1aafb-a715-43bb-94ea-f614a977ab97")
+	)
+	(wire
+		(pts
 			(xy 101.6 185.42) (xy 101.6 182.88)
 		)
 		(stroke
@@ -7068,16 +7255,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 246.38) (xy 195.58 250.19)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "218b7ac6-5527-42f8-80b2-cf15f45c56ad")
-	)
-	(wire
-		(pts
 			(xy 292.1 241.3) (xy 299.72 241.3)
 		)
 		(stroke
@@ -7105,6 +7282,16 @@
 			(type solid)
 		)
 		(uuid "2a17c6f4-7f7a-43f3-9e9d-f1f4a12253b2")
+	)
+	(wire
+		(pts
+			(xy 199.39 255.27) (xy 199.39 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2c7b2db0-5093-453f-9f68-9b15f26160f0")
 	)
 	(wire
 		(pts
@@ -7238,6 +7425,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 248.92) (xy 181.61 256.54)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "509ce932-2b85-4c3d-927f-ff73abfe19e8")
+	)
+	(wire
+		(pts
 			(xy 158.75 135.89) (xy 158.75 132.08)
 		)
 		(stroke
@@ -7308,16 +7505,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 231.14) (xy 195.58 234.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5d66e6d7-2851-4d64-811b-23b961d85d7f")
-	)
-	(wire
-		(pts
 			(xy 111.76 185.42) (xy 111.76 182.88)
 		)
 		(stroke
@@ -7325,6 +7512,16 @@
 			(type solid)
 		)
 		(uuid "5e06f3d8-fb3f-4355-a8a2-fba5606c94ae")
+	)
+	(wire
+		(pts
+			(xy 199.39 240.03) (xy 199.39 243.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "605cb07f-eabe-4cbb-8882-0ab96f60b0d5")
 	)
 	(wire
 		(pts
@@ -7358,16 +7555,6 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 242.57) (xy 195.58 246.38)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6ae32acf-f0f7-4c37-99a1-9ef89be13208")
-	)
-	(wire
-		(pts
 			(xy 71.12 187.96) (xy 71.12 190.5)
 		)
 		(stroke
@@ -7395,6 +7582,16 @@
 			(type solid)
 		)
 		(uuid "726564ee-185d-48c1-8310-958354cbaf3c")
+	)
+	(wire
+		(pts
+			(xy 170.18 227.33) (xy 170.18 232.41)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "72ce5b5b-9282-4996-9234-e32cb0d6eaae")
 	)
 	(wire
 		(pts
@@ -7438,13 +7635,13 @@
 	)
 	(wire
 		(pts
-			(xy 195.58 246.38) (xy 205.74 246.38)
+			(xy 170.18 232.41) (xy 171.45 232.41)
 		)
 		(stroke
-			(width 0.1524)
-			(type solid)
+			(width 0)
+			(type default)
 		)
-		(uuid "84f5b151-731c-4e51-835e-4bad78de5235")
+		(uuid "878ec678-635c-4d6e-803e-f5dbf4218bf9")
 	)
 	(wire
 		(pts
@@ -7518,13 +7715,13 @@
 	)
 	(wire
 		(pts
-			(xy 177.8 233.68) (xy 177.8 241.3)
+			(xy 199.39 243.84) (xy 199.39 247.65)
 		)
 		(stroke
-			(width 0)
-			(type default)
+			(width 0.1524)
+			(type solid)
 		)
-		(uuid "9653b3ea-9bbe-4b0a-b99d-81183b780381")
+		(uuid "99f57821-01bb-42ca-beb5-24b609630245")
 	)
 	(wire
 		(pts
@@ -7878,6 +8075,16 @@
 	)
 	(wire
 		(pts
+			(xy 199.39 228.6) (xy 199.39 232.41)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "e80b2e5b-6b23-48d7-a6aa-4a98bb54ae5e")
+	)
+	(wire
+		(pts
 			(xy 199.39 109.22) (xy 189.23 109.22)
 		)
 		(stroke
@@ -7895,16 +8102,6 @@
 			(type solid)
 		)
 		(uuid "f0cf671e-221e-443c-bab7-29cf2ca6f0c3")
-	)
-	(wire
-		(pts
-			(xy 177.8 251.46) (xy 177.8 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f1d694da-3e40-4801-9028-06ddb523ff5e")
 	)
 	(wire
 		(pts
@@ -7928,6 +8125,16 @@
 	)
 	(wire
 		(pts
+			(xy 181.61 234.95) (xy 181.61 238.76)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f6a94988-488e-4c58-ba9f-c80a6fc50cef")
+	)
+	(wire
+		(pts
 			(xy 129.54 124.46) (xy 129.54 125.73)
 		)
 		(stroke
@@ -7935,16 +8142,6 @@
 			(type default)
 		)
 		(uuid "f767181d-3950-4c84-a896-32947172cfe7")
-	)
-	(wire
-		(pts
-			(xy 195.58 257.81) (xy 195.58 259.08)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "f839ebe7-6989-44dc-aff4-8ae612f35ecd")
 	)
 	(wire
 		(pts
@@ -7967,19 +8164,6 @@
 		(uuid "fd99da4e-df3a-4694-b290-7fc2c0bbab57")
 	)
 	(rectangle
-		(start 170.18 212.09)
-		(end 209.55 269.24)
-		(stroke
-			(width 0.1)
-			(type default)
-			(color 128 77 0 1)
-		)
-		(fill
-			(type none)
-		)
-		(uuid 554c3abb-872a-4de4-9006-adeb552d8aac)
-	)
-	(rectangle
 		(start 81.28 213.36)
 		(end 156.21 265.43)
 		(stroke
@@ -7992,15 +8176,28 @@
 		)
 		(uuid 855bf52c-9dfb-4929-ab67-12fed47d829b)
 	)
+	(rectangle
+		(start 166.37 209.55)
+		(end 213.36 266.7)
+		(stroke
+			(width 0.1)
+			(type default)
+			(color 128 77 0 1)
+		)
+		(fill
+			(type none)
+		)
+		(uuid c3e2daeb-c34c-4c99-aadd-170e09033902)
+	)
 	(text "Dynamic VIN selection: VBUS\n(USB) will override VBAT (LIPO)\nvia D5 when both are present."
 		(exclude_from_sim no)
-		(at 187.96 223.52 0)
+		(at 191.77 220.98 0)
 		(effects
 			(font
 				(size 1.27 1.0795)
 			)
 		)
-		(uuid "27760f45-2ad6-4fe1-bb40-7fb7b2193ffe")
+		(uuid "2f334a7f-51ae-4ee7-bff0-4e1be49f7716")
 	)
 	(text "To charge the LIPO, insert the\nbattery in the JST PH connector\nand connect USB at the same time."
 		(exclude_from_sim no)
@@ -8056,17 +8253,6 @@
 		)
 		(uuid "99466906-6603-4765-a54a-ca3242e7c8ce")
 	)
-	(text "JST PH LIPO INPUT"
-		(exclude_from_sim no)
-		(at 177.8 218.44 0)
-		(effects
-			(font
-				(size 1.778 1.5113)
-			)
-			(justify left bottom)
-		)
-		(uuid "9c695e5c-23fd-4e59-9917-84789ea3e138")
-	)
 	(text "LIPO CHARGING"
 		(exclude_from_sim no)
 		(at 251.46 218.44 0)
@@ -8110,6 +8296,17 @@
 			(justify left bottom)
 		)
 		(uuid "d489e608-50e2-4587-8bbd-1fa5e79c8a89")
+	)
+	(text "JST PH LIPO INPUT"
+		(exclude_from_sim no)
+		(at 181.61 215.9 0)
+		(effects
+			(font
+				(size 1.778 1.5113)
+			)
+			(justify left bottom)
+		)
+		(uuid "d776426a-97b6-4aab-90e3-f0f1f3d18e58")
 	)
 	(text "Dropout Voltage (25°C):\n100mA: ~250/~40mV\n300mA: ~300/~125mV\n600mA: ~375/~260mV"
 		(exclude_from_sim no)
@@ -8221,6 +8418,17 @@
 		)
 		(uuid "5ac49b05-e11c-4004-b4ff-5c0bee42738f")
 	)
+	(label "VDIV"
+		(at 201.93 243.84 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "76030272-5041-44f0-9f4f-7279130c3959")
+	)
 	(label "RESET"
 		(at 45.72 187.96 0)
 		(fields_autoplaced yes)
@@ -8319,17 +8527,6 @@
 			(justify right bottom)
 		)
 		(uuid "c79408c6-3404-490a-b5a8-1661aaf50b7e")
-	)
-	(label "VDIV"
-		(at 198.12 246.38 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8a172c1-448e-4f04-a876-f04343d1848f")
 	)
 	(label "EN"
 		(at 116.84 241.3 0)
@@ -9671,6 +9868,72 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBAT")
+		(at 170.18 224.79 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "043c77e9-03bd-441b-9620-7e634f373973")
+		(property "Reference" "#U$06"
+			(at 170.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 168.656 223.774 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 170.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 170.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 170.18 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f5849bf9-a5e9-4efc-93f5-72a2a4d32736")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBAT")
 		(at 99.06 223.52 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -9730,72 +9993,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$043")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBAT")
-		(at 195.58 228.6 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "0894d3d3-8112-4413-8b23-3ceeaec2f359")
-		(property "Reference" "#U$058"
-			(at 195.58 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 194.056 227.584 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 228.6 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fe6d8793-753c-48b7-be2d-e7106a67ce38")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$058")
 					(unit 1)
 				)
 			)
@@ -10176,6 +10373,72 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 199.39 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "214acd47-706c-4352-bbc7-5daa3332a272")
+		(property "Reference" "#U$026"
+			(at 199.39 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 197.866 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8c507df7-693a-4cc6-a550-24509d011343")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 121.92 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -10301,6 +10564,76 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$038")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 236.22 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "27145bac-bc3d-4a3a-91f9-1b407e38024a")
+		(property "Reference" "R9"
+			(at 201.93 235.585 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 201.93 238.125 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.612 236.22 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "8e52ab44-8ce6-47bb-a6ae-84abb2487924")
+		)
+		(pin "2"
+			(uuid "eafa3307-257b-4ba5-b497-0ec411dd9e97")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -10654,72 +10987,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBAT")
-		(at 177.8 231.14 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "35ae1e85-f12d-4636-8bdc-14d3a78c9dfb")
-		(property "Reference" "#U$06"
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBAT"
-			(at 176.276 230.124 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 231.14 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "30148c12-8a15-4b71-827b-d9107f53632e")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$06")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 88.9 256.54 0)
 		(unit 1)
@@ -10780,6 +11047,213 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$044")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBAT")
+		(at 199.39 226.06 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "36e49dda-4831-4ff0-8cd3-d325d99e7794")
+		(property "Reference" "#U$023"
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "VBAT"
+			(at 197.866 225.044 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "a1301d43-28bd-4cbe-92d0-104900ddb06a")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$023")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:R")
+		(at 199.39 251.46 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "37bd28f2-da7e-4b7e-b2b0-6f28a256fbc9")
+		(property "Reference" "R10"
+			(at 201.93 250.825 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "100k"
+			(at 201.93 253.365 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+			(at 197.612 251.46 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 199.39 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 199.39 251.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "7256f766-00f0-48a7-b220-bad3c8672fc0")
+		)
+		(pin "2"
+			(uuid "0dcda0cc-9fa6-426a-9ae4-2503a2ab70e6")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "R10")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Switch:SW_SPDT")
+		(at 176.53 232.41 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "38e7f366-2581-4b72-a4a3-954ad872d9dc")
+		(property "Reference" "SW84"
+			(at 176.53 223.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SW_SPDT"
+			(at 176.53 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:ET01M3D1SA1BE"
+			(at 176.53 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 176.53 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Switch, single pole double throw"
+			(at 176.53 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "70015963-908f-48ed-922c-a38c6080487f")
+		)
+		(pin "1"
+			(uuid "4bb08923-7924-46fa-9e03-3aa0fbd7bfd4")
+		)
+		(pin "3"
+			(uuid "3d4f08ae-65fc-4dd6-9f72-5cd378c64242")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "SW84")
 					(unit 1)
 				)
 			)
@@ -10911,76 +11385,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "D84")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 195.58 238.76 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "4255166f-2e15-47c5-b0db-2d095268059b")
-		(property "Reference" "R12"
-			(at 198.12 238.125 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 240.665 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.802 238.76 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f81be5d8-2289-485a-97d5-fcbb983bc87e")
-		)
-		(pin "2"
-			(uuid "a3767e7f-1fca-48a7-abe4-8cf6a2458e93")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "R12")
 					(unit 1)
 				)
 			)
@@ -11180,6 +11584,82 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "C7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "JohnDeere:SM02B-SRSS-TB")
+		(at 181.61 243.84 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "50bc96d0-68ba-4094-9849-2385293f9845")
+		(property "Reference" "X1"
+			(at 185.42 243.2049 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "JST SM02B-SRSS-TB(LF)(SN)"
+			(at 185.42 245.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
+			(at 181.61 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "880f5173-a84f-4af5-8f41-843d9946188f")
+		)
+		(pin "2"
+			(uuid "4b1ce4d9-c583-45a3-8a6a-2cc969331bfe")
+		)
+		(pin "4"
+			(uuid "909eee8a-41e3-46ac-a4f6-9381ac43030e")
+		)
+		(pin "3"
+			(uuid "a70be0f5-bef0-498b-8128-ad086e68f585")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "X1")
 					(unit 1)
 				)
 			)
@@ -11586,6 +12066,72 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 181.61 259.08 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "6004d010-7dbb-4ec4-86c1-f21a7c26faff")
+		(property "Reference" "#U$07"
+			(at 181.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 180.086 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 181.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 181.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 181.61 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f697c0d1-8378-4056-baaf-1276101c09c6")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$07")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 27.94 195.58 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -11849,76 +12395,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "R2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 195.58 254 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "73385f1c-a6a6-41d3-8052-b5eee1ca19ec")
-		(property "Reference" "R9"
-			(at 198.12 253.365 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "100k"
-			(at 198.12 255.905 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 193.802 254 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 195.58 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 254 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "a64b483c-0db5-4fd3-93ce-3a524d710b59")
-		)
-		(pin "2"
-			(uuid "d15be596-64e4-4736-b889-556cc37266c1")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "R9")
 					(unit 1)
 				)
 			)
@@ -12268,82 +12744,6 @@
 		)
 	)
 	(symbol
-		(lib_id "JohnDeere:SM02B-SRSS-TB")
-		(at 177.8 246.38 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "895ac59b-be0d-4943-9bd9-d288a5ca5ddf")
-		(property "Reference" "X1"
-			(at 181.61 245.7449 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "JST SM02B-SRSS-TB(LF)(SN)"
-			(at 181.61 247.65 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Connector_JST:JST_SH_SM02B-SRSS-TB_1x02-1MP_P1.00mm_Horizontal"
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 246.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "032c987b-2e45-4195-905d-7a6166066cfa")
-		)
-		(pin "2"
-			(uuid "a16f77b1-29b9-42a8-a10e-24d28104260d")
-		)
-		(pin "4"
-			(uuid "22d2a56e-c0b3-40e0-a14c-342c92654292")
-		)
-		(pin "3"
-			(uuid "c3ba057a-2896-40cd-a47c-09e71c0d44df")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "X1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:SWITCH_TACT_SMT4.6X2.8")
 		(at 66.04 187.96 0)
 		(unit 1)
@@ -12413,72 +12813,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "SW102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 177.8 261.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "8de69401-c957-44de-9894-2d547dad7d29")
-		(property "Reference" "#U$07"
-			(at 177.8 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 176.276 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 177.8 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 177.8 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 177.8 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "feccd96b-c293-4229-88e5-10f38cc57ace")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$07")
 					(unit 1)
 				)
 			)
@@ -13450,72 +13784,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "C3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 195.58 261.62 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cbf38a4a-203b-4790-8254-ec84c051b3cd")
-		(property "Reference" "#U$057"
-			(at 195.58 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 194.056 264.16 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 195.58 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 195.58 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 195.58 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5d04e79c-580e-42c8-8ce4-b9baaeea3da4")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$057")
 					(unit 1)
 				)
 			)
