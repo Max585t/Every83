@@ -14668,44 +14668,6 @@
 			)
 		)
 	)
-	(sheet
-		(at 274.32 80.01)
-		(size 20.32 29.21)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "2c0a657e-561d-48fb-8da6-bd945626e724")
-		(property "Sheetname" "Power Daughter Board"
-			(at 274.32 79.2984 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "Power_Daughterboard.kicad_sch"
-			(at 274.32 109.8046 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(page "3")
-				)
-			)
-		)
-	)
 	(sheet_instances
 		(path "/"
 			(page "1")
