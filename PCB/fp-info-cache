@@ -1,4 +1,4 @@
-24295884125625731
+24302764598655317
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -63651,6 +63651,27 @@ THT
 4
 2
 JohnDeereLibrary
+4_pad_connector
+
+
+0
+4
+4
+JohnDeereLibrary
+5_pad_connector
+
+
+0
+5
+5
+JohnDeereLibrary
+7_pad_connector
+
+
+0
+7
+7
+JohnDeereLibrary
 8_Pin_DIP
 
 
@@ -63748,6 +63769,13 @@ KB2040
 0
 26
 26
+JohnDeereLibrary
+LED_WURTH_155060AS75300
+
+
+0
+2
+2
 JohnDeereLibrary
 LED_Wurth_WL-SBSW
 
