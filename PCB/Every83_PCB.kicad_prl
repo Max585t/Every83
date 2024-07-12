@@ -192,9 +192,7 @@
       "Net-(SW80B-DO)",
       "Net-(SW81B-DO)",
       "Net-(SW82B-DO)",
-      "Row5",
-      "Net-(D84-K)",
-      "Net-(D85-K)"
+      "Row5"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
