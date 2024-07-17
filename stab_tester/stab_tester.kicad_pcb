@@ -1,303 +1,3460 @@
-(kicad_pcb (version 20221018) (generator pcbnew)
-
-  (general
-    (thickness 1.6)
-  )
-
-  (paper "A4")
-  (layers
-    (0 "F.Cu" signal)
-    (31 "B.Cu" signal)
-    (32 "B.Adhes" user "B.Adhesive")
-    (33 "F.Adhes" user "F.Adhesive")
-    (34 "B.Paste" user)
-    (35 "F.Paste" user)
-    (36 "B.SilkS" user "B.Silkscreen")
-    (37 "F.SilkS" user "F.Silkscreen")
-    (38 "B.Mask" user)
-    (39 "F.Mask" user)
-    (40 "Dwgs.User" user "User.Drawings")
-    (41 "Cmts.User" user "User.Comments")
-    (42 "Eco1.User" user "User.Eco1")
-    (43 "Eco2.User" user "User.Eco2")
-    (44 "Edge.Cuts" user)
-    (45 "Margin" user)
-    (46 "B.CrtYd" user "B.Courtyard")
-    (47 "F.CrtYd" user "F.Courtyard")
-    (48 "B.Fab" user)
-    (49 "F.Fab" user)
-    (50 "User.1" user)
-    (51 "User.2" user)
-    (52 "User.3" user)
-    (53 "User.4" user)
-    (54 "User.5" user)
-    (55 "User.6" user)
-    (56 "User.7" user)
-    (57 "User.8" user)
-    (58 "User.9" user)
-  )
-
-  (setup
-    (pad_to_mask_clearance 0)
-    (pcbplotparams
-      (layerselection 0x00010fc_ffffffff)
-      (plot_on_all_layers_selection 0x0000000_00000000)
-      (disableapertmacros false)
-      (usegerberextensions true)
-      (usegerberattributes false)
-      (usegerberadvancedattributes false)
-      (creategerberjobfile false)
-      (dashed_line_dash_ratio 12.000000)
-      (dashed_line_gap_ratio 3.000000)
-      (svgprecision 4)
-      (plotframeref false)
-      (viasonmask false)
-      (mode 1)
-      (useauxorigin false)
-      (hpglpennumber 1)
-      (hpglpenspeed 20)
-      (hpglpendiameter 15.000000)
-      (dxfpolygonmode true)
-      (dxfimperialunits true)
-      (dxfusepcbnewfont true)
-      (psnegative false)
-      (psa4output false)
-      (plotreference true)
-      (plotvalue false)
-      (plotinvisibletext false)
-      (sketchpadsonfab false)
-      (subtractmaskfromsilk true)
-      (outputformat 1)
-      (mirror false)
-      (drillshape 0)
-      (scaleselection 1)
-      (outputdirectory "")
-    )
-  )
-
-  (net 0 "")
-
-  (footprint "JohnDeereLibrary:Gateron Low Profile Stabilizer Plate Cutout 6.25u" (layer "F.Cu")
-    (tstamp 7729e669-ed08-41c8-b3bd-932628b97f14)
-    (at 65.88125 77.7875)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp de3dd890-fb1c-4775-bdaa-25749105589f)
-    )
-    (fp_text value "Gateron Low Profile Stabilizer Plate Cutout 6.25u" (at 0 1 unlocked) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 72089a8f-5398-4f47-8138-cd40e8e8c5d1)
-    )
-    (fp_text user "${REFERENCE}" (at 0 2.5 unlocked) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 2cf4053c-1241-4be3-b300-dd2823bd260b)
-    )
-    (fp_rect (start -50 7.48) (end 50 8.48)
-      (stroke (width 0.12) (type default)) (fill none) (layer "Cmts.User") (tstamp 97f7b11d-80f4-422a-bac7-cfc19a8d937b))
-    (fp_line (start -53 -5.6795) (end -47 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e49a49cd-02a4-49a7-90f4-2c0cce6e068d))
-    (fp_line (start -53 6.8205) (end -53 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp b2ede739-6696-4288-a345-48b730035bba))
-    (fp_line (start -53 6.8205) (end -50.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 3b16dd78-e983-4db9-959e-8d9979fd7230))
-    (fp_line (start -50.85 7.82) (end -50.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 7b6d5ba2-0ef6-4d1d-9adb-58d3c27ae909))
-    (fp_line (start -50.85 7.82) (end -49.15 7.82)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e47b388e-3589-4aad-9930-6859b471c8d5))
-    (fp_line (start -49.15 6.8205) (end -47 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 4c7d65a5-4739-4347-82f3-15739b6688a9))
-    (fp_line (start -49.15 7.82) (end -49.15 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 294f1915-78e4-4346-bcc3-53addb11ffec))
-    (fp_line (start -47 -5.6795) (end -47 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 5d68badd-34c2-4179-8762-65ac9e450746))
-    (fp_line (start -47 1) (end -47 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 3f27cc92-ca0d-48cd-bb18-36144a6eb7b0))
-    (fp_line (start -47 1) (end -7.05 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp a023b704-5456-4930-882f-bc81175338be))
-    (fp_line (start -7.05 -7.05) (end -7.05 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 0b37a25d-106b-4c53-843c-763875ee9a53))
-    (fp_line (start -7.05 -1) (end -47 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 537f046e-169e-4071-8a65-ae774014a35c))
-    (fp_line (start -7.05 1) (end -7.05 7.05)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e084d616-dced-44e2-93fe-9b2fab71cb90))
-    (fp_line (start -7.05 7.05) (end 7.05 7.05)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 9e8165c1-5660-4697-9969-bd813da6ceda))
-    (fp_line (start 7.05 -7.05) (end -7.05 -7.05)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 12080805-8d29-45fa-bc4f-ced9c66c3c6f))
-    (fp_line (start 7.05 -7.05) (end 7.05 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp acc5f488-5fbd-4b9a-9f96-b3134473169e))
-    (fp_line (start 7.05 -1) (end 47 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 009e4773-0235-491d-9bf1-84fcea05eae3))
-    (fp_line (start 7.05 7.05) (end 7.05 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 85b74eb3-dbf8-4c66-aa6c-0e1f643bc021))
-    (fp_line (start 47 -5.6795) (end 47 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 313f81f4-5eb2-415d-a088-1d3062a698e4))
-    (fp_line (start 47 1) (end 7.05 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp ea056bbc-15ba-4216-99b4-b03ce39593dc))
-    (fp_line (start 47 1) (end 47 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 8cfd98a4-cf9b-4042-8b1e-1b5215c73625))
-    (fp_line (start 49.15 6.8205) (end 47 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e6ef6881-2c56-4455-87ba-4c86f4e22fd2))
-    (fp_line (start 49.15 7.82) (end 49.15 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp d0643bfe-481e-4a95-9531-e95f2087a27f))
-    (fp_line (start 50.85 7.82) (end 49.15 7.82)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 358a2c29-c32b-4c51-a09f-556efd3369dd))
-    (fp_line (start 50.85 7.82) (end 50.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 7cb545d3-106d-4451-8512-13b569729662))
-    (fp_line (start 53 -5.6795) (end 47 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 568ce07c-2005-4ebf-9e91-e4ea05cd375e))
-    (fp_line (start 53 6.8205) (end 50.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp b2909a8f-fa85-4147-a3c2-a30665e760c7))
-    (fp_line (start 53 6.8205) (end 53 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e4f6e1b1-607a-4a82-b5b4-000ded477cb2))
-    (model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/6_25u_stabilizer.step"
-      (offset (xyz 0 -8 -2.3))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (footprint "JohnDeereLibrary:Gateron Low Profile Stabilizer Plate Cutout" (layer "F.Cu")
-    (tstamp f312ff5b-5938-40df-a9bd-3161e2e4244c)
-    (at 142.08125 77.7875)
-    (fp_text reference "REF**" (at 0 -0.5 unlocked) (layer "F.SilkS")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 8638340b-56e9-4b94-978c-ea2c268d34b8)
-    )
-    (fp_text value "Gateron Low Profile Stabilizer Plate Cutout" (at 0 1 unlocked) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp fc7c6d83-f550-4e5c-9f39-153ca8ef6e5f)
-    )
-    (fp_text user "${REFERENCE}" (at 0.198 2.492 unlocked) (layer "F.Fab")
-        (effects (font (size 1 1) (thickness 0.15)))
-      (tstamp 4d99e098-85ae-4866-ae13-50a4fcff8b9b)
-    )
-    (fp_rect (start -12 7.48) (end 12 8.48)
-      (stroke (width 0.12) (type default)) (fill none) (layer "Cmts.User") (tstamp e0fb3f9b-dbe1-4dfa-b659-08c733ed8bd8))
-    (fp_line (start -15 -5.6795) (end -9 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 647a1ef3-7fc6-4218-ab1d-7782a46ba634))
-    (fp_line (start -15 6.8205) (end -15 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 798e432a-b652-45d5-b941-f380b4a1a129))
-    (fp_line (start -15 6.8205) (end -12.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 7ad42391-6a49-425a-8e2e-91d02a956389))
-    (fp_line (start -12.85 7.86) (end -12.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e96a5215-d340-4f8d-8727-dfb58649d9f6))
-    (fp_line (start -12.85 7.86) (end -11.15 7.86)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp eb7b05e6-b4d2-45ff-b5c8-aba9be8f6dc4))
-    (fp_line (start -11.15 6.8205) (end -9 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 2fce3466-00c1-4d89-a9f0-837408298399))
-    (fp_line (start -11.15 7.86) (end -11.15 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp e1eef635-b2a3-4fe7-ba3c-5bc1e94e4127))
-    (fp_line (start -9 -5.6795) (end -9 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 01003846-39b0-45d2-95f1-9011e28c7860))
-    (fp_line (start -9 1) (end -9 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 14e47135-779a-4e7b-a5ac-2e043af1ddd1))
-    (fp_line (start -9 1) (end -7.01 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 39114fbd-b924-4816-bac7-718a15a82ba6))
-    (fp_line (start -7.01 -7.01) (end -7.01 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp f1f214b9-986b-4ba0-ad25-9d762080d6dc))
-    (fp_line (start -7.01 -1) (end -9 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp a56c6714-2d85-4cba-8434-aae6356418ae))
-    (fp_line (start -7.01 1) (end -7.01 7.01)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp afe87918-4c2d-4f7e-862c-ccea67598919))
-    (fp_line (start -7.01 7.01) (end 7.01 7.01)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 4ee9db09-cb65-413e-9deb-f93551b91182))
-    (fp_line (start 7.01 -7.01) (end -7.01 -7.01)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp a0c656ea-45ef-4e2f-9828-fcfaadc5815d))
-    (fp_line (start 7.01 -1) (end 7.01 -7.01)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp a145131f-0dc0-45a4-9c4a-cad6664c5df5))
-    (fp_line (start 7.01 -1) (end 9 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 98424d49-0661-4ae5-93a1-c30753c2d40d))
-    (fp_line (start 7.01 7.01) (end 7.01 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp f93a00ef-07d1-4efa-89f2-9f8abb390329))
-    (fp_line (start 9 -5.6795) (end 9 -1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp ba6dd2ac-75ec-4e08-bd97-9614e78cbdba))
-    (fp_line (start 9 1) (end 7.01 1)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 4be7de66-4fef-4353-86ef-c5bb228be21a))
-    (fp_line (start 9 1) (end 9 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp bf98c24d-2842-4cf8-a77e-748567602138))
-    (fp_line (start 11.15 6.8205) (end 9 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 770671f7-33df-459f-8e86-05e4d210f4c6))
-    (fp_line (start 11.15 7.86) (end 11.15 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 44e1ac2d-75fe-4662-aa59-77e78640190e))
-    (fp_line (start 12.85 7.86) (end 11.15 7.86)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp fabd20db-0a60-4a21-971e-83fe5e5596cf))
-    (fp_line (start 12.85 7.86) (end 12.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 279002e9-9dde-4798-8af8-1223e0dda94c))
-    (fp_line (start 15 -5.6795) (end 9 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 9f86b708-b08c-42c9-ac33-3a7eb1ebbc39))
-    (fp_line (start 15 6.8205) (end 12.85 6.8205)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp 64f3c965-1c69-42cb-a265-27b411ccd057))
-    (fp_line (start 15 6.8205) (end 15 -5.6795)
-      (stroke (width 0.12) (type default)) (layer "Edge.Cuts") (tstamp fea1dd80-e768-41ad-aa40-5c295bbaf171))
-    (dimension (type aligned) (layer "F.SilkS") (tstamp 56494ba2-98a9-4f24-879f-8a4cb2803d85)
-      (pts (xy 154.08125 72.2075) (xy 130.08125 72.2075))
-      (height 7.881999)
-      (gr_text "24.0000 mm" (at 142.08125 63.175501) (layer "F.SilkS") (tstamp 56494ba2-98a9-4f24-879f-8a4cb2803d85)
-        (effects (font (size 1 1) (thickness 0.15)))
-      )
-      (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-      (style (thickness 0.12) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-    )
-    (dimension (type aligned) (layer "F.SilkS") (tstamp 8b376bff-4d17-43eb-a4c4-e18e42ddd218)
-      (pts (xy 157.08125 84.608) (xy 157.08125 72.108))
-      (height 4.0754)
-      (gr_text "12.5000 mm" (at 160.00665 78.358 90) (layer "F.SilkS") (tstamp 8b376bff-4d17-43eb-a4c4-e18e42ddd218)
-        (effects (font (size 1 1) (thickness 0.15)))
-      )
-      (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-      (style (thickness 0.12) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-    )
-    (model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
-      (offset (xyz 0 0.12 -0.08))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-    (model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
-      (offset (xyz 0 0 0))
-      (scale (xyz 1 1 1))
-      (rotate (xyz 0 0 0))
-    )
-  )
-
-  (gr_rect (start 200.01 200.01) (end 214.01 214.01)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.SilkS") (tstamp 16edc20e-1646-4e01-b985-9146ef3fcf63))
-  (gr_rect (start 215.91583 201.89583) (end 222.758 214.231)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.SilkS") (tstamp 17ec9431-4aab-435e-b7b7-a0e7ca686c0d))
-  (gr_rect (start 216.408 201.42) (end 221.996 213.82)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.SilkS") (tstamp 2672dacf-2cba-4e72-a278-1faf22ff0f1c))
-  (gr_rect (start 200 200) (end 214.02 214.02)
-    (stroke (width 0.01) (type default)) (fill none) (layer "F.SilkS") (tstamp 7a5dbf41-f719-497c-a982-98b7a6e9fc84))
-  (gr_rect (start 100.0125 70.64375) (end 138.1125 89.69375)
-    (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User") (tstamp 8e78a366-e48a-406d-a486-5172f7dc7260))
-  (gr_rect (start 100.0125 92.86875) (end 138.1125 111.91875)
-    (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User") (tstamp 9433a229-d7fb-4f15-a192-eaaa2da96306))
-  (gr_rect (start 100.0125 48.186234) (end 138.1125 67.236234)
-    (stroke (width 0.15) (type default)) (fill none) (layer "Cmts.User") (tstamp b4a82afa-01b1-4954-9508-1915ce84c964))
-  (gr_rect (start 8.128 60.198) (end 172.212 92.202)
-    (stroke (width 0.1) (type default)) (fill none) (layer "Edge.Cuts") (tstamp 616e1666-c069-402c-9683-9a7308edafb9))
-  (dimension (type aligned) (layer "F.SilkS") (tstamp 1bd5476e-3975-4a3f-bbca-590107f11e8e)
-    (pts (xy 118.88125 84.608) (xy 118.88125 72.108))
-    (height 4.56275)
-    (gr_text "12.5000 mm" (at 122.294 78.358 90) (layer "F.SilkS") (tstamp 1bd5476e-3975-4a3f-bbca-590107f11e8e)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-  )
-  (dimension (type aligned) (layer "F.SilkS") (tstamp 7249c2fe-26bf-4c65-aa3a-fee8cff04848)
-    (pts (xy 115.88125 72.108) (xy 15.88125 72.108))
-    (height 5.306)
-    (gr_text "100.0000 mm" (at 65.88125 65.652) (layer "F.SilkS") (tstamp 7249c2fe-26bf-4c65-aa3a-fee8cff04848)
-      (effects (font (size 1 1) (thickness 0.15)))
-    )
-    (format (prefix "") (suffix "") (units 3) (units_format 1) (precision 4))
-    (style (thickness 0.15) (arrow_length 1.27) (text_position_mode 0) (extension_height 0.58642) (extension_offset 0.5) keep_text_aligned)
-  )
-
+(kicad_pcb
+	(version 20240108)
+	(generator "pcbnew")
+	(generator_version "8.0")
+	(general
+		(thickness 1.6)
+		(legacy_teardrops no)
+	)
+	(paper "A4")
+	(layers
+		(0 "F.Cu" signal)
+		(31 "B.Cu" signal)
+		(32 "B.Adhes" user "B.Adhesive")
+		(33 "F.Adhes" user "F.Adhesive")
+		(34 "B.Paste" user)
+		(35 "F.Paste" user)
+		(36 "B.SilkS" user "B.Silkscreen")
+		(37 "F.SilkS" user "F.Silkscreen")
+		(38 "B.Mask" user)
+		(39 "F.Mask" user)
+		(40 "Dwgs.User" user "User.Drawings")
+		(41 "Cmts.User" user "User.Comments")
+		(42 "Eco1.User" user "User.Eco1")
+		(43 "Eco2.User" user "User.Eco2")
+		(44 "Edge.Cuts" user)
+		(45 "Margin" user)
+		(46 "B.CrtYd" user "B.Courtyard")
+		(47 "F.CrtYd" user "F.Courtyard")
+		(48 "B.Fab" user)
+		(49 "F.Fab" user)
+		(50 "User.1" user)
+		(51 "User.2" user)
+		(52 "User.3" user)
+		(53 "User.4" user)
+		(54 "User.5" user)
+		(55 "User.6" user)
+		(56 "User.7" user)
+		(57 "User.8" user)
+		(58 "User.9" user)
+	)
+	(setup
+		(pad_to_mask_clearance 0)
+		(allow_soldermask_bridges_in_footprints no)
+		(pcbplotparams
+			(layerselection 0x00010fc_ffffffff)
+			(plot_on_all_layers_selection 0x0000000_00000000)
+			(disableapertmacros no)
+			(usegerberextensions yes)
+			(usegerberattributes no)
+			(usegerberadvancedattributes no)
+			(creategerberjobfile no)
+			(dashed_line_dash_ratio 12.000000)
+			(dashed_line_gap_ratio 3.000000)
+			(svgprecision 4)
+			(plotframeref no)
+			(viasonmask no)
+			(mode 1)
+			(useauxorigin no)
+			(hpglpennumber 1)
+			(hpglpenspeed 20)
+			(hpglpendiameter 15.000000)
+			(pdf_front_fp_property_popups yes)
+			(pdf_back_fp_property_popups yes)
+			(dxfpolygonmode yes)
+			(dxfimperialunits yes)
+			(dxfusepcbnewfont yes)
+			(psnegative no)
+			(psa4output no)
+			(plotreference yes)
+			(plotvalue no)
+			(plotfptext yes)
+			(plotinvisibletext no)
+			(sketchpadsonfab no)
+			(subtractmaskfromsilk yes)
+			(outputformat 1)
+			(mirror no)
+			(drillshape 0)
+			(scaleselection 1)
+			(outputdirectory "")
+		)
+	)
+	(net 0 "")
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "084dc75a-7e6c-4e1b-8e53-67fa3aee9229")
+		(at 115.57 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.85 6.85)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 2621472)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "100e0d2e-627e-492a-a967-46576414954a")
+		(at 91.44 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 7143473)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "147dcdad-9418-4b7c-9102-9b09f4e6a781")
+		(at 139.7 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "19b8e7ba-68b2-47ce-9791-a2ed9262309f")
+		(at 20.32 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "3e354d58-7e2c-4a2e-84b8-e112c3b0a8f7")
+		(at 67.31 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7 -7)
+			(end 7 7)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "3f9612ed-60b6-415f-bb87-1f911f8b1821")
+		(at 91.44 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3211296)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "41204d89-f188-46c0-8666-27867f8eec34")
+		(at 43.18 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.025 -7.025)
+			(end 7.025 7.025)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3211384)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "41ed2459-7a8f-44af-b4e0-0d920333e152")
+		(at 20.32 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "4f7dc5ed-d0ab-424b-82bc-fb45f63c2e5b")
+		(at 163.83 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.75 6.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 2097273)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron Low Profile Stabilizer Plate Cutout 6.25u"
+		(layer "F.Cu")
+		(uuid "7729e669-ed08-41c8-b3bd-932628b97f14")
+		(at 69.05 81.8795)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "de3dd890-fb1c-4775-bdaa-25749105589f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron Low Profile Stabilizer Plate Cutout 6.25u"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "72089a8f-5398-4f47-8138-cd40e8e8c5d1")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "a64c7077-7160-4bf2-9e69-7c41b97edb06")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "cd91a330-6810-4bd0-9808-b646a8de25d3")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "0b807c8a-7714-4b66-921e-5b7a66536e7b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -50 7.48)
+			(end 50 8.48)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "97f7b11d-80f4-422a-bac7-cfc19a8d937b")
+		)
+		(fp_line
+			(start -53 -5.6795)
+			(end -47 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e49a49cd-02a4-49a7-90f4-2c0cce6e068d")
+		)
+		(fp_line
+			(start -53 6.8205)
+			(end -53 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2ede739-6696-4288-a345-48b730035bba")
+		)
+		(fp_line
+			(start -53 6.8205)
+			(end -50.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3b16dd78-e983-4db9-959e-8d9979fd7230")
+		)
+		(fp_line
+			(start -50.85 7.82)
+			(end -50.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7b6d5ba2-0ef6-4d1d-9adb-58d3c27ae909")
+		)
+		(fp_line
+			(start -50.85 7.82)
+			(end -49.15 7.82)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e47b388e-3589-4aad-9930-6859b471c8d5")
+		)
+		(fp_line
+			(start -49.15 6.8205)
+			(end -47 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4c7d65a5-4739-4347-82f3-15739b6688a9")
+		)
+		(fp_line
+			(start -49.15 7.82)
+			(end -49.15 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "294f1915-78e4-4346-bcc3-53addb11ffec")
+		)
+		(fp_line
+			(start -47 -5.6795)
+			(end -47 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "5d68badd-34c2-4179-8762-65ac9e450746")
+		)
+		(fp_line
+			(start -47 1)
+			(end -47 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "3f27cc92-ca0d-48cd-bb18-36144a6eb7b0")
+		)
+		(fp_line
+			(start -47 1)
+			(end -7.05 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a023b704-5456-4930-882f-bc81175338be")
+		)
+		(fp_line
+			(start -7.05 -7.05)
+			(end -7.05 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "0b37a25d-106b-4c53-843c-763875ee9a53")
+		)
+		(fp_line
+			(start -7.05 -1)
+			(end -47 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "537f046e-169e-4071-8a65-ae774014a35c")
+		)
+		(fp_line
+			(start -7.05 1)
+			(end -7.05 7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e084d616-dced-44e2-93fe-9b2fab71cb90")
+		)
+		(fp_line
+			(start -7.05 7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9e8165c1-5660-4697-9969-bd813da6ceda")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end -7.05 -7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "12080805-8d29-45fa-bc4f-ced9c66c3c6f")
+		)
+		(fp_line
+			(start 7.05 -7.05)
+			(end 7.05 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "acc5f488-5fbd-4b9a-9f96-b3134473169e")
+		)
+		(fp_line
+			(start 7.05 -1)
+			(end 47 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "009e4773-0235-491d-9bf1-84fcea05eae3")
+		)
+		(fp_line
+			(start 7.05 7.05)
+			(end 7.05 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "85b74eb3-dbf8-4c66-aa6c-0e1f643bc021")
+		)
+		(fp_line
+			(start 47 -5.6795)
+			(end 47 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "313f81f4-5eb2-415d-a088-1d3062a698e4")
+		)
+		(fp_line
+			(start 47 1)
+			(end 7.05 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ea056bbc-15ba-4216-99b4-b03ce39593dc")
+		)
+		(fp_line
+			(start 47 1)
+			(end 47 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "8cfd98a4-cf9b-4042-8b1e-1b5215c73625")
+		)
+		(fp_line
+			(start 49.15 6.8205)
+			(end 47 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e6ef6881-2c56-4455-87ba-4c86f4e22fd2")
+		)
+		(fp_line
+			(start 49.15 7.82)
+			(end 49.15 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "d0643bfe-481e-4a95-9531-e95f2087a27f")
+		)
+		(fp_line
+			(start 50.85 7.82)
+			(end 49.15 7.82)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "358a2c29-c32b-4c51-a09f-556efd3369dd")
+		)
+		(fp_line
+			(start 50.85 7.82)
+			(end 50.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7cb545d3-106d-4451-8512-13b569729662")
+		)
+		(fp_line
+			(start 53 -5.6795)
+			(end 47 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "568ce07c-2005-4ebf-9e91-e4ea05cd375e")
+		)
+		(fp_line
+			(start 53 6.8205)
+			(end 50.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "b2909a8f-fa85-4147-a3c2-a30665e760c7")
+		)
+		(fp_line
+			(start 53 6.8205)
+			(end 53 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e4f6e1b1-607a-4a82-b5b4-000ded477cb2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "2cf4053c-1241-4be3-b300-dd2823bd260b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/6_25u_stabilizer.step"
+			(offset
+				(xyz 0 -8 -2.3)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "8f580b2c-3e5c-436f-89c3-d8f977b75a9b")
+		(at 163.83 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.75 6.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "8fa1b25e-e174-4833-a1e0-beac1b816495")
+		(at 139.7 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 6881380)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "924be5b6-5377-4d52-b27a-42ae8001d025")
+		(at 43.18 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.025 -7.025)
+			(end 7.025 7.025)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3211296)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "9c8ec580-a9d6-4bf8-b9d8-b1a762c837ee")
+		(at 43.18 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.025 -7.025)
+			(end 7.025 7.025)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3080250)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "bec5eaee-2737-429f-ac61-bbec72740adf")
+		(at 115.57 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.85 6.85)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 7471205)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "c6af90ce-516c-48cd-ad1b-bf48f6cab9fe")
+		(at 67.31 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3080250)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "d4f2b623-4b80-491e-9aee-27714a20f8e7")
+		(at 91.44 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.9 6.9)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 7798831)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "e87f0d36-9709-480a-8f67-4a72aa22994b")
+		(at 20.32 104.14)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 7.05 7.05)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "e99d2bae-862f-4d83-9cf2-54e50029f569")
+		(at 115.57 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.85 6.85)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 2097273)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "ee7b468a-0a0a-4696-81e0-16a1caa8b058")
+		(at 67.31 124.46)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.95 6.95)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 7798831)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "f08a3881-ac45-4d81-8971-f580fb0b8f24")
+		(at 139.7 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.8 6.8)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 3080299)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron Low Profile Stabilizer Plate Cutout"
+		(layer "F.Cu")
+		(uuid "f312ff5b-5938-40df-a9bd-3161e2e4244c")
+		(at 145.25 81.8795)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "8638340b-56e9-4b94-978c-ea2c268d34b8")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron Low Profile Stabilizer Plate Cutout"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "fc7c6d83-f550-4e5c-9f39-153ca8ef6e5f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "95809fb7-c150-4321-84df-9b92ddf2330a")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "e950464d-9309-45a0-974c-992d6b9d4590")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "4904b26f-bc9c-45e1-8ba6-128078a2068b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -12 7.48)
+			(end 12 8.48)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Cmts.User")
+			(uuid "e0fb3f9b-dbe1-4dfa-b659-08c733ed8bd8")
+		)
+		(fp_line
+			(start -15 -5.6795)
+			(end -9 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "647a1ef3-7fc6-4218-ab1d-7782a46ba634")
+		)
+		(fp_line
+			(start -15 6.8205)
+			(end -15 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "798e432a-b652-45d5-b941-f380b4a1a129")
+		)
+		(fp_line
+			(start -15 6.8205)
+			(end -12.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "7ad42391-6a49-425a-8e2e-91d02a956389")
+		)
+		(fp_line
+			(start -12.85 7.86)
+			(end -12.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e96a5215-d340-4f8d-8727-dfb58649d9f6")
+		)
+		(fp_line
+			(start -12.85 7.86)
+			(end -11.15 7.86)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "eb7b05e6-b4d2-45ff-b5c8-aba9be8f6dc4")
+		)
+		(fp_line
+			(start -11.15 6.8205)
+			(end -9 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "2fce3466-00c1-4d89-a9f0-837408298399")
+		)
+		(fp_line
+			(start -11.15 7.86)
+			(end -11.15 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "e1eef635-b2a3-4fe7-ba3c-5bc1e94e4127")
+		)
+		(fp_line
+			(start -9 -5.6795)
+			(end -9 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "01003846-39b0-45d2-95f1-9011e28c7860")
+		)
+		(fp_line
+			(start -9 1)
+			(end -9 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "14e47135-779a-4e7b-a5ac-2e043af1ddd1")
+		)
+		(fp_line
+			(start -9 1)
+			(end -7.01 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "39114fbd-b924-4816-bac7-718a15a82ba6")
+		)
+		(fp_line
+			(start -7.01 -7.01)
+			(end -7.01 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f1f214b9-986b-4ba0-ad25-9d762080d6dc")
+		)
+		(fp_line
+			(start -7.01 -1)
+			(end -9 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a56c6714-2d85-4cba-8434-aae6356418ae")
+		)
+		(fp_line
+			(start -7.01 1)
+			(end -7.01 7.01)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "afe87918-4c2d-4f7e-862c-ccea67598919")
+		)
+		(fp_line
+			(start -7.01 7.01)
+			(end 7.01 7.01)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4ee9db09-cb65-413e-9deb-f93551b91182")
+		)
+		(fp_line
+			(start 7.01 -7.01)
+			(end -7.01 -7.01)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a0c656ea-45ef-4e2f-9828-fcfaadc5815d")
+		)
+		(fp_line
+			(start 7.01 -1)
+			(end 7.01 -7.01)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "a145131f-0dc0-45a4-9c4a-cad6664c5df5")
+		)
+		(fp_line
+			(start 7.01 -1)
+			(end 9 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "98424d49-0661-4ae5-93a1-c30753c2d40d")
+		)
+		(fp_line
+			(start 7.01 7.01)
+			(end 7.01 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "f93a00ef-07d1-4efa-89f2-9f8abb390329")
+		)
+		(fp_line
+			(start 9 -5.6795)
+			(end 9 -1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "ba6dd2ac-75ec-4e08-bd97-9614e78cbdba")
+		)
+		(fp_line
+			(start 9 1)
+			(end 7.01 1)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "4be7de66-4fef-4353-86ef-c5bb228be21a")
+		)
+		(fp_line
+			(start 9 1)
+			(end 9 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "bf98c24d-2842-4cf8-a77e-748567602138")
+		)
+		(fp_line
+			(start 11.15 6.8205)
+			(end 9 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "770671f7-33df-459f-8e86-05e4d210f4c6")
+		)
+		(fp_line
+			(start 11.15 7.86)
+			(end 11.15 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "44e1ac2d-75fe-4662-aa59-77e78640190e")
+		)
+		(fp_line
+			(start 12.85 7.86)
+			(end 11.15 7.86)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fabd20db-0a60-4a21-971e-83fe5e5596cf")
+		)
+		(fp_line
+			(start 12.85 7.86)
+			(end 12.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "279002e9-9dde-4798-8af8-1223e0dda94c")
+		)
+		(fp_line
+			(start 15 -5.6795)
+			(end 9 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "9f86b708-b08c-42c9-ac33-3a7eb1ebbc39")
+		)
+		(fp_line
+			(start 15 6.8205)
+			(end 12.85 6.8205)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "64f3c965-1c69-42cb-a265-27b411ccd057")
+		)
+		(fp_line
+			(start 15 6.8205)
+			(end 15 -5.6795)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(layer "Edge.Cuts")
+			(uuid "fea1dd80-e768-41ad-aa40-5c295bbaf171")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0.198 2.492 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "4d99e098-85ae-4866-ae13-50a4fcff8b9b")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "56494ba2-98a9-4f24-879f-8a4cb2803d85")
+			(pts
+				(xy 157.25 76.2995) (xy 133.25 76.2995)
+			)
+			(height 7.881999)
+			(gr_text "24.0000 mm"
+				(at 145.25 67.267501 0)
+				(layer "F.SilkS")
+				(uuid "56494ba2-98a9-4f24-879f-8a4cb2803d85")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "8b376bff-4d17-43eb-a4c4-e18e42ddd218")
+			(pts
+				(xy 160.25 88.7) (xy 160.25 76.2)
+			)
+			(height 4.0754)
+			(gr_text "12.5000 mm"
+				(at 163.1754 82.45 90)
+				(layer "F.SilkS")
+				(uuid "8b376bff-4d17-43eb-a4c4-e18e42ddd218")
+				(effects
+					(font
+						(size 1 1)
+						(thickness 0.15)
+					)
+				)
+			)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(extension_height 0.58642)
+				(extension_offset 0.5) keep_text_aligned)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
+			(offset
+				(xyz 0 0.12 -0.08)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(footprint "JohnDeereLibrary:Gateron KS33 Plate"
+		(layer "F.Cu")
+		(uuid "fafda062-d742-416a-b6e3-bb30afee3ab5")
+		(at 163.83 144.78)
+		(property "Reference" "REF**"
+			(at 0 -0.5 0)
+			(unlocked yes)
+			(layer "F.SilkS")
+			(uuid "6eeef4f8-48ee-4cdd-93cc-fc381bfc2d1c")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Value" "Gateron KS33 Plate"
+			(at 0 1 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "f3c6b259-d386-4a54-a3e1-ebc2b7df07ca")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:Gateron KS33 Plate"
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "b74a94e0-08db-4460-8637-c778db41643b")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "77a08197-ab64-41f5-9b62-7ca2069bd134")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 0 0 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(hide yes)
+			(uuid "eda14fa4-ad54-462f-ae72-9ed7876acebe")
+			(effects
+				(font
+					(size 1.27 1.27)
+					(thickness 0.15)
+				)
+			)
+		)
+		(fp_rect
+			(start -7.05 -7.05)
+			(end 6.75 6.75)
+			(stroke
+				(width 0.12)
+				(type default)
+			)
+			(fill none)
+			(layer "Edge.Cuts")
+			(net 7798831)
+			(uuid "2f43adec-64cd-440b-8cc6-c2eb3fca42f2")
+		)
+		(fp_text user "${REFERENCE}"
+			(at 0 2.5 0)
+			(unlocked yes)
+			(layer "F.Fab")
+			(uuid "a3122ab7-b450-40f1-88c1-deccaf382a98")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
+			(hide yes)
+			(offset
+				(xyz 0 0 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+		(model "C:/Users/u4x5sx5/Downloads/DSA_1u.step"
+			(offset
+				(xyz 0 0 3.5)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 0 0 0)
+			)
+		)
+	)
+	(gr_rect
+		(start 100.0125 70.64375)
+		(end 138.1125 89.69375)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "8e78a366-e48a-406d-a486-5172f7dc7260")
+	)
+	(gr_rect
+		(start 100.0125 92.86875)
+		(end 138.1125 111.91875)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "9433a229-d7fb-4f15-a192-eaaa2da96306")
+	)
+	(gr_rect
+		(start 100.0125 48.186234)
+		(end 138.1125 67.236234)
+		(stroke
+			(width 0.15)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "b4a82afa-01b1-4954-9508-1915ce84c964")
+	)
+	(gr_rect
+		(start 11.43 71.12)
+		(end 173.99 160.02)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Edge.Cuts")
+		(uuid "f0a54aca-97f6-48ba-a413-dd986513999b")
+	)
+	(gr_text "14.10	14.05	14.00	13.95	13.9	13.85	13.8"
+		(at 12.7 157.48 0)
+		(layer "Edge.Cuts")
+		(uuid "58fa8761-7c91-49ea-ad5e-06882cd3dcee")
+		(effects
+			(font
+				(size 3 3)
+				(thickness 0.15)
+			)
+			(justify left bottom)
+		)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "1bd5476e-3975-4a3f-bbca-590107f11e8e")
+		(pts
+			(xy 122.05 88.7) (xy 122.05 76.2)
+		)
+		(height 4.56275)
+		(gr_text "12.5000 mm"
+			(at 125.46275 82.45 90)
+			(layer "F.SilkS")
+			(uuid "1bd5476e-3975-4a3f-bbca-590107f11e8e")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
+	(dimension
+		(type aligned)
+		(layer "F.SilkS")
+		(uuid "7249c2fe-26bf-4c65-aa3a-fee8cff04848")
+		(pts
+			(xy 119.05 76.2) (xy 19.05 76.2)
+		)
+		(height 5.306)
+		(gr_text "100.0000 mm"
+			(at 69.05 69.744 0)
+			(layer "F.SilkS")
+			(uuid "7249c2fe-26bf-4c65-aa3a-fee8cff04848")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.15)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(extension_height 0.58642)
+			(extension_offset 0.5) keep_text_aligned)
+	)
 )

@@ -67,6 +67,12 @@
     "visible_layers": "8003030_ffffffff",
     "zone_display_mode": 0
   },
+  "git": {
+    "repo_password": "",
+    "repo_type": "",
+    "repo_username": "",
+    "ssh_key": ""
+  },
   "meta": {
     "filename": "stab_tester.kicad_prl",
     "version": 3
