@@ -1,4 +1,4 @@
-24302764598655317
+24309660125188577
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -63651,6 +63651,27 @@ THT
 4
 2
 JohnDeereLibrary
+1_pad_connector
+
+
+0
+1
+1
+JohnDeereLibrary
+2_pad_connector
+
+
+0
+2
+2
+JohnDeereLibrary
+3_pad_connector
+
+
+0
+3
+3
+JohnDeereLibrary
 4_pad_connector
 
 
@@ -63888,6 +63909,13 @@ Waveshare_rp2040_Zero
 0
 22
 22
+JohnDeereLibrary
+uDB-C4-template
+
+
+0
+0
+0
 Jumper
 SolderJumper-2_P1.3mm_Bridged2Bar_Pad1.0x1.5mm
 SMD Solder Jumper, 1x1.5mm Pads, 0.3mm gap, bridged with 2 copper strips
