@@ -7008,6 +7008,18 @@
 		)
 	)
 	(junction
+		(at 210.82 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "04f66ca7-c19e-40ea-bb7e-259657a2ec0f")
+	)
+	(junction
+		(at 210.82 80.01)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "19548ea4-7974-4f57-81f9-10199a8def7b")
+	)
+	(junction
 		(at 330.2 198.12)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7030,6 +7042,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "654651c0-0c3d-48f8-9a7e-2160c6ecddc5")
+	)
+	(junction
+		(at 210.82 74.93)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "962108c8-ff32-448e-98ec-1e64075cb25a")
 	)
 	(junction
 		(at 287.02 254)
@@ -7090,6 +7108,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d96e9f42-e2eb-4942-976c-0e0caefa7d00")
+	)
+	(junction
+		(at 210.82 82.55)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e54d2e1c-6eae-4cb6-b4b3-1283c0a8b632")
 	)
 	(wire
 		(pts
@@ -7223,6 +7247,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 77.47) (xy 210.82 80.01)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2aa125f0-ce33-4a4d-a8bd-e85760346f4d")
+	)
+	(wire
+		(pts
 			(xy 199.39 255.27) (xy 199.39 256.54)
 		)
 		(stroke
@@ -7263,6 +7297,26 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 80.01) (xy 210.82 82.55)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3852d5e1-d639-4055-83d6-d2ec94d96d68")
+	)
+	(wire
+		(pts
+			(xy 210.82 83.82) (xy 213.36 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "39688e05-7fcd-4c72-aa3d-0d7cf8ccad70")
+	)
+	(wire
+		(pts
 			(xy 129.54 125.73) (xy 135.89 125.73)
 		)
 		(stroke
@@ -7300,6 +7354,16 @@
 			(type default)
 		)
 		(uuid "3be1bee6-7ae3-4361-b2e8-3de748619347")
+	)
+	(wire
+		(pts
+			(xy 53.34 236.22) (xy 58.42 236.22)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d25e5bb-4365-4011-bc01-723e321bbf36")
 	)
 	(wire
 		(pts
@@ -7520,6 +7584,16 @@
 			(type solid)
 		)
 		(uuid "840651af-9b20-497b-ac9d-1c4d2f9c594b")
+	)
+	(wire
+		(pts
+			(xy 210.82 72.39) (xy 210.82 74.93)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "84c57203-89ac-4331-9cb6-3a1be558579d")
 	)
 	(wire
 		(pts
@@ -7763,6 +7837,16 @@
 	)
 	(wire
 		(pts
+			(xy 210.82 74.93) (xy 210.82 77.47)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "bbb3132f-c31a-4531-9644-2354b09fd7b9")
+	)
+	(wire
+		(pts
 			(xy 161.29 132.08) (xy 161.29 135.89)
 		)
 		(stroke
@@ -7840,6 +7924,16 @@
 			(type solid)
 		)
 		(uuid "cda0e00c-bc46-4d91-925a-b99bd40a7175")
+	)
+	(wire
+		(pts
+			(xy 210.82 82.55) (xy 210.82 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d2e79872-bd82-4e38-9ab2-d9ecc007605c")
 	)
 	(wire
 		(pts
@@ -8508,28 +8602,6 @@
 		(uuid "0a2f891f-3bae-45f7-8bac-91ff8745414e")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
 			(at 226.9889 106.68 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "BAT_GND"
-		(shape input)
-		(at 53.34 236.22 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "0afc1d1f-f783-46fb-9b8a-44831ea6c224")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 64.4895 236.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -10260,6 +10332,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 58.42 238.76 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "1c714310-b3cb-4df4-b5ef-34b4ce9651b9")
+		(property "Reference" "#U$015"
+			(at 58.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 56.896 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 58.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 58.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 58.42 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "f0a8172e-6fcd-4d37-b9a8-fc8965adbd9a")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$015")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
 		(at 281.94 243.84 0)
 		(unit 1)
@@ -11540,6 +11678,83 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector:Conn_01x05_Pin")
+		(at 205.74 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "56e0686a-d199-4d10-9321-564300f206ac")
+		(property "Reference" "J11"
+			(at 206.375 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_01x05_Pin"
+			(at 206.375 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Connector_PinHeader_1.27mm:PinHeader_1x05_P1.27mm_Vertical"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x05, script generated"
+			(at 205.74 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3b84a180-7139-4540-8e8c-a674b7541d2d")
+		)
+		(pin "3"
+			(uuid "90088f39-e5d3-4ea6-b911-a87107c92b4e")
+		)
+		(pin "2"
+			(uuid "39290d58-0118-4cee-9d48-b272002fd792")
+		)
+		(pin "4"
+			(uuid "ff635494-b20d-4c8e-9df3-970ceb5feae2")
+		)
+		(pin "5"
+			(uuid "bc7ed7a3-c764-4474-a804-14f40161ac65")
+		)
+		(instances
+			(project ""
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "J11")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
 		(at 101.6 180.34 0)
 		(unit 1)
@@ -12552,6 +12767,72 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$033")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 213.36 86.36 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "9060565e-6517-4e82-ada5-226b99c346d0")
+		(property "Reference" "#U$039"
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 211.836 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 213.36 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "19a178e5-2102-49c0-b4c5-ae880274a016")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$039")
 					(unit 1)
 				)
 			)
