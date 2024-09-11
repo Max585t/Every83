@@ -1,4 +1,4 @@
-24311382742440448
+24323518944053075
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -63721,6 +63721,20 @@ AMPHENOL_73306-111LF
 6
 6
 JohnDeereLibrary
+CK_AYZ0102AGRLC
+
+
+0
+3
+3
+JohnDeereLibrary
+CK_PTS526SM20SMTR21
+
+
+0
+4
+4
+JohnDeereLibrary
 DFR0995_Mounting_holes
 
 
@@ -63798,6 +63812,20 @@ KB2040
 26
 26
 JohnDeereLibrary
+Kailh_GMx0
+
+
+0
+3
+3
+JohnDeereLibrary
+Kailh_MX_Hotswap_socket_CPG151101S11
+
+
+0
+2
+2
+JohnDeereLibrary
 LED_WURTH_155060AS75300
 
 
@@ -63825,6 +63853,13 @@ MOLEX_0955012401
 0
 6
 6
+JohnDeereLibrary
+Mouse Wheel Encoder
+
+
+0
+3
+3
 JohnDeereLibrary
 Pomona_1581
 
@@ -63875,12 +63910,26 @@ SP3232ECT
 16
 16
 JohnDeereLibrary
+SPCP168A
+
+
+0
+14
+14
+JohnDeereLibrary
 SW_500SSP1S1M2REA
 
 
 0
 3
 3
+JohnDeereLibrary
+Straight 9 Contact Pins - 2.2mm
+
+
+0
+9
+9
 JohnDeereLibrary
 VQFN-HR
 
@@ -63907,8 +63956,8 @@ Waveshare_rp2040_Tiny
 
 
 0
-44
-22
+46
+23
 JohnDeereLibrary
 Waveshare_rp2040_Zero
 
