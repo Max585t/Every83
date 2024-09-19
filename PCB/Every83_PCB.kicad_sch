@@ -832,509 +832,6 @@
 				)
 			)
 		)
-		(symbol "2024-03-25_01-24-54:SM03B-SRSS-TB"
-			(pin_names
-				(offset 0.254)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "J"
-				(at 8.89 6.35 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Value" "SM03B-SRSS-TB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.524 1.524)
-					)
-				)
-			)
-			(property "Footprint" "CONN_SM03B-SRSS-TB_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "SM03B-SRSS-TB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-						(italic yes)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_locked" ""
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "ki_keywords" "SM03B-SRSS-TB"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "CONN_SM03B-SRSS-TB_JST"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SM03B-SRSS-TB_1_1"
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 10.16 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(symbol "SM03B-SRSS-TB_1_2"
-				(polyline
-					(pts
-						(xy 5.08 -7.62) (xy 12.7 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 2.54) (xy 5.08 -7.62)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 5.08 -5.08)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -5.9267)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -5.08) (xy 8.89 -4.2333)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 5.08 -2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -3.3867)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 -2.54) (xy 8.89 -1.6933)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 5.08 0)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 -0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 7.62 0) (xy 8.89 0.8467)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 -7.62) (xy 12.7 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 12.7 2.54) (xy 5.08 2.54)
-					)
-					(stroke
-						(width 0.127)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(pin unspecified line
-					(at 0 0 0)
-					(length 5.08)
-					(name "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -2.54 0)
-					(length 5.08)
-					(name "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin unspecified line
-					(at 0 -5.08 0)
-					(length 5.08)
-					(name "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "3"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-		)
 		(symbol "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V"
 			(power)
 			(exclude_from_sim no)
@@ -1722,7 +1219,7 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "D"
+			(property "Reference" "D101"
 				(at 0 2.54 0)
 				(effects
 					(font
@@ -1730,7 +1227,7 @@
 					)
 				)
 			)
-			(property "Value" ""
+			(property "Value" "MBR120"
 				(at 0 -2.5 0)
 				(effects
 					(font
@@ -1738,7 +1235,7 @@
 					)
 				)
 			)
-			(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:SOD-123"
+			(property "Footprint" "Diode_SMD:D_SOD-123"
 				(at 0 0 0)
 				(effects
 					(font
@@ -1859,24 +1356,6 @@
 					)
 				)
 				(pin passive line
-					(at -2.54 0 0)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-					(number "A"
-						(effects
-							(font
-								(size 0 0)
-							)
-						)
-					)
-				)
-				(pin passive line
 					(at 2.54 0 180)
 					(length 2.54)
 					(name "C"
@@ -1886,7 +1365,25 @@
 							)
 						)
 					)
-					(number "C"
+					(number "1"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -2.54 0 0)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 0 0)
+							)
+						)
+					)
+					(number "2"
 						(effects
 							(font
 								(size 0 0)
@@ -5813,6 +5310,261 @@
 				)
 			)
 		)
+		(symbol "Connector_Generic:Conn_02x03_Counter_Clockwise"
+			(pin_names
+				(offset 1.016) hide)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 1.27 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_02x03_Counter_Clockwise"
+				(at 1.27 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_2x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_02x03_Counter_Clockwise_1_1"
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 2.667)
+					(end 0 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 3.81)
+					(end 3.81 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start 3.81 -2.413)
+					(end 2.54 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 0.127)
+					(end 2.54 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start 3.81 2.667)
+					(end 2.54 2.413)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 2.54 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 -2.54 180)
+					(length 3.81)
+					(name "Pin_4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 0 180)
+					(length 3.81)
+					(name "Pin_5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "5"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 7.62 2.54 180)
+					(length 3.81)
+					(name "Pin_6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "6"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+		)
 		(symbol "Device:LED"
 			(pin_numbers hide)
 			(pin_names
@@ -7841,6 +7593,12 @@
 		(uuid "654651c0-0c3d-48f8-9a7e-2160c6ecddc5")
 	)
 	(junction
+		(at 127 240.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "81b20a81-ff81-4709-91ae-b54902b2bd30")
+	)
+	(junction
 		(at 210.82 74.93)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7883,12 +7641,6 @@
 		(uuid "c7894ee9-735d-4675-aa9a-0cba31bcc310")
 	)
 	(junction
-		(at 127 240.03)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "cc6d4215-6702-4ce8-99a2-ab081efa2700")
-	)
-	(junction
 		(at 149.86 240.03)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7911,6 +7663,10 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e54d2e1c-6eae-4cb6-b4b3-1283c0a8b632")
+	)
+	(no_connect
+		(at 180.34 245.11)
+		(uuid "3e110a0e-6f1f-4a7a-9d31-d297742cd34b")
 	)
 	(wire
 		(pts
@@ -7981,6 +7737,16 @@
 			(type solid)
 		)
 		(uuid "09b3b9c6-f92e-4265-accc-b766900d51bc")
+	)
+	(wire
+		(pts
+			(xy 127 240.03) (xy 127 243.84)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "0ee9231a-e466-4390-86e3-c7ef3332b396")
 	)
 	(wire
 		(pts
@@ -8064,16 +7830,6 @@
 	)
 	(wire
 		(pts
-			(xy 127 240.03) (xy 127 243.84)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "2a17c6f4-7f7a-43f3-9e9d-f1f4a12253b2")
-	)
-	(wire
-		(pts
 			(xy 210.82 77.47) (xy 210.82 80.01)
 		)
 		(stroke
@@ -8101,16 +7857,6 @@
 			(type solid)
 		)
 		(uuid "2ebbfb1d-dcc5-48f1-a429-30fc9662f0fa")
-	)
-	(wire
-		(pts
-			(xy 137.16 237.49) (xy 137.16 240.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "358b606a-44cd-4470-971e-425eae02ebc9")
 	)
 	(wire
 		(pts
@@ -8181,16 +7927,6 @@
 			(type default)
 		)
 		(uuid "3be1bee6-7ae3-4361-b2e8-3de748619347")
-	)
-	(wire
-		(pts
-			(xy 127 240.03) (xy 127 234.95)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "43606806-eae6-4241-8ff0-192e9c963b77")
 	)
 	(wire
 		(pts
@@ -8321,6 +8057,16 @@
 			(type default)
 		)
 		(uuid "60a7ef3e-f8bd-4740-983e-c1e397a78ed9")
+	)
+	(wire
+		(pts
+			(xy 137.16 237.49) (xy 137.16 240.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "621fcd1e-689c-4bce-90ee-07927ab0a2b3")
 	)
 	(wire
 		(pts
@@ -8531,6 +8277,16 @@
 			(type solid)
 		)
 		(uuid "9d525f01-aa00-4412-b03a-cad1f0017ba4")
+	)
+	(wire
+		(pts
+			(xy 127 234.95) (xy 127 240.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "9f2f87d3-4222-423c-a2b7-c34a19aa9059")
 	)
 	(wire
 		(pts
@@ -9201,17 +8957,6 @@
 		)
 		(uuid "085934ee-b7c4-4717-807f-85a0a590503a")
 	)
-	(label "TXD"
-		(at 167.64 181.61 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "0a703998-1253-49dd-b265-93a09e75f60f")
-	)
 	(label "Stat"
 		(at 50.8 257.81 0)
 		(fields_autoplaced yes)
@@ -9333,6 +9078,17 @@
 		)
 		(uuid "9c88b080-f253-4e0c-99a6-aea77fc17251")
 	)
+	(label "RXD"
+		(at 204.47 175.26 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.2446 1.2446)
+			)
+			(justify left bottom)
+		)
+		(uuid "a384e8ee-70cc-4c3d-a9cc-21cb82d80775")
+	)
 	(label "USBD-"
 		(at 325.12 187.96 0)
 		(fields_autoplaced yes)
@@ -9343,6 +9099,17 @@
 			(justify left bottom)
 		)
 		(uuid "a5baff9c-6ce4-4821-b188-12be54e997ae")
+	)
+	(label "SWDCLK"
+		(at 191.77 170.18 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "a7f0a45b-00ff-4337-a284-52aa96e190ff")
 	)
 	(label "USBD+"
 		(at 325.12 190.5 0)
@@ -9366,19 +9133,19 @@
 		)
 		(uuid "b5055e7f-d5f5-4943-920e-44c689abbf43")
 	)
-	(label "SWDIO"
-		(at 167.64 162.56 180)
+	(label "TXD"
+		(at 204.47 170.18 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
-				(size 1.27 1.27)
+				(size 1.2446 1.2446)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "bb13d236-93b9-4851-8256-73f943dde1a7")
+		(uuid "becedfb6-95bc-41d8-9c08-88df1100c9b5")
 	)
-	(label "SWDCLK"
-		(at 167.64 157.48 180)
+	(label "SWDIO"
+		(at 191.77 175.26 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -9386,7 +9153,7 @@
 			)
 			(justify right bottom)
 		)
-		(uuid "c79408c6-3404-490a-b5a8-1661aaf50b7e")
+		(uuid "c22bfb39-8a91-4e6d-b805-f0a5f5fe092c")
 	)
 	(label "EN"
 		(at 154.94 242.57 0)
@@ -9420,17 +9187,6 @@
 			(justify left bottom)
 		)
 		(uuid "dfe742fb-340d-43e5-a183-47aba745bdd5")
-	)
-	(label "RXD"
-		(at 167.64 176.53 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.2446 1.2446)
-			)
-			(justify right bottom)
-		)
-		(uuid "dff65f32-59c0-4391-a170-5a504322ed42")
 	)
 	(label "Stat"
 		(at 285.75 229.87 180)
@@ -10665,6 +10421,72 @@
 		)
 	)
 	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 207.01 172.72 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "02c6bcb4-f663-412f-9663-aaf8872881f3")
+		(property "Reference" "#U$020"
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 209.55 174.244 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 207.01 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b67ae071-2932-414b-884f-aa8a7edf7eed")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$020")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:MOSFET-P")
 		(at 137.16 232.41 0)
 		(mirror x)
@@ -11725,81 +11547,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "2024-03-25_01-24-54:SM03B-SRSS-TB")
-		(at 167.64 157.48 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "2ef75d74-0628-43fa-9675-cbbf6b7af231")
-		(property "Reference" "J3"
-			(at 181.61 158.7499 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 181.61 161.2899 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CONN_SM03B-SRSS-TB_JST"
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SM03B-SRSS-TB"
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2fd3e49d-282d-49eb-a1e8-7c8de8315852")
-		)
-		(pin "3"
-			(uuid "270fd21d-b134-48cd-9af0-d11cfe90486b")
-		)
-		(pin "1"
-			(uuid "8d56fe95-ba4c-4098-999f-f37a6dd3a642")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "J3")
 					(unit 1)
 				)
 			)
@@ -13230,6 +12977,86 @@
 		)
 	)
 	(symbol
+		(lib_id "Connector_Generic:Conn_02x03_Counter_Clockwise")
+		(at 196.85 172.72 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "707aead6-bda1-4614-844f-71ee05b74147")
+		(property "Reference" "J7"
+			(at 198.12 163.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "Conn_02x03_Counter_Clockwise"
+			(at 198.12 166.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "JohnDeereLibrary:nRF_Programmer"
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, double row, 02x03, counter clockwise pin numbering scheme (similar to DIP package numbering), script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 196.85 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "3"
+			(uuid "ea8b45bc-9a69-4e28-a8cb-7bc89340bafc")
+		)
+		(pin "4"
+			(uuid "adb79d69-1261-49e2-a059-4c193cd5ef74")
+		)
+		(pin "6"
+			(uuid "e33611ed-5ce0-4daa-8322-dcd2aa262448")
+		)
+		(pin "1"
+			(uuid "c660d735-3413-4d79-824b-6f076385be7b")
+		)
+		(pin "2"
+			(uuid "6e8cf6e5-54c9-4b38-aa88-9d95219879dd")
+		)
+		(pin "5"
+			(uuid "c55a0aa7-35af-47f9-86eb-6b90545e9943")
+		)
+		(instances
+			(project ""
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "J7")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 111.76 198.12 0)
 		(unit 1)
@@ -14457,81 +14284,6 @@
 		)
 	)
 	(symbol
-		(lib_id "2024-03-25_01-24-54:SM03B-SRSS-TB")
-		(at 167.64 176.53 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "b9b64582-2ab6-4899-b671-3b88cb614eba")
-		(property "Reference" "J4"
-			(at 181.61 177.7999 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "SM03B-SRSS-TB"
-			(at 181.61 180.3399 0)
-			(effects
-				(font
-					(size 1.524 1.524)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "footprints:CONN_SM03B-SRSS-TB_JST"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "SM03B-SRSS-TB"
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-					(italic yes)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 167.64 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "2fd3e49d-282d-49eb-a1e8-7c8de8315853")
-		)
-		(pin "3"
-			(uuid "270fd21d-b134-48cd-9af0-d11cfe90486c")
-		)
-		(pin "1"
-			(uuid "8d56fe95-ba4c-4098-999f-f37a6dd3a643")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "J4")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
 		(at 121.92 180.34 0)
 		(unit 1)
@@ -14754,72 +14506,6 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 165.1 160.02 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "cd39221d-5446-4f31-99fd-e4aadf170b90")
-		(property "Reference" "#U$09"
-			(at 165.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 158.496 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 160.02 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "fcd0abcb-ed4b-4525-b1cd-993a71876f5c")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$09")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
 		(at 101.6 198.12 0)
 		(unit 1)
 		(exclude_from_sim no)
@@ -14909,7 +14595,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:SOD-123"
+		(property "Footprint" "Diode_SMD:D_SOD-123"
 			(at 132.08 240.03 0)
 			(effects
 				(font
@@ -14936,10 +14622,10 @@
 				(hide yes)
 			)
 		)
-		(pin "A"
+		(pin "2"
 			(uuid "77a1b92a-0731-4cf7-b0bd-6999af41570e")
 		)
-		(pin "C"
+		(pin "1"
 			(uuid "fb196f35-2591-48bb-b687-f1ce299fc91c")
 		)
 		(instances
@@ -15351,72 +15037,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 165.1 179.07 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e44fed7f-1a95-4106-b1a3-8a39fef82be0")
-		(property "Reference" "#U$020"
-			(at 165.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "GND"
-			(at 162.56 177.546 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 165.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 165.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 165.1 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "890bd254-4fd0-438b-9e3e-b7ae52b162e9")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$020")
 					(unit 1)
 				)
 			)
@@ -16218,6 +15838,72 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$024")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
+		(at 189.23 172.72 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "faebae0f-ff09-4de2-bd6b-570284dc22f9")
+		(property "Reference" "#U$028"
+			(at 189.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 186.69 171.196 0)
+			(effects
+				(font
+					(size 1.27 1.0795)
+				)
+				(justify left bottom)
+			)
+		)
+		(property "Footprint" ""
+			(at 189.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 189.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 189.23 172.72 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "e3a7cef8-f050-43b4-a282-4de76bac3ead")
+		)
+		(instances
+			(project "Every83_PCB"
+				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
+					(reference "#U$028")
 					(unit 1)
 				)
 			)
