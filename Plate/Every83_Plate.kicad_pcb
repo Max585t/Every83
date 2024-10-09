@@ -10911,6 +10911,17 @@
 		)
 	)
 	(gr_rect
+		(start 36.7666 28.3972)
+		(end 381.2666 307.7972)
+		(stroke
+			(width 0.1)
+			(type default)
+		)
+		(fill none)
+		(layer "Cmts.User")
+		(uuid "031c7441-578e-4017-911c-86a97706f8c3")
+	)
+	(gr_rect
 		(start 42.5 36.3)
 		(end 376 160.3)
 		(stroke
