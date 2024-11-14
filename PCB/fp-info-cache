@@ -1,4 +1,4 @@
-24326973505399436
+24332164713771001
 Alps_MX_Stabilizers
 Alps-MX-Stabilizers-1.5U
 
@@ -63770,6 +63770,13 @@ ET01MD1CBE
 3
 3
 JohnDeereLibrary
+ET21MD1ABE
+
+
+0
+8
+7
+JohnDeereLibrary
 GATERON Upgrade Low Profile switch Hot-swap PCB 2.0 Socket
 
 
@@ -63945,6 +63952,13 @@ VQFN-HR
 22
 21
 JohnDeereLibrary
+W5100s-io
+
+
+0
+20
+20
+JohnDeereLibrary
 WIZ850io
 
 
@@ -63972,6 +63986,13 @@ Waveshare_rp2040_Zero
 0
 22
 22
+JohnDeereLibrary
+Wiznet_J1B1211CCD
+
+
+0
+14
+13
 JohnDeereLibrary
 nRF_Programmer
 
