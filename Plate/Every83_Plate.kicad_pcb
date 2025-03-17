@@ -1,7 +1,7 @@
 (kicad_pcb
-	(version 20240108)
+	(version 20241229)
 	(generator "pcbnew")
-	(generator_version "8.0")
+	(generator_version "9.0")
 	(general
 		(thickness 1.2)
 		(legacy_teardrops no)
@@ -9,34 +9,34 @@
 	(paper "A3")
 	(layers
 		(0 "F.Cu" signal)
-		(31 "B.Cu" signal)
-		(32 "B.Adhes" user "B.Adhesive")
-		(33 "F.Adhes" user "F.Adhesive")
-		(34 "B.Paste" user)
-		(35 "F.Paste" user)
-		(36 "B.SilkS" user "B.Silkscreen")
-		(37 "F.SilkS" user "F.Silkscreen")
-		(38 "B.Mask" user)
-		(39 "F.Mask" user)
-		(40 "Dwgs.User" user "User.Drawings")
-		(41 "Cmts.User" user "User.Comments")
-		(42 "Eco1.User" user "User.Eco1")
-		(43 "Eco2.User" user "User.Eco2")
-		(44 "Edge.Cuts" user)
-		(45 "Margin" user)
-		(46 "B.CrtYd" user "B.Courtyard")
-		(47 "F.CrtYd" user "F.Courtyard")
-		(48 "B.Fab" user)
-		(49 "F.Fab" user)
-		(50 "User.1" user)
-		(51 "User.2" user)
-		(52 "User.3" user)
-		(53 "User.4" user)
-		(54 "User.5" user)
-		(55 "User.6" user)
-		(56 "User.7" user)
-		(57 "User.8" user)
-		(58 "User.9" user)
+		(2 "B.Cu" signal)
+		(9 "F.Adhes" user "F.Adhesive")
+		(11 "B.Adhes" user "B.Adhesive")
+		(13 "F.Paste" user)
+		(15 "B.Paste" user)
+		(5 "F.SilkS" user "F.Silkscreen")
+		(7 "B.SilkS" user "B.Silkscreen")
+		(1 "F.Mask" user)
+		(3 "B.Mask" user)
+		(17 "Dwgs.User" user "User.Drawings")
+		(19 "Cmts.User" user "User.Comments")
+		(21 "Eco1.User" user "User.Eco1")
+		(23 "Eco2.User" user "User.Eco2")
+		(25 "Edge.Cuts" user)
+		(27 "Margin" user)
+		(31 "F.CrtYd" user "F.Courtyard")
+		(29 "B.CrtYd" user "B.Courtyard")
+		(35 "F.Fab" user)
+		(33 "B.Fab" user)
+		(39 "User.1" user)
+		(41 "User.2" user)
+		(43 "User.3" user)
+		(45 "User.4" user)
+		(47 "User.5" user)
+		(49 "User.6" user)
+		(51 "User.7" user)
+		(53 "User.8" user)
+		(55 "User.9" user)
 	)
 	(setup
 		(stackup
@@ -80,9 +80,10 @@
 		)
 		(pad_to_mask_clearance 0)
 		(allow_soldermask_bridges_in_footprints no)
+		(tenting front back)
 		(pcbplotparams
-			(layerselection 0x0001000_7ffffffe)
-			(plot_on_all_layers_selection 0x0000000_00000000)
+			(layerselection 0x00000000_00000000_55555555_57555550)
+			(plot_on_all_layers_selection 0x00000000_00000000_00000000_00000000)
 			(disableapertmacros no)
 			(usegerberextensions no)
 			(usegerberattributes yes)
@@ -92,7 +93,6 @@
 			(dashed_line_gap_ratio 3.000000)
 			(svgprecision 4)
 			(plotframeref no)
-			(viasonmask no)
 			(mode 1)
 			(useauxorigin no)
 			(hpglpennumber 1)
@@ -100,16 +100,20 @@
 			(hpglpendiameter 15.000000)
 			(pdf_front_fp_property_popups yes)
 			(pdf_back_fp_property_popups yes)
+			(pdf_metadata yes)
+			(pdf_single_document no)
 			(dxfpolygonmode no)
 			(dxfimperialunits no)
 			(dxfusepcbnewfont no)
 			(psnegative no)
 			(psa4output no)
-			(plotreference no)
-			(plotvalue no)
-			(plotfptext no)
+			(plot_black_and_white yes)
 			(plotinvisibletext no)
 			(sketchpadsonfab no)
+			(plotpadnumbers no)
+			(hidednponfab no)
+			(sketchdnponfab yes)
+			(crossoutdnponfab yes)
 			(subtractmaskfromsilk no)
 			(outputformat 3)
 			(mirror no)
@@ -143,19 +147,6 @@
 			(effects
 				(font
 					(size 1 1)
-					(thickness 0.15)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "601f0ffc-962c-458e-9016-37d61e455fd1")
-			(effects
-				(font
-					(size 1.27 1.27)
 					(thickness 0.15)
 				)
 			)
@@ -196,7 +187,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "1c0cbdfe-e403-4c91-8992-c5f26c2f655d")
 		)
@@ -212,6 +203,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -252,19 +244,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "02663c96-72e0-4b40-b625-257c0b52c9d3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -301,7 +280,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "84602aa7-9a44-4814-a9f6-f5267e4c7158")
 		)
@@ -317,6 +296,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -357,19 +337,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "082ebe28-0109-4509-9ba0-25b6096207b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -406,7 +373,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "f4a9fbc2-3a1b-4091-b5bb-2f63dca7af0f")
 		)
@@ -422,6 +389,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -462,19 +430,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e6aba2ad-bdd8-4113-a3f8-4ddaf1e354bf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -511,7 +466,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "8144ff90-5eeb-44a5-886c-581f03fa59e1")
 		)
@@ -527,6 +482,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -567,19 +523,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ca115925-0e63-41fa-a975-076d0edcf541")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -616,7 +559,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "fbc0c079-52b4-4b06-bcb8-2e997c1b25b3")
 		)
@@ -632,6 +575,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -672,19 +616,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "49d6fb6c-9ee5-42a4-a737-89dc065fb15f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -721,7 +652,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "85177aee-b721-4bb6-8595-53b43e090479")
 		)
@@ -737,6 +668,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -777,19 +709,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7bbc440a-0079-4dd8-9fcd-443a53353be3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -826,7 +745,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "7e417463-82cc-46f9-be3f-8e81a64fc98b")
 		)
@@ -1130,6 +1049,22 @@
 				(xy 54.38925 134.866) (xy 78.38925 134.866)
 			)
 			(height 7.881999)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(arrow_direction outward)
+				(extension_height 0.58642)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
+			)
 			(gr_text "24.0000 mm"
 				(at 66.38925 141.597999 0)
 				(layer "F.SilkS")
@@ -1141,6 +1076,15 @@
 					)
 				)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "c857ec5c-963c-491c-a325-b32310a0c37e")
+			(pts
+				(xy 51.38925 122.4655) (xy 51.38925 134.9655)
+			)
+			(height 4.0754)
 			(format
 				(prefix "")
 				(suffix "")
@@ -1152,17 +1096,11 @@
 				(thickness 0.12)
 				(arrow_length 1.27)
 				(text_position_mode 0)
+				(arrow_direction outward)
 				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
-		(dimension
-			(type aligned)
-			(layer "F.SilkS")
-			(uuid "c857ec5c-963c-491c-a325-b32310a0c37e")
-			(pts
-				(xy 51.38925 122.4655) (xy 51.38925 134.9655)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
 			)
-			(height 4.0754)
 			(gr_text "12.5000 mm"
 				(at 46.16385 128.7155 90)
 				(layer "F.SilkS")
@@ -1174,20 +1112,8 @@
 					)
 				)
 			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.12)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
 			(offset
 				(xyz 0 0.12 -0.08)
@@ -1239,19 +1165,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e81ca2c-1acc-49cb-8235-79cbfee3c206")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1288,7 +1201,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "c8adec6f-453a-4e9c-b033-564f4742419b")
 		)
@@ -1304,6 +1217,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -1344,19 +1258,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "019e9fd3-1c55-4c83-ae12-57b2ee377a27")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1393,7 +1294,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "0b1b8bc8-b484-488b-8e0e-134c399f2eb5")
 		)
@@ -1409,6 +1310,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -1449,19 +1351,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f0579840-ce1d-4f56-9071-697a3236cd5e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1498,7 +1387,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "4d4632e6-22e5-4d75-8e5f-d1a89dd27ce5")
 		)
@@ -1514,6 +1403,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -1554,19 +1444,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7f720a42-a0a9-4dd3-a443-89ab12d3fb91")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1603,7 +1480,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "3917b4b5-9d58-47d9-936a-54efe52659dd")
 		)
@@ -1619,6 +1496,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -1659,19 +1537,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fb9b52e4-4aea-4096-a2c9-6ce0eb11e70b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1708,7 +1573,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "691f1a89-bdbb-426e-9b90-17385417c6f4")
 		)
@@ -1724,6 +1589,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -1764,19 +1630,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "32034a05-d360-47fa-9c83-b429ad89dec2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -1813,7 +1666,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "48f26980-d146-4421-8968-a6222f116f8f")
 		)
@@ -2117,6 +1970,22 @@
 				(xy 299.658 77.716) (xy 323.658 77.716)
 			)
 			(height 7.881999)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(arrow_direction outward)
+				(extension_height 0.58642)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
+			)
 			(gr_text "24.0000 mm"
 				(at 311.658 84.447999 0)
 				(layer "F.SilkS")
@@ -2128,6 +1997,15 @@
 					)
 				)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "bfe9a19a-55cc-41b5-82e6-7dca2c7e71ef")
+			(pts
+				(xy 296.658 65.3155) (xy 296.658 77.8155)
+			)
+			(height 4.0754)
 			(format
 				(prefix "")
 				(suffix "")
@@ -2139,17 +2017,11 @@
 				(thickness 0.12)
 				(arrow_length 1.27)
 				(text_position_mode 0)
+				(arrow_direction outward)
 				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
-		(dimension
-			(type aligned)
-			(layer "F.SilkS")
-			(uuid "bfe9a19a-55cc-41b5-82e6-7dca2c7e71ef")
-			(pts
-				(xy 296.658 65.3155) (xy 296.658 77.8155)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
 			)
-			(height 4.0754)
 			(gr_text "12.5000 mm"
 				(at 291.4326 71.5655 90)
 				(layer "F.SilkS")
@@ -2161,20 +2033,8 @@
 					)
 				)
 			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.12)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
 			(offset
 				(xyz 0 0.12 -0.08)
@@ -2226,19 +2086,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "cf7ef109-c96a-4986-8581-57632da7c033")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2275,7 +2122,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "021becbf-5cda-425f-8835-27668780caad")
 		)
@@ -2291,6 +2138,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2331,19 +2179,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f23b5c34-625b-4076-b1d4-91f5b030038d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2380,7 +2215,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "7cea0b6d-05aa-4abf-a1c3-4c18e2488fad")
 		)
@@ -2396,6 +2231,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2436,19 +2272,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "eaf9cf89-0523-4aa2-876a-535f8330f2d8")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2485,7 +2308,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "62a87ab8-08ce-4fcd-9e7f-462d465b7663")
 		)
@@ -2501,6 +2324,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2541,19 +2365,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "81e19347-3c77-4f8a-99d4-5d0604346bb9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2590,7 +2401,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "727062ae-d23a-4c7a-a01c-eb4099c09f30")
 		)
@@ -2606,6 +2417,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2646,19 +2458,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "0c214a07-2d02-42cf-8d3b-c81e052ef2ae")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2695,7 +2494,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "d86b29e3-9f80-4a45-9be6-94c4f8ae1f55")
 		)
@@ -2711,6 +2510,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2751,19 +2551,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "837766d1-9a31-4d2a-9598-63ef33f9ab3c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2800,7 +2587,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "1b7d27eb-a6c0-4cce-aad6-93d732134bb2")
 		)
@@ -2816,6 +2603,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2856,19 +2644,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "61016be6-e8c4-47f7-8c73-a0bb0484b0b3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -2905,7 +2680,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "e203f095-7429-49e9-a167-28781db0622b")
 		)
@@ -2921,6 +2696,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -2961,19 +2737,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d81abc72-2ecb-4a48-b6f3-bd38ae0fbadf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3010,7 +2773,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "f9ece56f-94a6-49d2-b8da-4983ed87ade6")
 		)
@@ -3026,6 +2789,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3066,19 +2830,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8dced728-d717-4042-9867-87f03eddbac9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3115,7 +2866,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "79e25afb-e6dc-4921-8423-1a420a0d7175")
 		)
@@ -3131,6 +2882,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3171,19 +2923,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2877da62-f696-4640-8b74-619519490fd0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3220,7 +2959,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "827c2fbe-5071-4522-a7a2-782552f4fae6")
 		)
@@ -3236,6 +2975,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3276,19 +3016,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "991f620a-ee8e-457a-a025-65a11db141e9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3325,7 +3052,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "a0fb9a4e-7bdc-432c-b706-986a656aceb0")
 		)
@@ -3341,6 +3068,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3381,19 +3109,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "18e07049-7a03-4598-9bab-b8f4d61a3243")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3430,7 +3145,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "3dda2ff7-a7ef-4c67-9166-0851607b0058")
 		)
@@ -3446,6 +3161,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3486,19 +3202,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "268fec30-e6d8-476d-b972-6554b0075b4f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3535,7 +3238,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "93b6e73d-9d49-43da-8e94-1b51abead580")
 		)
@@ -3551,6 +3254,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3591,19 +3295,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8352f987-74ea-47d5-8667-e41fae288ccf")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3640,7 +3331,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "cf4e6c96-e557-48a9-a357-01423e62e581")
 		)
@@ -3656,6 +3347,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3696,19 +3388,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "939c2bb6-b12d-4c83-9933-ebf9ec811633")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3745,7 +3424,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "a8cccc63-8e73-463c-983d-38442b0b2856")
 		)
@@ -3761,6 +3440,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3801,19 +3481,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "71bfbbe7-dc91-497a-81be-d9399bb41083")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3850,7 +3517,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ad2e6261-d523-444b-88e5-7adbb4ce0087")
 		)
@@ -3866,6 +3533,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -3906,19 +3574,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d218496d-df31-47a8-8779-d08d2521d215")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -3955,7 +3610,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "330b6ee5-9b7c-43ff-875e-63eeb6ca6556")
 		)
@@ -3971,6 +3626,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4011,19 +3667,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "835062ad-c206-46c4-9d8f-0b6d5ed4abc3")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4060,7 +3703,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "9e85ec1e-efea-492b-8095-ca2a82bd093b")
 		)
@@ -4356,6 +3999,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4407,19 +4051,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "bbf757ba-c9fa-42de-81f0-2daa1f657079")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4456,7 +4087,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "c416236a-d47e-447a-9e74-a2a1bec4339e")
 		)
@@ -4472,6 +4103,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4512,19 +4144,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e66cf214-813f-4c72-b6be-c9bb75309c95")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4561,7 +4180,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "b396e834-bf52-4156-aab5-94299a09258b")
 		)
@@ -4577,6 +4196,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4617,19 +4237,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "36c59dd2-8a8d-488f-8f87-40d9692aebba")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4666,7 +4273,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "5360f928-5d25-402f-b679-39b29554cf95")
 		)
@@ -4682,6 +4289,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4722,19 +4330,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4dcd4070-54ae-4abd-943b-c8fdbf77786d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4771,7 +4366,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ced11ca9-e562-4832-9440-37166df09af9")
 		)
@@ -4787,6 +4382,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4827,19 +4423,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e35abaaf-8620-49af-998c-37b372175bb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4876,7 +4459,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "f5d69fcb-6fd3-4afd-8886-af3246278b8b")
 		)
@@ -4892,6 +4475,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -4932,19 +4516,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "2b9cd4e5-3032-4bd5-a3c0-1cd3b7ffbac4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -4981,7 +4552,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "9c34ba65-70e6-4546-b6b8-42bbda5c8cfe")
 		)
@@ -4997,6 +4568,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5037,19 +4609,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a52db696-07b1-4157-a992-da65db1e1103")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5086,7 +4645,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "59d89d65-21fe-43a0-b37c-e385d420dc41")
 		)
@@ -5102,6 +4661,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5142,19 +4702,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "c4c5a7c5-78c9-4891-a08f-1b1b3c5976f7")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5191,7 +4738,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "2df54962-986e-4abe-9660-4548405138d5")
 		)
@@ -5207,6 +4754,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5247,19 +4795,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "93c53c5d-73df-4147-bdc4-6e5aade5eebb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5296,7 +4831,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "d90fbd68-aa07-483f-a11b-44dee8702e38")
 		)
@@ -5312,6 +4847,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5352,19 +4888,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ff57e8d3-d58d-473a-98b3-fd7a8cbdb422")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5401,7 +4924,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "4c2d95a4-05e4-49e2-a7a3-dcb13bc2422c")
 		)
@@ -5417,6 +4940,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5457,19 +4981,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "260eefcb-2b91-4eac-b646-0f00a911422a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5506,7 +5017,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "847ca29f-5497-42f4-b484-94a9acee7b55")
 		)
@@ -5522,6 +5033,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5562,19 +5074,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "4a1cff77-35b2-46e3-b93d-e969b834a1d5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5611,7 +5110,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "1e77c0f8-bd57-4069-b82d-515f1b28042d")
 		)
@@ -5627,6 +5126,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5667,19 +5167,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d924567e-7e55-4d3a-a995-1d7b872a458e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5716,7 +5203,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "10df657f-417b-461e-8d61-7428725c89fd")
 		)
@@ -5732,6 +5219,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5772,19 +5260,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "468f26d9-09ff-40fb-9798-d4c39c54143a")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5821,7 +5296,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "3ad7cd10-2600-4b87-a7a5-ccc1ba8de8ca")
 		)
@@ -5837,6 +5312,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -5877,19 +5353,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "ac7d7190-da52-444a-94fa-dfe09a1074f4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -5926,7 +5389,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "fdee0bc3-b268-4b71-9f76-f1b689ae4afe")
 		)
@@ -6230,6 +5693,22 @@
 				(xy 294.27675 103.4155) (xy 294.27675 115.9155)
 			)
 			(height 4.0754)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(arrow_direction outward)
+				(extension_height 0.58642)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
+			)
 			(gr_text "12.5000 mm"
 				(at 289.05135 109.6655 90)
 				(layer "F.SilkS")
@@ -6241,6 +5720,15 @@
 					)
 				)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "eccd9173-7b3d-4c45-809b-aa81793490af")
+			(pts
+				(xy 297.27675 115.816) (xy 321.27675 115.816)
+			)
+			(height 7.881999)
 			(format
 				(prefix "")
 				(suffix "")
@@ -6252,17 +5740,11 @@
 				(thickness 0.12)
 				(arrow_length 1.27)
 				(text_position_mode 0)
+				(arrow_direction outward)
 				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
-		(dimension
-			(type aligned)
-			(layer "F.SilkS")
-			(uuid "eccd9173-7b3d-4c45-809b-aa81793490af")
-			(pts
-				(xy 297.27675 115.816) (xy 321.27675 115.816)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
 			)
-			(height 7.881999)
 			(gr_text "24.0000 mm"
 				(at 309.27675 122.547999 0)
 				(layer "F.SilkS")
@@ -6274,20 +5756,8 @@
 					)
 				)
 			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.12)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
 			(offset
 				(xyz 0 0.12 -0.08)
@@ -6339,19 +5809,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b3073b35-b770-4c50-8020-abf40bb80513")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6388,7 +5845,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "89d341be-493a-4a2d-acda-1dd7cdaad8c9")
 		)
@@ -6404,6 +5861,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6444,19 +5902,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "03767b7e-9676-48a2-81e8-2bb5a61d636b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6493,7 +5938,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "0d221e96-0901-47f9-bc91-ee20ae280078")
 		)
@@ -6509,6 +5954,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6549,19 +5995,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "6b57cd27-aac2-4f83-8272-e7ec03cc9a10")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6598,7 +6031,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "28341f1d-0171-4d4e-8c0a-cdc7769d590d")
 		)
@@ -6614,6 +6047,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6654,19 +6088,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1d812142-a669-46a5-987f-b2ff6c739d17")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6703,7 +6124,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "a2ddac6e-0cdb-43cf-bea5-a3d31e66b208")
 		)
@@ -6719,6 +6140,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6759,19 +6181,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "015f7a55-7e8f-4742-b7dd-7e78885d4e93")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6808,7 +6217,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "790bb72a-3584-42cb-a97f-aff083c1ea47")
 		)
@@ -6824,6 +6233,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6864,19 +6274,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "70951ced-928b-4ce5-aa98-d39de9c18008")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -6913,7 +6310,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "46e46822-e691-48cc-9b7a-50e40a930827")
 		)
@@ -6929,6 +6326,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -6969,19 +6367,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fe354fb4-5ddd-49f7-aa58-4f32f7c56582")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7018,7 +6403,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "63b4927c-5742-42c8-95ed-f9044e6b1bfa")
 		)
@@ -7034,6 +6419,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -7074,19 +6460,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "45c3a1a1-2a63-44c5-97c0-9aa3fceeb682")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7123,7 +6496,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "79bab2e4-d237-44f4-8679-c42581e40fd6")
 		)
@@ -7427,6 +6800,22 @@
 				(xy 292.51425 134.866) (xy 316.51425 134.866)
 			)
 			(height 7.881999)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(arrow_direction outward)
+				(extension_height 0.58642)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
+			)
 			(gr_text "24.0000 mm"
 				(at 304.51425 141.597999 0)
 				(layer "F.SilkS")
@@ -7438,6 +6827,15 @@
 					)
 				)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "cdf5ca81-07a5-4650-9419-d21676bc7326")
+			(pts
+				(xy 289.51425 122.4655) (xy 289.51425 134.9655)
+			)
+			(height 4.0754)
 			(format
 				(prefix "")
 				(suffix "")
@@ -7449,17 +6847,11 @@
 				(thickness 0.12)
 				(arrow_length 1.27)
 				(text_position_mode 0)
+				(arrow_direction outward)
 				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
-		(dimension
-			(type aligned)
-			(layer "F.SilkS")
-			(uuid "cdf5ca81-07a5-4650-9419-d21676bc7326")
-			(pts
-				(xy 289.51425 122.4655) (xy 289.51425 134.9655)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
 			)
-			(height 4.0754)
 			(gr_text "12.5000 mm"
 				(at 284.28885 128.7155 90)
 				(layer "F.SilkS")
@@ -7471,20 +6863,8 @@
 					)
 				)
 			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.12)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
 			(offset
 				(xyz 0 0.12 -0.08)
@@ -7536,19 +6916,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "b07634af-4455-40e7-9fb6-52636ddd1f3f")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7585,7 +6952,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "bd2e2522-3ca8-4fd1-a9fe-74c38ccb7fda")
 		)
@@ -7601,6 +6968,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -7641,19 +7009,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d073f781-b061-4bd1-a2e7-33d18297b66d")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7690,7 +7045,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "952f4a2d-7943-41a3-8d93-1bc17c9f82bc")
 		)
@@ -7706,6 +7061,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -7746,19 +7102,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "00c5cdc0-3a5b-4251-9375-d1d9017a0a6b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7795,7 +7138,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "dcf337bb-5ea6-46be-9a08-b4e240871002")
 		)
@@ -7811,6 +7154,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -7851,19 +7195,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "95cad44a-c349-440d-b4b2-deea40a7dd68")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -7900,7 +7231,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "b0682eae-2e1d-45a1-93ca-617d5a4ad8cd")
 		)
@@ -7916,6 +7247,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -7956,19 +7288,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "d8504190-4737-476d-95c0-8c99ff4024cb")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8005,7 +7324,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "e3c3b328-ac8b-4d74-8d18-6b1f37c25382")
 		)
@@ -8021,6 +7340,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8061,19 +7381,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "a840501f-f196-4b14-9d0f-ee39dffac2c5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8110,7 +7417,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "d7983642-36ac-48fe-ba21-29213c554c54")
 		)
@@ -8126,6 +7433,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8166,19 +7474,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "28fac8c8-2b2b-46b6-bf12-a6d624b91893")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8215,7 +7510,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "8fc77042-401e-4331-93f0-097206571d93")
 		)
@@ -8231,6 +7526,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8271,19 +7567,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06fb2816-7a3a-46dd-9485-fca7d204d5a5")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8320,7 +7603,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ee23bb83-eda7-488e-b6d2-b7d69c515774")
 		)
@@ -8336,6 +7619,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8376,19 +7660,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "9d638b59-634a-467f-ad37-8e7f9b2c04f9")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8425,7 +7696,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "297d0bce-d396-4c7e-8a50-309ceab0b10b")
 		)
@@ -8441,6 +7712,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8481,19 +7753,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "7eeda93a-2f59-4720-8bf4-1a23204e7cc6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8530,7 +7789,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "fa300436-d199-4df3-8a36-964b537b3d2c")
 		)
@@ -8546,6 +7805,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8586,19 +7846,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "68088012-2286-48ea-8d0a-e41c99e86e8c")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8635,7 +7882,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "635879cd-5e95-4cec-a2a4-0c9e4802dfec")
 		)
@@ -8651,6 +7898,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8691,19 +7939,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "1169ac07-a029-4c04-8d83-71bac18ab5dc")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8740,7 +7975,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "6a1008e2-7efd-48fc-91d9-1ae5aed10e4a")
 		)
@@ -8756,6 +7991,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8796,19 +8032,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "e7f037d1-a215-4dd9-aa91-a09acaa9475e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8845,7 +8068,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "0fc74428-be28-4bdf-a96c-83eba1a14980")
 		)
@@ -8861,6 +8084,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -8901,19 +8125,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dba505b9-685e-43e6-99fa-075b3d99b816")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -8950,7 +8161,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ab61cfe7-cb9b-4236-b812-f184de63ded1")
 		)
@@ -8966,6 +8177,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9006,19 +8218,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "103adbb6-4f84-4fdf-b43f-b52df27b6e1b")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9055,7 +8254,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "551a0413-d285-4b2f-8396-45c5dda8865f")
 		)
@@ -9071,6 +8270,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9111,19 +8311,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "39960942-dfd5-4ab6-a8f4-13a175e65bb6")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9160,7 +8347,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "939d2539-fffd-42c6-8309-baecf2b09fe0")
 		)
@@ -9176,6 +8363,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9216,19 +8404,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dabc9394-85b2-45bf-abe6-6f703a110553")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9265,7 +8440,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "bf319a9e-d978-40f8-aac7-0662dea8c671")
 		)
@@ -9281,6 +8456,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9321,19 +8497,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "8d58f759-e9fa-4765-8baf-58aa25476b92")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9370,7 +8533,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "eb885a30-581b-4204-926d-54530bb01151")
 		)
@@ -9386,6 +8549,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9426,19 +8590,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3e742b7f-c06d-42b8-a513-8d8d8af745b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9475,7 +8626,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "a6c2a556-afd4-4757-9812-869dd3430f61")
 		)
@@ -9491,6 +8642,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9531,19 +8683,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "98c85701-4610-4d53-80f8-86892018abc4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9580,7 +8719,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "a0a86105-d189-403e-b414-60973ccb5728")
 		)
@@ -9596,6 +8735,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9636,19 +8776,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "fdd09c83-7077-49e9-9235-54594c590b43")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9685,7 +8812,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "e2c16d6a-afaf-4931-83ec-f23c50311249")
 		)
@@ -9701,6 +8828,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9741,19 +8869,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "06020a9a-93fa-4b78-b64f-171428cb2089")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9790,7 +8905,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "61abbe79-18c4-4ef5-97e9-2c5a8565fcdf")
 		)
@@ -9806,6 +8921,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -9846,19 +8962,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "24f46388-3655-4aa7-9a4a-e6e38e51c8d4")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -9895,7 +8998,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Cmts.User")
 			(uuid "b4b23403-ba2d-4259-9c03-cf76bab5c8b1")
 		)
@@ -10199,6 +9302,22 @@
 				(xy 46.62675 103.4155) (xy 46.62675 115.9155)
 			)
 			(height 4.0754)
+			(format
+				(prefix "")
+				(suffix "")
+				(units 3)
+				(units_format 1)
+				(precision 4)
+			)
+			(style
+				(thickness 0.12)
+				(arrow_length 1.27)
+				(text_position_mode 0)
+				(arrow_direction outward)
+				(extension_height 0.58642)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
+			)
 			(gr_text "12.5000 mm"
 				(at 41.40135 109.6655 90)
 				(layer "F.SilkS")
@@ -10210,6 +9329,15 @@
 					)
 				)
 			)
+		)
+		(dimension
+			(type aligned)
+			(layer "F.SilkS")
+			(uuid "994b6496-e0d0-4a52-817e-044671742098")
+			(pts
+				(xy 49.62675 115.816) (xy 73.62675 115.816)
+			)
+			(height 7.881999)
 			(format
 				(prefix "")
 				(suffix "")
@@ -10221,17 +9349,11 @@
 				(thickness 0.12)
 				(arrow_length 1.27)
 				(text_position_mode 0)
+				(arrow_direction outward)
 				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
-		)
-		(dimension
-			(type aligned)
-			(layer "F.SilkS")
-			(uuid "994b6496-e0d0-4a52-817e-044671742098")
-			(pts
-				(xy 49.62675 115.816) (xy 73.62675 115.816)
+				(extension_offset 0.5)
+				(keep_text_aligned yes)
 			)
-			(height 7.881999)
 			(gr_text "24.0000 mm"
 				(at 61.62675 122.547999 0)
 				(layer "F.SilkS")
@@ -10243,20 +9365,8 @@
 					)
 				)
 			)
-			(format
-				(prefix "")
-				(suffix "")
-				(units 3)
-				(units_format 1)
-				(precision 4)
-			)
-			(style
-				(thickness 0.12)
-				(arrow_length 1.27)
-				(text_position_mode 0)
-				(extension_height 0.58642)
-				(extension_offset 0.5) keep_text_aligned)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/low profile stabilizer.step"
 			(offset
 				(xyz 0 0.12 -0.08)
@@ -10308,19 +9418,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "55478cb3-e1c6-4475-b77d-53067c4d1230")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10357,7 +9454,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "cb202ea2-e56f-40d7-8a7a-b4985ba87772")
 		)
@@ -10373,6 +9470,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10413,19 +9511,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "69a75d74-5a7e-4985-927a-b449990d6e56")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10462,7 +9547,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "952b53c8-f12e-4e5a-930d-94f758e6735e")
 		)
@@ -10478,6 +9563,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10518,19 +9604,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "5c7b9858-a378-42d6-9d83-f0b04de2acb2")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10567,7 +9640,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ef77a47c-5dcf-4f2d-a6d1-4eb2be4e15ec")
 		)
@@ -10583,6 +9656,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10623,19 +9697,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "f85569c3-10cd-4edf-82c0-3f45943667b0")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10672,7 +9733,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "0ec48aed-99c9-47e8-9737-42b6ba12addd")
 		)
@@ -10688,6 +9749,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10728,19 +9790,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "dfed9d51-6c8a-444c-964e-a890ed557f2e")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10777,7 +9826,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "fb5156a2-72db-4a8d-8cb0-d3cb59a84d12")
 		)
@@ -10793,6 +9842,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10833,19 +9883,6 @@
 				)
 			)
 		)
-		(property "Footprint" ""
-			(at 0 0 180)
-			(unlocked yes)
-			(layer "F.Fab")
-			(hide yes)
-			(uuid "3374d64f-1c47-4a24-a23d-28badf478f14")
-			(effects
-				(font
-					(size 1.27 1.27)
-					(thickness 0.15)
-				)
-			)
-		)
 		(property "Datasheet" ""
 			(at 0 0 180)
 			(unlocked yes)
@@ -10882,7 +9919,7 @@
 				(width 0.12)
 				(type default)
 			)
-			(fill none)
+			(fill no)
 			(layer "Edge.Cuts")
 			(uuid "ea08db9a-814c-434b-bf5d-01ddf1672bad")
 		)
@@ -10898,6 +9935,7 @@
 				)
 			)
 		)
+		(embedded_fonts no)
 		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/7.0/3dmodels/KS-33 Low Profile 2.0.step"
 			(offset
 				(xyz 0 0 0)
@@ -10917,7 +9955,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Cmts.User")
 		(uuid "031c7441-578e-4017-911c-86a97706f8c3")
 	)
@@ -10928,7 +9966,7 @@
 			(width 0.1)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Eco2.User")
 		(uuid "b18f0ed5-0ef4-4c0c-bfd6-ddd13b05cd28")
 	)
@@ -11107,7 +10145,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "6d7f04ed-8e8c-4a35-9978-e2860446a63b")
 	)
@@ -11150,7 +10188,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "7ca45f67-6d19-4abf-956d-ae0028357c29")
 	)
@@ -11172,7 +10210,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "8d222492-8014-4e8a-bf7a-ba81995cf287")
 	)
@@ -11310,7 +10348,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "c75305bd-bb7c-409f-84f7-16ef641f3beb")
 	)
@@ -11331,7 +10369,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "cbe65da1-0e1b-46d9-9ede-cd2aca76be27")
 	)
@@ -11436,7 +10474,7 @@
 			(width 0.05)
 			(type default)
 		)
-		(fill none)
+		(fill no)
 		(layer "Edge.Cuts")
 		(uuid "f84eb6af-58e9-4d1b-bdb9-26a55043a125")
 	)
@@ -11460,4 +10498,5 @@
 		(layer "Edge.Cuts")
 		(uuid "f9f1c563-04de-4bcb-bd24-58189db828ec")
 	)
+	(embedded_fonts no)
 )
