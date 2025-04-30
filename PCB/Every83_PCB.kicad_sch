@@ -8577,6 +8577,10 @@
 		(uuid "e73dc95c-3d68-470f-a5f6-0772435fac8e")
 	)
 	(no_connect
+		(at 167.64 109.22)
+		(uuid "06755d06-b90b-46a1-a673-f9ec778e9856")
+	)
+	(no_connect
 		(at 180.34 245.11)
 		(uuid "3e110a0e-6f1f-4a7a-9d31-d297742cd34b")
 	)
@@ -10228,6 +10232,28 @@
 			)
 		)
 	)
+	(global_label "V_Raw"
+		(shape input)
+		(at 149.86 240.03 90)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "3c6852a6-650e-448c-b83e-83b600d32102")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 149.86 231.2391 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "16"
 		(shape input)
 		(at 205.74 64.77 180)
@@ -10756,9 +10782,9 @@
 			)
 		)
 	)
-	(global_label "NEOPIX"
+	(global_label "V_Raw"
 		(shape input)
-		(at 175.26 109.22 0)
+		(at 251.46 168.91 90)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -10766,9 +10792,9 @@
 			)
 			(justify left)
 		)
-		(uuid "92627294-f109-4f40-825f-716285561229")
+		(uuid "936aacf6-11ac-4b57-8a40-6d5d1afe9a7f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 185.1395 109.22 0)
+			(at 251.46 160.1191 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -14819,74 +14845,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 171.45 109.22 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8898fad1-f564-43fd-9f12-8239cdef0b24")
-		(property "Reference" "R16"
-			(at 171.45 102.87 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "470R"
-			(at 171.45 105.41 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 171.45 107.442 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 171.45 109.22 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2fa9cf20-c535-467e-bdd4-256c8ef70af9")
-		)
-		(pin "2"
-			(uuid "41ea19ca-23a8-41d9-a7cd-5ae03e2a477a")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "R16")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:SWITCH_TACT_SMT4.6X2.8")
 		(at 66.04 187.96 0)
 		(unit 1)
@@ -15022,72 +14980,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
 					(reference "#U$033")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:3.3V")
-		(at 251.46 166.37 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "9702074a-0147-4d89-9490-843acee16241")
-		(property "Reference" "#U$039"
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "3.3V"
-			(at 249.936 165.354 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 251.46 166.37 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "c872189e-2c85-48d2-8d7b-eec73fc7a938")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$039")
 					(unit 1)
 				)
 			)

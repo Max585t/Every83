@@ -546,6 +546,9 @@
       ],
       "VBUS": [
         "High current"
+      ],
+      "V_Raw": [
+        "High current"
       ]
     },
     "netclass_patterns": [
