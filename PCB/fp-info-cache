@@ -1,4 +1,18 @@
-24831743905050504
+25149630192644340
+2074190081
+CONN_207419-0081_MOL
+
+2074190081 
+0
+12
+12
+2074200081
+CONN_207420-0081_MOL
+
+2074200081 
+0
+8
+8
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -64575,7 +64589,7 @@ AMPHENOL_73306-111LF
 6
 6
 JohnDeereLibrary
-BPA08SB
+BPA04SB
 
 
 0
@@ -64820,12 +64834,33 @@ Straight 9 Contact Pins - 2.2mm
 9
 9
 JohnDeereLibrary
+TL1100CF160Q.08BLK
+
+
+0
+2
+2
+JohnDeereLibrary
 USB_C_Plug_GCT_usb4155
 
 
 0
 26
 25
+JohnDeereLibrary
+Untitled
+
+
+0
+0
+0
+JohnDeereLibrary
+Untitled_1
+
+
+0
+0
+0
 JohnDeereLibrary
 VQFN-HR
 
@@ -89298,6 +89333,20 @@ WiFi IEEE802.11 b/g/n
 0
 44
 44
+RP2040-nrf52840-controller
+RP2040-nrf52840-controller
+
+
+0
+36
+32
+RP2040-nrf52840-controller
+RP2040-nrf52840-controller-no-bottom-row
+
+
+0
+31
+27
 Relay_SMD
 Relay_2P2T_10x6mm_TE_IMxxG
 Signal Relay, 10x6mm, 2 Form C, Gull Wings, https://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Data+Sheet%7F108-98001%7FZ.1%7Fpdf%7FEnglish%7FENG_DS_108-98001_Z.1.pdf
@@ -99119,6 +99168,20 @@ igbt diode module
 0
 25
 25
+UMPS-09-X.X-X-V-S-W-X
+SAMTEC_UMPS-09-X.X-X-V-S-W-X
+
+
+0
+13
+13
+UMPT-09-X-X-V-S-X
+SAMTEC_UMPT-09-X-X-V-S-X
+
+
+0
+9
+9
 Valve
 Valve_ECC-83-1
 Valve ECC-83-1 round pins
@@ -99900,6 +99963,1217 @@ Varistor
 Varistor_Panasonic_VF
 Panasonic VF series varistor, 6x8mm body, 3.2mm height, https://mediap.industry.panasonic.eu/assets/imported/industrial.panasonic.com/cdbs/www-data/pdf/AWA0000/AWA0000C4.pdf
 Varistor VF
+0
+2
+2
+fingerpunch
+1.9x2.8mm SW
+ST-1194 C589221 1.9x2.8mm
+
+0
+4
+2
+fingerpunch
+3pin_thumbwheel_toggle
+
+
+0
+5
+5
+fingerpunch
+3waythumb-K1-1502SA-01-C145915
+
+
+0
+5
+5
+fingerpunch
+3waythumb_K1-1508SA-03-C502286
+
+
+0
+8
+8
+fingerpunch
+5Way-Tactile_K1-1506DN-01
+
+
+0
+6
+6
+fingerpunch
+AP7331
+SOT25(H=1.45mm)
+Integrated Circuit
+0
+5
+5
+fingerpunch
+AST1109MLTRQ
+Murata Buzzer http://www.murata.com/en-us/api/pdfdownloadapi?cate=&partno=PKMCS0909E4000-R1
+Murata Buzzer Beeper
+0
+2
+2
+fingerpunch
+Alps-soldered
+
+
+0
+2
+2
+fingerpunch
+Alps-soldered-flip-pad-nums
+
+
+0
+2
+2
+fingerpunch
+Alps_Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+5
+2
+fingerpunch
+Alps_Kailh_through_hole_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+7
+2
+fingerpunch
+Breakaway_Tabs
+
+
+0
+0
+0
+fingerpunch
+Castellated_06_2.00mm
+JST PH series connector, S6B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+12
+6
+fingerpunch
+Connector_THT_1x1_2.54
+
+
+0
+1
+1
+fingerpunch
+Connector_THT_1x1_Pin_D0.7mm_Pad1.3mm
+solder Pin_ with flat fork, hole diameter 0.7mm, length 6.5mm, width 1.8mm
+solder Pin_ with flat fork
+0
+1
+1
+fingerpunch
+Connector_THT_1x2_2.54
+
+
+0
+2
+2
+fingerpunch
+Connector_THT_1x3_2.54
+
+
+0
+3
+3
+fingerpunch
+Connector_THT_1x4_2.54
+
+
+0
+4
+4
+fingerpunch
+Connector_THT_1x5_2.54
+
+
+0
+5
+5
+fingerpunch
+Connector_THT_1x6_2.54
+
+
+0
+6
+6
+fingerpunch
+Connector_THT_1x7_2.54
+
+
+0
+7
+7
+fingerpunch
+D3_TH_SMD
+Resitance 3 pas
+R
+0
+6
+2
+fingerpunch
+DIP-16_W10.16mm
+16-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)
+THT DIP DIL PDIP 2.54mm 10.16mm 400mil
+0
+16
+16
+fingerpunch
+D_SOD-123FL
+D_SOD-123FL
+D_SOD-123FL
+0
+2
+2
+fingerpunch
+D_SOD-523
+http://www.diodes.com/datasheets/ap02001.pdf p.144
+Diode SOD523
+0
+2
+2
+fingerpunch
+Elite-C
+
+
+0
+29
+29
+fingerpunch
+FPC-SMD_FPC05012-09200-.5mm-rev
+
+
+0
+14
+14
+fingerpunch
+FPC-SMD_FPC05018-09200-.5mm-rev
+Hirose FH12, FFC/FPC connector, FH12-18S-0.5SH, 18 Pins per row (https://www.hirose.com/product/en/products/FH12/FH12-24S-0.5SH(55)/), generated with kicad-footprint-generator
+connector Hirose FH12 horizontal
+0
+20
+19
+fingerpunch
+Ferrite_Bead_0603
+ferrite bead 0603
+Ferrite Bead
+0
+2
+2
+fingerpunch
+GT-USB-7014C
+
+
+0
+20
+20
+fingerpunch
+HEF4104BT
+
+
+0
+16
+16
+fingerpunch
+JST_PH_S3B-PH-K-keyboard
+JST PH series connector, S3B-PH-K (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+3
+3
+fingerpunch
+Jumper_THT_4_P2.00mm
+Through hole straight socket strip, 1x03, 2.00mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.00mm single row
+0
+4
+4
+fingerpunch
+Jumper_THT_5_P2.00mm
+Through hole straight socket strip, 1x03, 2.00mm pitch, single row (from Kicad 4.0.7), script generated
+Through hole socket strip THT 1x03 2.00mm single row
+0
+5
+5
+fingerpunch
+Kailh_socket_MX
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+2
+2
+fingerpunch
+Kailh_socket_MX-ChocV1
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+fingerpunch
+Kailh_socket_MX_reversible_same_orientation
+MX-style keyswitch with reversible Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+4
+2
+fingerpunch
+Kailh_socket_PG1350_optional_reversible
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+fingerpunch
+Kailh_socket_PG1350_optional_reversible_millmax
+Kailh "Choc" PG1350 keyswitch with optional socket mount, reversible
+kailh,choc
+0
+7
+2
+fingerpunch
+Kailh_socket_PG1350_reversible
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+4
+2
+fingerpunch
+Kailh_socket_PG1350_reversible_with_sk6812_mini
+Kailh "Choc" PG1350 keyswitch reversible socket mount
+kailh,choc
+0
+12
+6
+fingerpunch
+LED-XL-2020RGBC-WS2812B-C5349955
+
+
+0
+4
+4
+fingerpunch
+LED_D3.0mm
+LED, diameter 3.0mm, 2 pins
+LED diameter 3.0mm 2 pins
+0
+2
+2
+fingerpunch
+LED_WS2812B-2020_PLCC4_2.0x2.0mm
+Addressable RGB LED NeoPixel Nano, 12 mA, https://cdn-shop.adafruit.com/product-files/4684/4684_WS2812B-2020_V1.3_EN.pdf
+LED RGB NeoPixel Nano 2020
+0
+4
+4
+fingerpunch
+LED_WS2812B_PLCC4_5.0x5.0mm_P3.2mm-reversible
+https://cdn-shop.adafruit.com/datasheets/WS2812B.pdf
+LED RGB NeoPixel
+0
+8
+4
+fingerpunch
+MSK-12C02
+
+
+0
+7
+3
+fingerpunch
+MX-Alps-soldered
+
+
+0
+4
+2
+fingerpunch
+MX-soldered
+
+
+0
+2
+2
+fingerpunch
+MXMountLP-1U
+
+
+0
+6
+2
+fingerpunch
+MountingHole_3.2mm_M3
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+fingerpunch
+NeoPixel_bulb_5mm_Adafruit_1938
+
+
+0
+4
+4
+fingerpunch
+PERS56v3
+PER56 - 56 mm Low Profile Incremental Ring Encoder
+encoder, scroll ring, pers56
+0
+7
+4
+fingerpunch
+PMW3360
+16-lead though-hole mounted DIP package, row spacing 10.16 mm (400 mils)
+THT DIP DIL PDIP 2.54mm 10.16mm 400mil
+0
+16
+16
+fingerpunch
+Pad_06_2.00mm
+JST PH series connector, S6B-PH-SM4-TB (http://www.jst-mfg.com/product/pdf/eng/ePH.pdf), generated with kicad-footprint-generator
+connector JST PH top entry
+0
+6
+6
+fingerpunch
+Piezo-KLJ-1625
+
+
+0
+2
+2
+fingerpunch
+Pimoroni Haptic Buzz DRV2605L Driver
+Through hole straight pin header, 1x05, 2.54mm pitch, single row
+Through hole pin header THT 1x05 2.54mm single row
+0
+5
+5
+fingerpunch
+QFN-56-1EP_7x7mm_P0.4mm_EP3.2x3.2mm
+QFN, 56 Pin (https://datasheets.raspberrypi.com/rp2040/rp2040-datasheet.pdf#page=634), generated with kicad-footprint-generator ipc_noLead_generator.py
+QFN NoLead
+0
+61
+57
+fingerpunch
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+fingerpunch
+RotaryEncoder_EC11-no-legs-offset-on-top-of-switch
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+5
+5
+fingerpunch
+SK6812MINI-E
+Add-on for regular MX-footprints with SK6812 MINI-E
+cherry MX SK6812 Mini-E rearmount rear mount led rgb backlight
+0
+4
+4
+fingerpunch
+SK6812_4020_SIDE_rev2
+
+
+0
+4
+4
+fingerpunch
+SKQG-1155865
+
+
+0
+4
+4
+fingerpunch
+SO16
+SOIC, 0.15 INCH WIDTH
+SOIC, 0.15 INCH WIDTH
+0
+16
+16
+fingerpunch
+SOD882D
+
+
+0
+2
+2
+fingerpunch
+SOIC127P600X175-14N
+
+
+0
+14
+14
+fingerpunch
+SON-8-1EP_3x2mm_P0.5mm_EP0.25x1.65mm
+SON, 8 Pin (http://www.fujitsu.com/downloads/MICRO/fsa/pdf/products/memory/fram/MB85RS16-DS501-00014-6v0-E.pdf), generated with kicad-footprint-generator ipc_noLead_generator.py
+SON NoLead
+0
+9
+9
+fingerpunch
+SOT-23-6
+6-pin SOT-23 package
+SOT-23-6
+0
+6
+6
+fingerpunch
+SOT95P285X145-5N
+SOT25(H=1.45mm)
+Integrated Circuit
+0
+5
+5
+fingerpunch
+SW-SMD_K1-1508SA-03-rocker
+
+
+0
+8
+8
+fingerpunch
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+5
+3
+fingerpunch
+SolderJumper-4_P1.3mm_Bridged12_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+4
+4
+fingerpunch
+SolderJumper-4_P1.3mm_Bridged123_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+4
+4
+fingerpunch
+SolderJumper-4_P1.3mm_Bridged1234_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+4
+4
+fingerpunch
+SolderJumper-4_P1.3mm_Open_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+4
+4
+fingerpunch
+SolderJumper-5_P1.3mm_Bridged12_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+5
+fingerpunch
+SolderJumper-5_P1.3mm_Bridged123_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+5
+fingerpunch
+SolderJumper-5_P1.3mm_Bridged1234_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+5
+fingerpunch
+SolderJumper-5_P1.3mm_Bridged12345_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+5
+fingerpunch
+SolderJumper-5_P1.3mm_Open_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+5
+5
+fingerpunch
+SolderJumper-13_P1.3mm_Open_RoundedPad
+SMD Solder Jumper, 1x1.5mm, rounded Pads, 0.3mm gap, open
+solder jumper open
+0
+20
+13
+fingerpunch
+TRRS-PJ-320A
+
+
+0
+4
+4
+fingerpunch
+TestPoint_Pad_D0.8mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+fingerpunch
+TestPoint_Pad_D1.2mm
+SMD pad as test Point, diameter 1.0mm
+test point SMD pad
+0
+1
+1
+fingerpunch
+Trackpoint_PCB
+
+
+0
+8
+4
+fingerpunch
+Trackpoint_Sensor
+
+
+0
+2
+0
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-04
+USB TYPE C, RA RCPT PCB, Hybrid, https://www.amphenolcanada.com/StockAvailabilityPrice.aspx?From=&PartNum=12401548E4%7e2A
+USB C Type-C Receptacle Hybrid
+0
+28
+28
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+20
+17
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-14
+Korean Hroparts Elec, Power only USB connector supporting up to 3A
+
+0
+20
+17
+fingerpunch
+USB_C_Receptacle_HRO_TYPE-C-31-M-17_handsolder
+Korean Hroparts Elec, Power only USB connector supporting up to 3A, easier to solder w/0.3mm pad separation
+
+0
+10
+7
+fingerpunch
+W25Q128JVPIQ
+16MB flash
+
+0
+9
+9
+fingerpunch
+X2SON-4
+
+
+0
+5
+5
+fingerpunch
+XIAO-RP2040
+
+
+0
+28
+14
+fingerpunch
+XIAO-nRF52840-CENTER-HOLE
+
+
+0
+28
+14
+fingerpunch
+charybdis-pmw3360-breakout-adapter
+
+
+0
+8
+6
+fingerpunch
+charybdis-pmw3360-breakout-adapter-no-mount
+
+
+0
+6
+6
+fingerpunch
+fingerpunch-logo
+
+
+0
+0
+0
+fingerpunch
+fingerpunch-logo-full
+
+
+0
+0
+0
+fingerpunch
+fingerpunch-logo-small
+
+
+0
+0
+0
+fingerpunch
+gateron-ks27
+
+
+0
+2
+2
+fingerpunch
+gateron-ks27-choc-v1
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-choc-v1-hotswap
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap
+
+
+0
+6
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap-curved-pads
+
+
+0
+3
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-hotswap-reversible
+
+
+0
+12
+2
+fingerpunch
+gateron-ks27-choc-v1-mx-soldered-and-hotswap
+
+
+0
+12
+2
+fingerpunch
+gateron-ks27-hotswap-reversible
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-reversible
+
+
+0
+4
+2
+fingerpunch
+gateron-ks27-reversible-with-sk6812-mini
+
+
+0
+12
+6
+fingerpunch
+joystick_analog_xy
+
+
+0
+6
+6
+fingerpunch
+nice_nano
+
+
+0
+27
+27
+fingerpunch
+nice_view
+
+
+0
+5
+5
+fingerpunch
+redragon_mx_low_pro_3pin
+
+
+0
+2
+2
+fingerpunch
+rp2040-zero-smd
+
+
+0
+23
+23
+fingerpunch
+rp2040-zero-smd-pads
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-smd-pads-cutout
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-tht
+
+
+0
+23
+23
+fingerpunch
+rp2040-zero-tht-pads
+
+
+0
+33
+33
+fingerpunch
+rp2040-zero-tht-pads-cutout
+
+
+0
+33
+33
+fingerpunch
+sparkfun_9032_joystick_thumb
+THUMB JOYSTICK
+THUMB JOYSTICK
+0
+14
+11
+fingerpunch
+sparkfun_9426_joystick_psp1000
+PSP-1000 THUMB SLIDE JOYSTICK
+PSP-1000 THUMB SLIDE JOYSTICK
+0
+4
+4
+fingerpunch
+vik-logo-large
+
+
+0
+0
+0
+fingerpunch
+vik-logo-medium
+
+
+0
+0
+0
+fingerpunch
+vik-logo-small
+
+
+0
+0
+0
+fingerpunch
+vik-module-throughole
+
+
+0
+12
+12
+fingerpunch
+xiao-ble-smd
+
+
+0
+22
+22
+fingerpunch
+xiao-ble-smd-cutout
+
+
+0
+22
+22
+fingerpunch
+xiao-ble-tht
+
+
+0
+22
+22
+fingerpunch
+xiao-smd
+
+
+0
+18
+18
+fingerpunch
+xiao-tht
+
+
+0
+18
+18
+fingerpunch-plates
+EVQWGD001
+
+
+0
+0
+0
+fingerpunch-plates
+Elite-C
+
+
+0
+0
+0
+fingerpunch-plates
+MountingHole_2.5mm
+Mounting Hole 3.2mm, no annular, M3
+mounting hole 3.2mm no annular m3
+0
+0
+0
+fingerpunch-plates
+RotaryEncoder_EC11-no-legs
+Alps rotary encoder, EC12E... with switch, vertical shaft, http://www.alps.com/prod/info/E/HTML/Encoder/Incremental/EC11/EC11E15204A3.html
+rotary encoder
+0
+0
+0
+fingerpunch-plates
+SKQG-1155865
+
+
+0
+0
+0
+fingerpunch-plates
+SW_CuK_OS102011MA1QN1_SPDT_Angled
+CuK miniature slide switch, OS series, SPDT, right angle, http://www.ckswitches.com/media/1428/os.pdf
+switch SPDT
+0
+0
+0
+fingerpunch-plates
+TRRS-PJ-320A
+
+
+0
+0
+0
+fingerpunch-plates
+USB_C_Receptacle_HRO_TYPE-C-31-M-12
+USB Type-C receptacle for USB 2.0 and PD, http://www.krhro.com/uploads/soft/180320/1-1P320120243.pdf
+usb usb-c 2.0 pd
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo
+
+
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo-full
+
+
+0
+0
+0
+fingerpunch-plates
+fingerpunch-logo-small
+
+
+0
+0
+0
+fingerpunch-plates
+switch-cutout-mx
+MX-style keyswitch with Kailh socket mount
+MX,cherry,gateron,kailh,pg1511,socket
+0
+0
+0
+footprints
+CP_16_15_ADI
+
+ADG858BCPZ-REEL7 
+0
+16
+16
+footprints
+CP_16_15_ADI-L
+
+ADG858BCPZ-REEL7 
+0
+16
+16
+footprints
+CP_16_15_ADI-M
+
+ADG858BCPZ-REEL7 
+0
+16
+16
+key-switches
+SW_Gateron_LowProfile_HotSwap_PTH
+Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.
+switch, low_profile, hot_swap
+0
+6
+2
+key-switches
+SW_Gateron_LowProfile_HotSwap_THT
+Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, Gateron Low Profile hot-swap socket and through-hole soldering, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.
+switch, low_profile, hot_swap
+0
+4
+2
+key-switches
+SW_Gateron_LowProfile_THT
+Gateron Low Profile (KS-27 & KS-33) style mechanical keyboard switch, through-hole soldering, single-sided mounting. Gateron Low Profile and Cherry MX Low Profile are NOT compatible.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V1V2_THT_Hybrid
+Compatible with Kailh Choc V1 (PG1350) and Choc V2 (PG1353) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+3
+2
+key-switches
+SW_Kailh_Choc_V1_HotSwap
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, hot-swap socket, single-sided mounting.
+switch, low_profile, hot_swap
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V1_HotSwap_PTH
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, hot-swap socket, the hole of the socket is plated, single-sided mounting.
+switch, low_profile, hot_swap
+0
+6
+2
+key-switches
+SW_Kailh_Choc_V1_HotSwap_PTH_nSilk
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, hot-swap socket, the hole of the socket is plated, single-sided mounting.
+switch, low_profile, hot_swap
+0
+6
+2
+key-switches
+SW_Kailh_Choc_V1_HotSwap_THT
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, hot-swap socket and through-hole soldering, single-sided mounting.
+switch, low_profile, hot_swap
+0
+4
+2
+key-switches
+SW_Kailh_Choc_V1_THT
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V1_THT_alt1
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting. An alternative to "SW_Kailh_Choc_V1_THT" with additional fix pin.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V1_THT_nSilk
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V1_THT_swap
+Kailh Choc V1 (PG1350) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_Kailh_Choc_V2_THT
+Kailh Choc V2 (PG1353) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+3
+2
+key-switches
+SW_Kailh_Choc_V2_THT_nSilk
+Kailh Choc V2 (PG1353) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+3
+2
+key-switches
+SW_MX_HotSwap_PTH
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting.
+switch, hot_swap
+0
+6
+2
+key-switches
+SW_MX_HotSwap_PTH_double
+Cherry MX style mechanical keyboard switch, through-hole soldering and Kailh/Gateron hot-swap socket, the hole of the socket is plated, double-sided mounting.
+switch, hot_swap
+0
+12
+2
+key-switches
+SW_MX_HotSwap_PTH_nSilk
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting.
+switch, hot_swap
+0
+6
+2
+key-switches
+SW_MX_HotSwap_PTH_swap
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, the hole of the socket is plated, single-sided mounting.
+switch, hot_swap
+0
+6
+2
+key-switches
+SW_MX_HotSwap_THT
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, single-sided mounting.
+switch, hot_swap
+0
+4
+2
+key-switches
+SW_MX_HotSwap_THT_double
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, double-sided mounting.
+switch, hot_swap
+0
+8
+2
+key-switches
+SW_MX_HotSwap_THT_double_alt1
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, double-sided mounting. An alternative to "SW_MX_HotSwap_THT_double".
+switch, hot_swap
+0
+8
+2
+key-switches
+SW_MX_HotSwap_THT_double_alt2
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, double-sided mounting. An alternative to "SW_MX_HotSwap_THT_double".
+switch, hot_swap
+0
+8
+2
+key-switches
+SW_MX_HotSwap_THT_nSilk
+Cherry MX style mechanical keyboard switch, Kailh/Gateron hot-swap socket and through-hole soldering, single-sided mounting.
+switch, hot_swap
+0
+4
+2
+key-switches
+SW_MX_Kailh_Choc_V1V2_THT_Hybrid
+Compatible with Cherry MX, Kailh Choc V1 (PG1350) and Choc V2 (PG1353) mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+5
+2
+key-switches
+SW_MX_LowProfile_Kailh_Choc_V1V2_THT_Hybrid
+Compatible with Cherry MX Low Profile, Kailh Choc V1 (PG1350) and Choc V2 (PG1353) low profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+5
+2
+key-switches
+SW_MX_LowProfile_THT
+Cherry MX Low Profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_MX_LowProfile_THT_nSilk
+Cherry MX Low Profile mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch, low_profile
+0
+2
+2
+key-switches
+SW_MX_THT
+Cherry MX style mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch
+0
+2
+2
+key-switches
+SW_MX_THT_nSilk
+Cherry MX style mechanical keyboard switch, through-hole soldering, single-sided mounting.
+switch
 0
 2
 2

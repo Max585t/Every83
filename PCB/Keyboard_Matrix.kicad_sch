@@ -2144,12 +2144,6 @@
 		(uuid "3d340a12-2c9c-41c6-ac4c-6b0c02b3ce3b")
 	)
 	(junction
-		(at 196.85 298.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3e16114f-9f77-4af2-8486-c4a958640258")
-	)
-	(junction
 		(at 13.97 219.71)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2654,12 +2648,6 @@
 		(uuid "69dcd4d7-a9c9-404d-84de-0bbfd13884a8")
 	)
 	(junction
-		(at 219.71 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "69ee1440-d718-4efa-ba91-01eabbd1f338")
-	)
-	(junction
 		(at 71.12 401.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -2790,12 +2778,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "76ac6620-42b1-41d8-9937-6367f4dd10ac")
-	)
-	(junction
-		(at 219.71 298.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "77a87bf3-bd90-4141-92b4-bfabae337808")
 	)
 	(junction
 		(at 210.82 17.78)
@@ -2970,12 +2952,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "85d43dbf-8495-4187-93a7-a749cbe42b55")
-	)
-	(junction
-		(at 208.28 298.45)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "875388f5-25f7-4d42-a651-a60b7feca5c0")
 	)
 	(junction
 		(at 25.4 260.35)
@@ -3440,12 +3416,6 @@
 		(uuid "ac999354-fc48-425e-905f-a4b3013d4019")
 	)
 	(junction
-		(at 196.85 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "af7b29e9-be87-4c6e-aac3-ccadaadfc2ec")
-	)
-	(junction
 		(at 293.37 401.32)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3642,12 +3612,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "c1ab533d-dae7-4e56-86d7-67f61084ae11")
-	)
-	(junction
-		(at 208.28 313.69)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "c34a80a4-2643-4642-9ae0-1dbad2a608e0")
 	)
 	(junction
 		(at 64.77 408.94)
@@ -6649,16 +6613,6 @@
 	)
 	(wire
 		(pts
-			(xy 196.85 313.69) (xy 208.28 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60c0cc36-f2a2-44e5-8326-8f4ec155c131")
-	)
-	(wire
-		(pts
 			(xy 320.04 62.23) (xy 320.04 114.3)
 		)
 		(stroke
@@ -6726,16 +6680,6 @@
 			(type default)
 		)
 		(uuid "6331b1ec-0855-4385-81c4-15c6217025a3")
-	)
-	(wire
-		(pts
-			(xy 208.28 313.69) (xy 219.71 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6396a337-b7d2-465d-beea-820cf083c0b9")
 	)
 	(wire
 		(pts
@@ -6966,16 +6910,6 @@
 			(type default)
 		)
 		(uuid "6f891295-98b0-4402-baef-05ca34952674")
-	)
-	(wire
-		(pts
-			(xy 196.85 298.45) (xy 208.28 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "6fd3dc93-9b92-4d86-b49f-0f3a14520451")
 	)
 	(wire
 		(pts
@@ -7376,16 +7310,6 @@
 			(type default)
 		)
 		(uuid "7fc2455a-0b27-411c-99b0-3c0d575ed9af")
-	)
-	(wire
-		(pts
-			(xy 219.71 313.69) (xy 231.14 313.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8052576f-e487-469b-84f7-fc0d0b1134f3")
 	)
 	(wire
 		(pts
@@ -8776,26 +8700,6 @@
 			(type default)
 		)
 		(uuid "c63776f8-23c6-4aae-b751-99f445c151d6")
-	)
-	(wire
-		(pts
-			(xy 208.28 298.45) (xy 219.71 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c67127d7-b999-4da7-bb31-4ef39127d1f7")
-	)
-	(wire
-		(pts
-			(xy 219.71 298.45) (xy 231.14 298.45)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c6bd2ac0-892a-4c4f-941d-c0d1054b82bb")
 	)
 	(wire
 		(pts
@@ -29197,76 +29101,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 231.14 309.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "8ea79781-56ac-4a57-819f-640e7f585388")
-		(property "Reference" "R102"
-			(at 234.95 308.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 234.95 311.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 229.362 309.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 231.14 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "84d842b1-ce79-440b-89b2-ec3a2d59de9a")
-		)
-		(pin "2"
-			(uuid "0a057a15-c160-4dc5-bbbb-8ad9ea759c03")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "R102")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JohnDeere:MX_NEO")
 		(at 140.97 92.71 0)
 		(unit 1)
@@ -31589,76 +31423,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 219.71 309.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a3ec7b6a-8cac-4775-b480-7b3ddf7483ed")
-		(property "Reference" "R101"
-			(at 223.52 308.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 223.52 311.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 217.932 309.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 219.71 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ea54cccd-a3c9-4058-81cc-857950def11d")
-		)
-		(pin "2"
-			(uuid "79c673f2-15b4-49e4-9874-1559271d39cb")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "R101")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "JohnDeere:MX_NEO")
 		(at 82.55 92.71 0)
 		(unit 1)
@@ -32093,155 +31857,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
 					(reference "R64")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 231.14 302.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a756fa44-5439-4c03-a6a7-307ed3654d8b")
-		(property "Reference" "D172"
-			(at 236.22 302.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 236.22 305.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
-			(at 231.14 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 231.14 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 231.14 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2ff09f03-a93c-4693-baa6-63bd7f8ecdbc")
-		)
-		(pin "2"
-			(uuid "cb6f45af-9a9c-4439-8110-32224604bbbf")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "D172")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R")
-		(at 208.28 309.88 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "a7597467-2fd9-4dca-b1a6-5135676110bd")
-		(property "Reference" "R100"
-			(at 212.09 308.6099 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "R"
-			(at 212.09 311.1499 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
-			(at 206.502 309.88 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Resistor"
-			(at 208.28 309.88 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "91294e70-c891-4dbe-b366-0e3462b39d59")
-		)
-		(pin "2"
-			(uuid "884edca0-db54-47d2-858f-aa4e05837cd3")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "R100")
 					(unit 1)
 				)
 			)
@@ -33156,85 +32771,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
 					(reference "C70")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 219.71 302.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "ae2b14e5-d514-4978-b560-7c3ceff82f6f")
-		(property "Reference" "D171"
-			(at 224.79 302.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 224.79 305.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
-			(at 219.71 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 219.71 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 219.71 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 219.71 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "538c67db-17d5-4aa3-900c-80f141fe4348")
-		)
-		(pin "2"
-			(uuid "329504cf-2073-416e-8d39-0ce41c28608c")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "D171")
 					(unit 1)
 				)
 			)
@@ -42511,85 +42047,6 @@
 			(project "Every83_PCB"
 				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
 					(reference "D7")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:LED")
-		(at 208.28 302.26 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "f928b692-b544-437e-9de6-28fc248484a9")
-		(property "Reference" "D170"
-			(at 213.36 302.5774 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED"
-			(at 213.36 305.1174 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_ReverseMount_Hole1.8x2.4mm"
-			(at 208.28 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 208.28 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 208.28 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 208.28 302.26 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "2afcfee4-b89f-4ec3-81a4-30c0f0d81409")
-		)
-		(pin "2"
-			(uuid "8eb4a8a0-f23e-44a9-8f50-085738daff74")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450/17c5c707-0f0f-4f1c-ab03-6f051c1763ce"
-					(reference "D170")
 					(unit 1)
 				)
 			)
