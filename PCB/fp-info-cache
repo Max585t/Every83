@@ -1,4 +1,11 @@
-25149630192644340
+25179477821236978
+4-1393789-7
+RELAY_4-1393789-7
+
+
+0
+8
+8
 2074190081
 CONN_207419-0081_MOL
 
@@ -57266,6 +57273,13 @@ One digit LED 7 segment SA39-11 SC39-11 SA39-12 SC39-12
 0
 10
 10
+ESD122DMYR (1)
+DIO_ESD122DMYR
+
+
+0
+3
+3
 Ferrite_THT
 LairdTech_28C0236-0JW-10
 Ferrite, vertical, LairdTech 28C0236-0JW-10, https://assets.lairdtech.com/home/brandworld/files/28C0236-0JW-10.pdf, JW Miller core https://www.bourns.com/products/magnetic-products/j.w.-miller-through-hole-ferrite-beads-emi-filters
@@ -58309,6 +58323,41 @@ Fuse Fuseholder TR5 Littelfuse/Wickmann No. 460 No560
 0
 2
 2
+GCT
+GCT_FFC2B28-04-G
+
+
+0
+6
+6
+GCT
+GCT_FFC2B28-06-G
+
+
+0
+8
+8
+GCT
+GCT_FFC2B28-16-G
+
+
+0
+18
+18
+GCT
+GCT_USB1015
+USB Receptacle, Type A, Top Mid Mount , 2.32mm Offset, Thru-Hole, Horizontal, w/Shell Stakes & SMT Holdowns
+
+0
+8
+5
+GCT
+GCT_USB4155
+
+USB4155-03-C 
+0
+26
+26
 Heatsink
 Heatsink_35x26mm_1xFixation3mm_Fischer-SK486-35
 Heatsink, 35mm x 26mm, 1x Fixation 3mm, Fischer SK486-35
@@ -64589,6 +64638,20 @@ AMPHENOL_73306-111LF
 6
 6
 JohnDeereLibrary
+AYZ0202AGRLC
+
+
+0
+6
+6
+JohnDeereLibrary
+Absolute Linear Position
+
+
+0
+64
+64
+JohnDeereLibrary
 BPA04SB
 
 
@@ -64623,6 +64686,13 @@ DFR0995_Mounting_holes
 0
 0
 0
+JohnDeereLibrary
+Dialight-587-1024-147F-RGB-LED
+
+
+0
+4
+4
 JohnDeereLibrary
 ECS-TXO-2520MV-120-AY-TR
 
@@ -64750,12 +64820,26 @@ MOLEX_0955012401
 6
 6
 JohnDeereLibrary
+MarkOfShame
+
+
+0
+0
+0
+JohnDeereLibrary
 Mouse Wheel Encoder
 
 
 0
 3
 3
+JohnDeereLibrary
+Pigeon
+
+
+0
+0
+0
 JohnDeereLibrary
 Pomona_1581
 
@@ -64784,6 +64868,13 @@ RAHUA20E_switchcraft
 0
 6
 5
+JohnDeereLibrary
+Relay_DPDT_AXICOM_IMSeries_GullWings
+http://www.te.com/commerce/DocumentDelivery/DDEController?Action=showdoc&DocId=Specification+Or+Standard%7F108-98001%7FW5%7Fpdf%7FEnglish%7FENG_SS_108-98001_W5.pdf
+AXICOM IM-Series Relay J JLeg
+0
+8
+8
 JohnDeereLibrary
 SK6805-EC 15
 
@@ -64827,6 +64918,13 @@ SW_500SSP1S1M2REA
 3
 3
 JohnDeereLibrary
+StarMan
+
+
+0
+0
+0
+JohnDeereLibrary
 Straight 9 Contact Pins - 2.2mm
 
 
@@ -64834,12 +64932,26 @@ Straight 9 Contact Pins - 2.2mm
 9
 9
 JohnDeereLibrary
+SwitchCraft_PJRAS2X1S_x
+
+
+0
+4
+3
+JohnDeereLibrary
 TL1100CF160Q.08BLK
 
 
 0
 2
 2
+JohnDeereLibrary
+TestPoint_0603
+
+
+0
+1
+1
 JohnDeereLibrary
 USB_C_Plug_GCT_usb4155
 
@@ -64910,6 +65022,13 @@ Wiznet_J1B1211CCD
 0
 14
 13
+JohnDeereLibrary
+jumper
+
+
+0
+2
+2
 JohnDeereLibrary
 nRF_Programmer
 

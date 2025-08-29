@@ -8040,6 +8040,12 @@
 		(uuid "fb00b0ad-a2dc-400d-8f80-4b3afbe4c72e")
 	)
 	(junction
+		(at 313.69 237.49)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1512d583-a29f-4a4b-a7dd-42dc9e90f790")
+	)
+	(junction
 		(at 243.84 181.61)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8094,12 +8100,6 @@
 		(uuid "81b20a81-ff81-4709-91ae-b54902b2bd30")
 	)
 	(junction
-		(at 326.39 237.49)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "99526941-02b6-4559-8f5c-ae43b36b587e")
-	)
-	(junction
 		(at 229.87 187.96)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8122,6 +8122,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "acc974f6-ab57-429f-b981-c0aea28eca05")
+	)
+	(junction
+		(at 271.78 224.79)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "b2f7e56e-cf30-4f03-a40d-013920373fae")
 	)
 	(junction
 		(at 182.88 240.03)
@@ -8369,6 +8375,16 @@
 	)
 	(wire
 		(pts
+			(xy 313.69 237.49) (xy 313.69 240.03)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "27d32e6d-ed16-4b6f-987c-0a99057272e2")
+	)
+	(wire
+		(pts
 			(xy 116.84 81.28) (xy 128.27 81.28)
 		)
 		(stroke
@@ -8439,7 +8455,7 @@
 	)
 	(wire
 		(pts
-			(xy 260.35 224.79) (xy 285.75 224.79)
+			(xy 260.35 224.79) (xy 271.78 224.79)
 		)
 		(stroke
 			(width 0.1524)
@@ -8559,16 +8575,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 227.33) (xy 316.23 227.33)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "57c28e3b-0279-4bb2-81d8-9afeb81f4aaf")
-	)
-	(wire
-		(pts
 			(xy 330.2 193.04) (xy 330.2 195.58)
 		)
 		(stroke
@@ -8586,16 +8592,6 @@
 			(type default)
 		)
 		(uuid "5c474e31-1c21-453f-9100-7e9713378a22")
-	)
-	(wire
-		(pts
-			(xy 111.76 185.42) (xy 111.76 182.88)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "5e06f3d8-fb3f-4355-a8a2-fba5606c94ae")
 	)
 	(wire
 		(pts
@@ -8639,16 +8635,6 @@
 	)
 	(wire
 		(pts
-			(xy 311.15 229.87) (xy 313.69 229.87)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "6a6a1b3c-d77e-4ff2-a750-8cbecf35326f")
-	)
-	(wire
-		(pts
 			(xy 71.12 187.96) (xy 71.12 190.5)
 		)
 		(stroke
@@ -8669,7 +8655,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 193.04) (xy 111.76 195.58)
+			(xy 271.78 232.41) (xy 271.78 234.95)
 		)
 		(stroke
 			(width 0.1524)
@@ -8716,6 +8702,26 @@
 			(type solid)
 		)
 		(uuid "840651af-9b20-497b-ac9d-1c4d2f9c594b")
+	)
+	(wire
+		(pts
+			(xy 313.69 237.49) (xy 318.77 237.49)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8571ec1d-f30f-467b-87b4-81d3b9b81638")
+	)
+	(wire
+		(pts
+			(xy 311.15 227.33) (xy 318.77 227.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "870caed3-23da-4ef4-9056-166c25439349")
 	)
 	(wire
 		(pts
@@ -8869,16 +8875,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 237.49) (xy 326.39 240.03)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "a29c4be2-2ccc-4e1c-b60c-a688732e3283")
-	)
-	(wire
-		(pts
 			(xy 149.86 240.03) (xy 149.86 243.84)
 		)
 		(stroke
@@ -8956,16 +8952,6 @@
 			(type default)
 		)
 		(uuid "ac1659b4-2acc-4dac-9e87-be7953835e1e")
-	)
-	(wire
-		(pts
-			(xy 313.69 229.87) (xy 313.69 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "ac319ed4-d53c-4eea-a4b8-01bff364aff1")
 	)
 	(wire
 		(pts
@@ -9069,6 +9055,16 @@
 	)
 	(wire
 		(pts
+			(xy 311.15 229.87) (xy 313.69 229.87)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "c45eb41e-ec10-4a57-9fe9-a421cf36109f")
+	)
+	(wire
+		(pts
 			(xy 137.16 252.73) (xy 137.16 255.27)
 		)
 		(stroke
@@ -9116,6 +9112,16 @@
 			(type default)
 		)
 		(uuid "d05d373a-4e3b-4546-bbbb-e439e80a7be6")
+	)
+	(wire
+		(pts
+			(xy 313.69 229.87) (xy 313.69 237.49)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "d1f9faa5-23e3-49b3-8420-d09e101e2a61")
 	)
 	(wire
 		(pts
@@ -9209,16 +9215,6 @@
 	)
 	(wire
 		(pts
-			(xy 326.39 227.33) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "e5750647-ee85-4589-9a76-0371446f7f12")
-	)
-	(wire
-		(pts
 			(xy 96.52 265.43) (xy 96.52 257.81)
 		)
 		(stroke
@@ -9299,6 +9295,16 @@
 	)
 	(wire
 		(pts
+			(xy 271.78 224.79) (xy 285.75 224.79)
+		)
+		(stroke
+			(width 0.1524)
+			(type solid)
+		)
+		(uuid "f4d4fe11-4d0f-4629-bd3e-ae74a39cd798")
+	)
+	(wire
+		(pts
 			(xy 208.28 229.87) (xy 208.28 240.03)
 		)
 		(stroke
@@ -9326,16 +9332,6 @@
 			(type default)
 		)
 		(uuid "f7ae44be-a70f-42fe-b86e-51d2f9bbd327")
-	)
-	(wire
-		(pts
-			(xy 313.69 237.49) (xy 326.39 237.49)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "faf04769-8ac3-4337-823c-820f28b39098")
 	)
 	(wire
 		(pts
@@ -11067,7 +11063,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 132.08 187.96 0)
 			(effects
 				(font
@@ -11195,7 +11191,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:RESISTOR_0603_NOOUT")
-		(at 321.31 227.33 0)
+		(at 318.77 232.41 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -11203,7 +11199,7 @@
 		(dnp no)
 		(uuid "202feb7c-ca6e-45e5-b165-6ab361ac30f9")
 		(property "Reference" "R4"
-			(at 321.31 224.79 0)
+			(at 316.23 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11211,7 +11207,7 @@
 			)
 		)
 		(property "Value" "1.4k"
-			(at 321.31 227.33 0)
+			(at 318.77 232.41 0)
 			(effects
 				(font
 					(size 1.016 1.016)
@@ -11219,8 +11215,8 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
-			(at 321.31 227.33 0)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 318.77 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11229,7 +11225,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 321.31 227.33 0)
+			(at 318.77 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11238,7 +11234,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 321.31 227.33 0)
+			(at 318.77 232.41 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -11555,7 +11551,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 233.172 237.49 90)
 			(effects
 				(font
@@ -11625,7 +11621,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 156.972 125.73 90)
 			(effects
 				(font
@@ -11830,7 +11826,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 231.648 193.04 90)
 			(effects
 				(font
@@ -11900,7 +11896,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 159.512 125.73 90)
 			(effects
 				(font
@@ -12234,7 +12230,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 233.172 252.73 90)
 			(effects
 				(font
@@ -12572,7 +12568,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 137.16 247.65 0)
 			(effects
 				(font
@@ -12616,7 +12612,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:CAP_CERAMIC0805-NOOUTLINE")
-		(at 111.76 187.96 180)
+		(at 271.78 227.33 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -12624,23 +12620,23 @@
 		(dnp no)
 		(uuid "54e4c94f-8d69-48d7-9fa0-ca8f44cdec12")
 		(property "Reference" "C6"
-			(at 114.05 189.21 90)
+			(at 274.07 228.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Value" "10uF"
-			(at 109.46 189.21 90)
+		(property "Value" "4.7uF"
+			(at 269.48 228.58 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0805-NO"
-			(at 111.76 187.96 0)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 271.78 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12649,7 +12645,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 187.96 0)
+			(at 271.78 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -12658,7 +12654,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 187.96 0)
+			(at 271.78 227.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13197,7 +13193,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 125.222 247.65 90)
 			(effects
 				(font
@@ -13453,7 +13449,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 111.76 198.12 0)
+		(at 271.78 237.49 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -13461,7 +13457,7 @@
 		(dnp no)
 		(uuid "784e59bc-c807-447e-a72b-26855aeb4ab3")
 		(property "Reference" "#U$025"
-			(at 111.76 198.12 0)
+			(at 271.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13470,7 +13466,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.236 200.66 0)
+			(at 270.256 240.03 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -13479,7 +13475,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 198.12 0)
+			(at 271.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13488,7 +13484,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 198.12 0)
+			(at 271.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13497,7 +13493,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 111.76 198.12 0)
+			(at 271.78 237.49 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13542,7 +13538,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 101.6 187.96 0)
 			(effects
 				(font
@@ -14776,7 +14772,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0603-NO"
+		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
 			(at 121.92 187.96 0)
 			(effects
 				(font
@@ -14844,7 +14840,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 224.79 189.738 90)
 			(effects
 				(font
@@ -15046,7 +15042,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 245.618 176.53 90)
 			(effects
 				(font
@@ -15161,7 +15157,7 @@
 	)
 	(symbol
 		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:GND")
-		(at 326.39 242.57 0)
+		(at 313.69 242.57 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -15169,7 +15165,7 @@
 		(dnp no)
 		(uuid "d8bc8a55-b0d8-430d-b552-7f40134afd5e")
 		(property "Reference" "#U$036"
-			(at 326.39 242.57 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15178,7 +15174,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 324.866 245.11 0)
+			(at 312.166 245.11 0)
 			(effects
 				(font
 					(size 1.27 1.0795)
@@ -15187,7 +15183,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 326.39 242.57 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15196,7 +15192,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 326.39 242.57 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15205,7 +15201,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 326.39 242.57 0)
+			(at 313.69 242.57 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -15494,72 +15490,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Adafruit nRF52840 Bluefruit Feather Express Rev D-eagle-import:VBUS")
-		(at 111.76 180.34 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "e3e7b014-c0f4-4398-8a59-d050e2e50285")
-		(property "Reference" "#U$029"
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "VBUS"
-			(at 110.236 179.324 0)
-			(effects
-				(font
-					(size 1.27 1.0795)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Footprint" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" ""
-			(at 111.76 180.34 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "d81acfde-cfcf-454c-968f-564549c6ffa5")
-		)
-		(instances
-			(project "Every83_PCB"
-				(path "/ea2432c4-eb7a-431a-b465-8c00cfcb4450"
-					(reference "#U$029")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 149.86 247.65 180)
 		(unit 1)
@@ -15587,7 +15517,7 @@
 				(justify right)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 151.638 247.65 90)
 			(effects
 				(font
@@ -15646,7 +15576,7 @@
 				)
 			)
 		)
-		(property "Value" "10uF"
+		(property "Value" "4.7uF"
 			(at 329.17 231.12 90)
 			(effects
 				(font
@@ -15654,7 +15584,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 331.47 229.87 0)
 			(effects
 				(font
@@ -16517,7 +16447,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Adafruit nRF52840 Bluefruit Feather Express Rev D:0805-NO"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 182.88 250.19 0)
 			(effects
 				(font
