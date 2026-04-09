@@ -574,7 +574,7 @@
       "plot": "",
       "pos_files": "",
       "specctra_dsn": "",
-      "step": "Every83_PCB.step",
+      "step": "../../Downloads/Every83_PCB.step",
       "svg": "./",
       "vrml": ""
     },

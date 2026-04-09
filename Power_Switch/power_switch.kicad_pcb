@@ -745,6 +745,17 @@
 				(xyz -90 -0 -0)
 			)
 		)
+		(model "/home/max585t/Downloads/FFC2B28_12_G/FFC2B28-12-G.step"
+			(offset
+				(xyz 0 -0.5 0)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -90 -0 -0)
+			)
+		)
 	)
 	(footprint "Package_DFN_QFN:VQFN-16-1EP_3x3mm_P0.5mm_EP1.6x1.6mm"
 		(layer "F.Cu")
@@ -2738,6 +2749,17 @@
 				(xyz -0 -0 -0)
 			)
 		)
+		(model "/home/max585t/Downloads/781710003_stp/781710003.stp"
+			(offset
+				(xyz 1.2 -2.2 0.25)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz -0 -0 -0)
+			)
+		)
 	)
 	(footprint "Resistor_SMD:R_0402_1005Metric"
 		(layer "F.Cu")
@@ -3111,6 +3133,17 @@
 			)
 			(rotate
 				(xyz 90 0 0)
+			)
+		)
+		(model "/home/max585t/Downloads/Download_STEP_155060xx75300+(rev1).stp"
+			(offset
+				(xyz 0 -0.3 0.4)
+			)
+			(scale
+				(xyz 1 1 1)
+			)
+			(rotate
+				(xyz 90 -0 -0)
 			)
 		)
 	)
@@ -4209,15 +4242,15 @@
 			(uuid "526b02fc-a2f3-4eed-9ec5-b67a458375e3")
 		)
 		(embedded_fonts no)
-		(model "C:/Users/u4x5sx5/OneDrive-Deere&Co/OneDrive - Deere & Co/Documents/KiCad/8.0/3dmodels/ET01MD1SAPE.stp"
+		(model "/home/max585t/Downloads/ET01M3D1SAPE/ET01M3D1SAPE.stp"
 			(offset
-				(xyz 0 -6 3.25)
+				(xyz 0 -6.25 3.25)
 			)
 			(scale
 				(xyz 1 1 1)
 			)
 			(rotate
-				(xyz 0 180 0)
+				(xyz -0 180 -0)
 			)
 		)
 	)
@@ -10178,6 +10211,80 @@
 			"H09NiXAAAAAASUVORK5CYII="
 		)
 		(uuid "902f3476-e194-40df-8335-6b8e3740b7cf")
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "0e091d3d-874b-471f-b5a3-232d4d748543")
+		(pts
+			(xy 137.9632 75.692) (xy 132.6037 53.1368)
+		)
+		(height 8.7218)
+		(orientation 1)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "22.5552 mm"
+			(at 145.535 64.4144 90)
+			(layer "Dwgs.User")
+			(uuid "0e091d3d-874b-471f-b5a3-232d4d748543")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
+	)
+	(dimension
+		(type orthogonal)
+		(layer "Dwgs.User")
+		(uuid "3185590d-f768-4a5a-9c66-c117ea739de2")
+		(pts
+			(xy 108 74.692) (xy 138.9632 74.692)
+		)
+		(height 7.604)
+		(orientation 0)
+		(format
+			(prefix "")
+			(suffix "")
+			(units 3)
+			(units_format 1)
+			(precision 4)
+		)
+		(style
+			(thickness 0.1)
+			(arrow_length 1.27)
+			(text_position_mode 0)
+			(arrow_direction outward)
+			(extension_height 0.58642)
+			(extension_offset 0.5)
+			(keep_text_aligned yes)
+		)
+		(gr_text "30.9632 mm"
+			(at 123.4816 81.146 0)
+			(layer "Dwgs.User")
+			(uuid "3185590d-f768-4a5a-9c66-c117ea739de2")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+			)
+		)
 	)
 	(dimension
 		(type orthogonal)
